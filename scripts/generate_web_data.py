@@ -1959,11 +1959,10 @@ def aggregate_decisions(df, games_df):
             stat_df['Pitcher ID'] = pd.to_numeric(stat_df['Pitcher ID'], errors='coerce').dropna().astype(int)
             agg_df = agg_df.merge(stat_df, on=['Season', 'Pitcher ID', 'Team'], how='left')
 
-    agg_df = agg_df.fillna(0)
     for col in ['W', 'L', 'SV', 'HLD']:
         if col not in agg_df.columns:
             agg_df[col] = 0
-        agg_df[col] = agg_df[col].astype(int)
+        agg_df[col] = agg_df[col].fillna(0).astype(int)
         
     return agg_df
 
@@ -2080,6 +2079,7 @@ def main():
                 lambda row: find_adjacent_id(row[name_col], row['Season']), axis=1
             )
             if not inferred_ids.empty:
+                combined_df[id_col] = combined_df[id_col].astype('object')
                 combined_df.loc[inferred_ids.index, id_col] = inferred_ids
 
     # Initialize global temporary ID management for any remaining missing IDs
