@@ -3,7 +3,7 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 74.0,Einhorn,ARI,BC,BS,B,Right,P,,,Einhornfarm
 133.0,Garren Smudge,ARI,BN,,,Left,C,,,inocain
 2101.0,Burt Maclin,ARI,BP,,,Left,C,,,BMaclinFBI
--46.0,Luis Flemus,ARI,BN,,,Left,1B,,,luisflemus12
+-5.0,Luis Flemus,ARI,BN,,,Left,1B,,,luisflemus12
 2132.0,I.M. Organic,ARI,BP,,,Right,1B,,,/u/Reverse-I_am_Organic
 8.0,Will Power,ARI,BN,,,Right,2B,,,BearGuru
 2078.0,Brent Royal,ARI,BP,,,Left,3B,,,ShockerSeahawkRoyal
@@ -16,10 +16,10 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 2136.0,Garrett Ipnov,ARI,BC,,,Right,RF,,,gipnov23
 -1.0,Junks Tandem,ATL,BN,BS,B,Right,P,,,JunksTandem
 199.0,Cal Tiberius Jr.,ATL,BN,BF,B,Left,P,,,tiberius-jr
--4.0,Matt Carver,ATL,BC,BS,B,Left,P,,,Bip04
+-3.0,Matt Carver,ATL,BC,BS,B,Left,P,,,Bip04
 5.0,Y.E. Wally,ATL,BP,,,Right,C,,,whywebuildthewall
 ,Len Monz,ATL,BN,,,Right,1B,,,Lemmons17
--48.0,Jay Lupp,ATL,BC,,,Left,1B,,,Jaelup
+-7.0,Jay Lupp,ATL,BC,,,Left,1B,,,Jaelup
 224.0,Trey Rangers,ATL,BN,,,Right,2B,,,TheThreeRangers
 242.0,Charles Lindberg,ATL,BP,,,Left,3B,,,Aviator157
 226.0,Phil Coulson,ATL,BC,,,Left,3B,,,PHICOU10
@@ -38,7 +38,7 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 ,Eric Sluver,BAL,BC,,,Right,3B,,,ecsluver_ 
 1972.0,Bernie Petrol,BAL,BN,,,Right,SS,,,bernbp5
 2066.0,Randy Nummer,BAL,BN,,,Left,LF,,,826836
--55.0,Clark Web,BAL,BN,,,Left,LF,,,cweb96
+-14.0,Clark Web,BAL,BN,,,Left,LF,,,cweb96
 147.0,Meerkat Timmons,BAL,BC,,,Right,CF,,,snicklefritzed
 162.0,Whit Merto,BAL,BC,,,Right,RF,,,robertwhitmer
 2091.0,Big Tuna,DET,BN,BB,B,Right,P,,,machiavellism
@@ -88,32 +88,32 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 168.0,Bo-Horse Jackman,NYM,BN,,,Right,C,,,Phillyproud21
 113.0,Kevin Arianna,NYM,BP,,,Right,C,,,hiariannalol
 453.0,Red Trapper,NYM,BP,,,Left,1B,,,redbird_squirrel
--56.0,Art Inova,NYM,BP,,,Left,1B,,,innovativeartwork
+-15.0,Art Inova,NYM,BP,,,Left,1B,,,innovativeartwork
 2063.0,James Maso,NYM,BC,,,Right,1B,,,jamaso21
 2006.0,Xavier Crowbar,NYM,BN,,,Right,2B,,,xCrowbar
 344.0,Mongster Mash,NYM,BN,,,Right,3B,,,mongster_03
 ,Cold Honkey,NYM,BP,,,Right,3B,,,Officer_ColdHonkey
 2037.0,Trey Paste,NYM,BC,,,Right,SS,,,sterling_mallory
--57.0,Bix Kayne,NYM,BC,,,Right,LF,,,bixkayne
+-16.0,Bix Kayne,NYM,BC,,,Right,LF,,,bixkayne
 2107.0,Chocolate Smegma,NYM,BC,,,Left,LF,,,Chocolate_Smegma
 2060.0,Pip Squires,NYM,BC,,,Right,CF,,,TheSquires
 179.0,Scotty Smalls,NYM,BC,,,Right,CF,,,See_You_Laterr
 2062.0,James Earl Pwns,NYM,BP,,,Right,RF,,,James_Earl_Pwns
 2147.0,Sal Shark,OAK,BN,BB,B,Right,P,,,TheSalsaShark
--26.0,Jay Schwizzle,OAK,BC,BF,B,Right,P,,,hinoisking
+2152.0,Jay Schwizzle,OAK,BC,BF,B,Right,P,,,hinoisking
 1982.0,Art Zyz,OAK,BC,,,Left,C,,,Artzyz
 2096.0,Bobson Dugnutt,OAK,BC,,,Right,C,,,ManillaFace
--49.0,Justin Virga,OAK,BC,,,Right,C,,,Jvirga10
+-8.0,Justin Virga,OAK,BC,,,Right,C,,,Jvirga10
 2103.0,Caleb VanVacter,OAK,BP,,,Right,1B,,,cvanvacter77
 429.0,Kid Notcher,OAK,BC,,,Right,2B,,,notyourchild
--61.0,I.M. Robbot,OAK,BN,,,Right,2B,,,imrobbot
+-20.0,I.M. Robbot,OAK,BN,,,Right,2B,,,imrobbot
 273.0,Max Wasson,OAK,BC,,,Right,2B,,,maxwasson2
--190.0,Sonny Scheim,OAK,BP,,,Left,3B,,,sun-scheim
+2272.0,Sonny Scheim,OAK,BP,,,Left,3B,,,sun-scheim
 2139.0,Graham Othrie,OAK,BP,,,Right,SS,,,grahm03
 2025.0,Blue Moon Barthelemy,OAK,BN,,,Right,LF,,,thebubs1024
 1961.0,Grey Goose McGillicuddy,OAK,BC,,,Right,CF,,,Ramicus
 2095.0,Boaty McBoatface,OAK,BN,,,Right,RF,,,shadypizzaguy
--75.0,Brian Southwell,OAK,BN,,,Left,RF,,,Sciddlywuds
+2145.0,Brian Southwell,OAK,BN,,,Left,RF,,,Sciddlywuds
 2111.0,Cy Hadd,PHI,BP,BS,B,Right,P,,,TheChaddy
 286.0,Oliver Yu,PHI,BN,BB,B,Right,P,,,HelloAllOfYou
 287.0,KC Bats,PHI,BN,,,Right,C,,,kc3551
@@ -127,10 +127,10 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 346.0,Hunter Tuzero,PHI,BP,,,Right,LF,,,Hunter-2_0
 300.0,Conrad Love,PHI,BN,,,Left,CF,,,welovemeconrad
 2010.0,Cambo Dia,PHI,BC,,,Left,CF,,,horseydeucey
--51.0,Obi-Wan Canoli,PHI,BN,,,Right,RF,,,obiwan_canoli
+-10.0,Obi-Wan Canoli,PHI,BN,,,Right,RF,,,obiwan_canoli
 2039.0,Conor McRedgor,PHI,BC,,,Right,RF,,,thereddeathpasses
 336.0,Darth Vader,PIT,BN,BS,B,Right,P,,,darthvader1521
--18.0,Bartholomew Crumblepuff,PIT,BP,BB,B,Left,P,,,Eulebar
+2020.0,Bartholomew Crumblepuff,PIT,BP,BB,B,Left,P,,,Eulebar
 307.0,Gare Doctor,PIT,BN,,,Right,C,,,GareDR333
 2073.0,Mike Anderson,PIT,BC,,,Right,C,,,mikea87
 310.0,Jameson Poe,PIT,BP,,,Right,1B,,,Toli820
@@ -154,7 +154,7 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 51.0,Forrest Gleeson,TOR,BN,,,Right,LF,,,foreverfun
 446.0,Thomas Berry,TOR,BC,,,Right,CF,,,tomatoisaberry
 410.0,Victor Justice,TOR,BN,,,Left,CF,,,Victors_Justice
--134.0,Augie Neintinowan,TOR,BC,,,Right,CF,,,augie1901
+2017.0,Augie Neintinowan,TOR,BC,,,Right,CF,,,augie1901
 56.0,Ziggy Ceder,TOR,BC,,,Right,RF,,,ziggmiceter
 2151.0,Jay Bedia,WSH,BP,BS,B,Left,P,,,jaybedia
 284.0,Hudson Hildebrandt,WSH,BP,BF,B,Right,P,,,SenatorCam
@@ -165,18 +165,18 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 2201.0,Humphrey Carter,WSH,BN,,,Left,3B,,,Humpcatter
 2059.0,Nathaniel Booth,WSH,BP,,,Left,3B,,,Nbooth20
 2053.0,Larry Wayne,WSH,BP,,,Right,SS,,,Tomahawkn10
--72.0,Durgesh O'Leary,WSH,BP,,,Left,SS,,,Communizmo
+2141.0,Durgesh O'Leary,WSH,BP,,,Left,SS,,,Communizmo
 2143.0,Jason Girth,WSH,BP,,,Right,LF,,,wilson1229
 2052.0,Donnie Lindsanity,WSH,BP,,,Right,LF,,,Phiask0
 2203.0,Rusty LaRue,WSH,BN,,,Left,LF,,,TheCity95
 2055.0,Herrera O'Doubles,WSH,BC,,,Left,CF,,,cloakington
 2030.0,Chad Barrett,WSH,BN,,,Right,RF,,,chadbarrett50
 1961.0,Ramicus,,BC,BS,B,Right,P,,,
--52.0,falcs51,,BC,,,Right,CF,,,
+-11.0,falcs51,,BC,,,Right,CF,,,
 93.0,Master Cashier,,BP,,,Left,C,,,MasterCashier
--60.0,Aaron Range,,BC,,,Left,CF,,,Stratifyed
--50.0,Rupert Apple,,BN,,,Right,3B,,,RiparianFrutarian
--53.0,Rick Gymnast,,BC,,,Right,CF,,,gymnastrick
--47.0,Hashcoin Shitstorm,,BP,,,Right,1B,,,HashcoinShitstorm
--2.0,Timothy Moyer,,BN,BB,B,Left,P,,,timland33
+-19.0,Aaron Range,,BC,,,Left,CF,,,Stratifyed
+-9.0,Rupert Apple,,BN,,,Right,3B,,,RiparianFrutarian
+-12.0,Rick Gymnast,,BC,,,Right,CF,,,gymnastrick
+-6.0,Hashcoin Shitstorm,,BP,,,Right,1B,,,HashcoinShitstorm
+2345.0,Timothy Moyer,,BN,BB,B,Left,P,,,timland33
 2271.0,Ricky Steele,,BN,,,Right,CF,,,StoneSteal

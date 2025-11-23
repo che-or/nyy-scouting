@@ -114,7 +114,7 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 112.0,Willoughby Hoose,HOU,BC,TT,H,Left,P,,,/u/Woozy_Woozle
 113.0,Kevin Arianna,HOU,WC,EG,H,Left,C,3B,,/u/hiariannalol
 114.0,Rocco Rudnikov,HOU,1B,,,Right,C,3B,,/u/BrockSlamson
--81.0,B.B. Bambino Jr.,HOU,SM,,,Right,1B,3B,,/u/BBfriendshipexpress
+115.0,B.B. Bambino Jr.,HOU,SM,,,Right,1B,3B,,/u/BBfriendshipexpress
 116.0,Mattress Cadaire,HOU,1B,,,Right,2B,SS,,/u/tallbeardedguy
 117.0,Harry Peritestes,HOU,XB,BS,H,Right,3B,LF,,/u/Huskie1997
 118.0,Luap Renraw,HOU,BC,,,Right,3B,SS,,/u/ruffyen
@@ -192,7 +192,7 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 190.0,Lane Drew,MIA,BC,,,Left,SS,2B,,/u/StridentBoss
 191.0,Andrew Nova,MIA,TT,,,Left,LF,1B,,/u/Schauera30
 192.0,Javier Tootblan,MIA,XB,,,Right,LF,RF,,/u/AlloftheDerp
--231.0,João Cortez,MIA,1B,,,Right,CF,RF,,/u/llamositopia
+193.0,João Cortez,MIA,1B,,,Right,CF,RF,,/u/llamositopia
 194.0,Joe Watson,MIA,WC,,,Right,CF,LF,,/u/Crazymonkey1013
 195.0,Swing N. Miss,MIA,1B,FP,S,Right,CF,LF,,/u/haf26
 196.0,Big Nutterstein,MIA,WC,,,Right,RF,1B,,/u/PrinceCrinkle
@@ -222,7 +222,7 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 220.0,Charles Magnus,MTL,BP,BS,S,Right,P,,,/u/CharlemagneOfTheUSA
 221.0,Pike Miazza,MTL,BP,,,Right,C,1B,,/u/frankysins
 222.0,King Fielder,MTL,BP,,,Right,1B,LF,,/u/Nerdfighter1174
--216.0,Smitty Werbenjagermanjensen,MTL,HK,,,Left,1B,LF,SS,/u/Kegs_is_great
+223.0,Smitty Werbenjagermanjensen,MTL,HK,,,Left,1B,LF,SS,/u/Kegs_is_great
 224.0,Trey Rangers,MTL,BN,,,Right,2B,SS,,/u/TheThreeRangers
 225.0,Zachary Benz,MTL,EN,,,Left,2B,SS,,/u/yoonlee13
 226.0,Phil Coulson,MTL,1B,,,Left,3B,2B,LF,/u/PHICOU10
@@ -279,7 +279,7 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 277.0,Becky McBadbat,OAK,S,,,Left,LF,RF,,/u/madelyncr
 278.0,Dominus Nominus,OAK,SM,,,Right,LF,1B,,/u/steelermade28
 279.0,Carson McSchellenturd,OAK,BP,,,Right,LF,RF,,/u/Thecrum14
--232.0,Eric Tsai,OAK,BC,,,Right,CF,LF,,/u/MiniMan561
+-22.0,Eric Tsai,OAK,BC,,,Right,CF,LF,,/u/MiniMan561
 281.0,Mike Rodick,OAK,S,,,Right,RF,1B,,/u/mememan696969
 282.0,Jayson Burdwell,PHI,BN,BB,B,Right,PH,,,/u/jayyburdd
 283.0,Charlie Yeager,PHI,BC,BS,H,Left,P,,,/u/EdgarLOLZ
@@ -398,7 +398,7 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 398.0,Doughy Blobbo,TOR,WC,,,Right,1B,3B,,/u/flyer1985
 399.0,Jake Wexler,TOR,HK,,,Left,1B,3B,,/u/StatefromJakeFarm
 400.0,Graham Grams,TOR,SF,,,Left,2B,RF,,/u/roleplayinggrandma1
--229.0,Iris Solstace,TOR,BP,,,Right,2B,1B,,/u/riiolu
+401.0,Iris Solstace,TOR,BP,,,Right,2B,1B,,/u/riiolu
 402.0,Maddy Berg,TOR,BC,,,Right,2B,RF,,/u/JJPower2
 403.0,Myler Kurray,TOR,XB,,,Left,2B,RF,,/u/RebWalters
 404.0,Ovaltine Jenkins,TOR,BC,,,Right,3B,2B,SS,/u/mrman5426
@@ -421,8 +421,8 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 421.0,Joe Trundle,TEX,BP,,,Right,LF,RF,,/u/JLoother
 422.0,Dixie Wrecked,TEX,BP,,,Left,CF,LF,,/u/DeAndreJohnKins
 423.0,Spike McBride,TEX,BN,,,Right,CF,LF,,/u/SpaceCase37
--99.0,Dog Man,FA,XB,,,Right,C,1B,,/u/gardeningwithciscoe
+436.0,Dog Man,FA,XB,,,Right,C,1B,,/u/gardeningwithciscoe
 239.0,Dig Bick,FA,MH,,,Right,C,1B,,/u/tpc0121
--206.0,Benjamin 'Benji' Bjorn,FA,WC,,,Right,3B,SS,,/u/nrs5813
--226.0,Overdi Fenz,FA,SM,,,Right,SS,3B,,/u/-vehement-
--225.0,iato yalf,FA,TT,,,Left,SS,CF,3B,/u/iatoyalf
+427.0,Benjamin 'Benji' Bjorn,FA,WC,,,Right,3B,SS,,/u/nrs5813
+461.0,Overdi Fenz,FA,SM,,,Right,SS,3B,,/u/-vehement-
+463.0,iato yalf,FA,TT,,,Left,SS,CF,3B,/u/iatoyalf
