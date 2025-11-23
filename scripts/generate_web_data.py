@@ -2168,7 +2168,7 @@ def main():
     all_players.dropna(subset=['Player ID', 'Player Name'], inplace=True)
     all_players['Player ID'] = all_players['Player ID'].astype(int)
     all_players['Season_num'] = all_players['Season'].str.replace('S', '').astype(int)
-    all_players.sort_values(by=['Season_num', 'Session'], ascending=[True, True], inplace=True)
+    all_players.sort_values(by=['Season_num', 'Session'], ascending=[False, False], inplace=True)
     
     player_names = all_players.groupby('Player ID')['Player Name'].apply(lambda x: list(dict.fromkeys(x))).to_dict()
 
@@ -2177,13 +2177,14 @@ def main():
         if player_id == 0: continue
         if not names: continue
         
-        current_name = names[-1]
-        former_names = names[:-1]
+        # With reverse-chronological sort, the first unique name is the most recent.
+        current_name = names[0]
+        former_names = names[1:]
 
-        # If the most recent name is "IMPORT ERROR", try to use the second most recent name
-        if current_name == "IMPORT ERROR" and len(former_names) > 0:
-            current_name = former_names[-1]
-            former_names = former_names[:-1] # Remove the now-current name from former names
+        # If the most recent name is "IMPORT ERROR", try to use the next one.
+        if current_name == "IMPORT ERROR" and len(names) > 1:
+            current_name = names[1]
+            former_names = names[2:]
         
         player_id_map[int(player_id)] = {
             'currentName': current_name,

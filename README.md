@@ -57,6 +57,6 @@ Since the web application is built with static files (HTML, CSS, JS), it can be 
 The site requires maintenance at the beginning of seasons.
 
 - **`data/gamelogs.txt`** needs to be updated to include the new season. A new row with the format {season}*tab*{number_of_sessions}*tab*{gamelog_url} should be added to the file.
-- **`docs/data/divisions.json`** needs to be updated if division realignment occurs.
+- **`docs/data/divisions.json`** needs to be updated to include the new season.
 - **`docs/data/team_history.json`** needs to be updated if a franchise changes its name, abbreviation, or logo. This will also need to be updated if teams are added or removed from the league.
 - **`scripts/game_processing.py`** needs to be updated if a logical change has been made to the game rules. The `_simulate_play` function tracks the resulting base-out state of outcomes. This is a fairly complex change. Logical changes are made infrequently, the most recent being the addition of lineouts. Changes that don't affect logic (e.g. changes to player types) can be ignored. This file only needs to be updated if a new rule redefines how runners move in a certain situation.
