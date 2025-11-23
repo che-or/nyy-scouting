@@ -645,14 +645,37 @@ def calculate_team_pitching_stats(df, league_n_era_for_season, team_n_era, fip_c
 def calculate_career_hitting_stats(df, league_stats_by_season, include_type_column=True):
     sum_cols = ['G', 'PA', 'AB', 'H', 'R', '1B', '2B', '3B', 'HR', 'TB', 'RBI', 'BB', 'IBB', 'K', 'Auto K', 'SB', 'CS', 'SH', 'SF', 'GIDP', 'RGO', 'LGO', 'FO', 'PO', 'LO', 'RE24', 'WPA', 'WAR', 'GB_outs', 'FB_outs']
     neutral_cols = ['nPA', 'nAB', 'nH', 'nTB', 'nBB', 'nSF', 'nSH']
+    regular_cols = ['PA', 'AB', 'H', 'TB', 'BB', 'SF', 'SH']
+
+    # For seasons where neutral stats components are not available (NaN),
+    # fall back to using the regular stat components for the career calculation.
+    # Use 'nPA' as a proxy to determine if neutral stats components are available.
+    if 'nPA' not in df.columns:
+        df['nPA'] = pd.NA
     
-    # Ensure neutral columns exist and are numeric before summing
+    # Create a mask for rows (seasons) that are missing neutral stat components.
+    no_neutral_stats_mask = pd.to_numeric(df['nPA'], errors='coerce').isna()
+    
+    # Map neutral columns to their regular counterparts.
+    col_map = dict(zip(neutral_cols, regular_cols))
+
+    for n_col, r_col in col_map.items():
+        # Ensure the neutral column exists, creating it if necessary.
+        if n_col not in df.columns:
+            df[n_col] = pd.NA
+        
+        # For seasons identified by the mask, copy data from the regular column
+        # to the neutral column. This ensures they are included in the career sum.
+        if r_col in df.columns:
+            df.loc[no_neutral_stats_mask, n_col] = df.loc[no_neutral_stats_mask, r_col]
+
+    # Ensure neutral columns are numeric and fill any remaining NaNs with 0.
     for col in neutral_cols:
         if col not in df.columns:
             df[col] = 0
         else:
             df[col] = pd.to_numeric(df[col], errors='coerce')
-    df[neutral_cols] = df[neutral_cols].fillna(0) # MODIFIED LINE
+    df[neutral_cols] = df[neutral_cols].fillna(0)
 
     summed_stats = df[sum_cols + neutral_cols].sum()
     pa = summed_stats['PA']
