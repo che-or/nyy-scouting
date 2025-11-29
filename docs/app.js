@@ -74,7 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
         minPaLabel: document.querySelector('label[for="min-pa"]'),
         minOutsLabel: document.querySelector('label[for="min-outs"]'),
         minAttempts: document.getElementById('min-attempts'),
-        minDecisions: document.getElementById('min-decisions')
+        minDecisions: document.getElementById('min-decisions'),
+        themeSwitch: document.getElementById('theme-switch-input')
     };
 
     const COUNTING_STATS = ['G', 'PA', 'AB', 'R', 'H', '2B', '3B', 'HR', 'RBI', 'SB', 'CS', 'BB', 'IBB', 'SO', 'Auto K', 'TB', 'GIDP', 'SH', 'SF', 'W', 'L', 'GS', 'GF', 'CG', 'SHO', 'SV', 'HLD', 'IP', 'ER', 'Auto BB', 'AUTO BB', 'BF', '1B', 'RGO', 'LGO', 'GO', 'FO', 'PO', 'LO', 'WAR', 'WPA', 'RE24'];
@@ -652,6 +653,35 @@ document.addEventListener('DOMContentLoaded', () => {
     const initializeApp = () => {
         window.addEventListener('hashchange', updateView);
 
+        const themeSwitch = elements.themeSwitch;
+        const currentTheme = localStorage.getItem('theme');
+
+        function setTheme(theme) {
+            if (theme === 'light-mode') {
+                document.documentElement.classList.add('light-mode');
+                themeSwitch.checked = true;
+            } else {
+                document.documentElement.classList.remove('light-mode');
+                themeSwitch.checked = false;
+            }
+        }
+
+        if (currentTheme) {
+            setTheme(currentTheme);
+        } else {
+			setTheme('dark-mode');
+		}
+
+        themeSwitch.addEventListener('change', () => {
+            if (themeSwitch.checked) {
+                document.documentElement.classList.add('light-mode');
+                localStorage.setItem('theme', 'light-mode');
+            } else {
+                document.documentElement.classList.remove('light-mode');
+                localStorage.setItem('theme', 'dark-mode');
+            }
+            updateView();
+        });
 
         
         const leaderboardLengthInput = elements.leaderboardLength;
@@ -2674,17 +2704,20 @@ document.addEventListener('DOMContentLoaded', () => {
         return franchiseKey; // Fallback to franchise key
     };
 
-    const getTeamLogoBySeason = (franchiseKey, season) => {
-        const seasonNum = parseInt(season.slice(1));
-        const teamHistoryEntries = state.teamHistory[franchiseKey];
-        if (teamHistoryEntries) {
-            const entry = teamHistoryEntries.find(e => seasonNum >= e.start && (e.end === 9999 || seasonNum <= e.end));
-            if (entry) {
-                return entry.logo;
-            }
-        }
-        return ''; // Fallback to empty string
-    };
+const getTeamLogoBySeason = (franchiseKey, season) => {
+    if (!franchiseKey || !season) return null;
+    const seasonNum = parseInt(season.slice(1));
+    if (isNaN(seasonNum)) return null;
+
+    const franchise = state.teamHistory[franchiseKey];
+    if (!franchise) return null;
+
+    const teamInfo = franchise.find(t => seasonNum >= t.start && seasonNum <= t.end);
+    if (!teamInfo) return null;
+
+    const isLightMode = document.documentElement.classList.contains('light-mode');
+    return isLightMode ? teamInfo.logo_light : teamInfo.logo_dark;
+};
                     
     loadData();
 });
