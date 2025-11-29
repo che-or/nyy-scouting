@@ -1,72 +1,85 @@
 {
     "ANA": [
-        {"name": "Cleveland Indians", "abbr": "CLE", "start": 4, "end": 5, "logo": "./img/logos/CL1.svg"},
-        {"name": "Los Angeles Angels", "abbr": "LAA", "start": 6, "end": 8, "logo": "./img/logos/LAA.svg"},
-        {"name": "Anaheim Angels", "abbr": "ANA", "start": 9, "end": 9999, "logo": "./img/logos/ANA.svg"}
-    ],
-    "ARI": [{"name": "Arizona Diamondbacks", "abbr": "ARI", "start": 1, "end": 9999, "logo": "./img/logos/ARI.svg"}],
+        {"name":"Cleveland Indians","abbr":"CLE","start":4,"end":5,"logo_dark":"./img/logos/CL1.svg","logo_light":"./img/logos/CL1.svg"},
+        {"name":"Los Angeles Angels","abbr":"LAA","start":6,"end":8,"logo_dark":"./img/logos/LAA.svg","logo_light":"./img/logos/LAA.svg"},
+        {"name":"Anaheim Angels","abbr":"ANA","start":9,"end":9999,"logo_dark":"./img/logos/ANA.svg","logo_light":"./img/logos/ANA.svg"}],
+    "ARI": [
+        {"name":"Arizona Diamondbacks","abbr":"ARI","start":1,"end":9999,"logo_dark":"./img/logos/ARI.svg","logo_light":"./img/logos/ARI.svg"}],
     "ATL": [
-        {"name": "Atlanta Braves", "abbr": "ATL", "start": 1, "end": 1, "logo": "./img/logos/ATL.svg"},
-        {"name": "Montreal Expos", "abbr": "MTL", "start": 2, "end": 3, "logo": "./img/logos/MTL.svg"},
-        {"name": "Atlanta Braves", "abbr": "ATL", "start": 4, "end": 9999, "logo": "./img/logos/ATL.svg"}
-    ],
-    "BAL": [{"name": "Baltimore Orioles", "abbr": "BAL", "start": 4, "end": 9999, "logo": "./img/logos/BAL.svg"}],
-    "BOS": [{"name": "Boston Red Sox", "abbr": "BOS", "start": 2, "end": 9999, "logo": "./img/logos/BOS.svg"}],
-    "CHC": [{"name": "Chicago Cubs", "abbr": "CHC", "start": 3, "end": 9999, "logo": "./img/logos/CHC.svg"}],
+        {"name":"Atlanta Braves","abbr":"ATL","start":1,"end":1,"logo_dark":"./img/logos/ATL.svg","logo_light":"./img/logos/ATL_light.svg"},
+        {"name":"Montreal Expos","abbr":"MTL","start":2,"end":3,"logo_dark":"./img/logos/MTL.svg","logo_light":"./img/logos/MTL.svg"},
+        {"name":"Atlanta Braves","abbr":"ATL","start":4,"end":9999,"logo_dark":"./img/logos/ATL.svg","logo_light":"./img/logos/ATL_light.svg"}],
+    "BAL": [
+        {"name":"Baltimore Orioles","abbr":"BAL","start":4,"end":9999,"logo_dark":"./img/logos/BAL.svg","logo_light":"./img/logos/BAL.svg"}],
+    "BOS": [
+        {"name":"Boston Red Sox","abbr":"BOS","start":2,"end":9999,"logo_dark":"./img/logos/BOS.svg","logo_light":"./img/logos/BOS.svg"}],
+    "CHC": [
+        {"name":"Chicago Cubs","abbr":"CHC","start":3,"end":9999,"logo_dark":"./img/logos/CHC.svg","logo_light":"./img/logos/CHC.svg"}],
     "CIN": [
-        {"name": "Cleveland Indians", "abbr": "CLE", "start": 2, "end": 3, "logo": "./img/logos/CL1.svg"},
-        {"name": "Cincinnati Reds", "abbr": "CIN", "start": 4, "end": 9999, "logo": "./img/logos/CIN.svg"}
-    ],
+        {"name":"Cleveland Indians","abbr":"CLE","start":2,"end":3,"logo_dark":"./img/logos/CL1.svg","logo_light":"./img/logos/CL1.svg"},
+        {"name":"Cincinnati Reds","abbr":"CIN","start":4,"end":9999,"logo_dark":"./img/logos/CIN.svg","logo_light":"./img/logos/CIN_light.svg"}],
     "CLE": [
-        {"name": "Texas Rangers", "abbr": "TEX", "start": 2, "end": 5, "logo": "./img/logos/TEX.svg"},
-        {"name": "Cleveland Guardians", "abbr": "CLE", "start": 6, "end": 9999, "logo": "./img/logos/CLE.svg"}
-    ],
-    "COL": [{"name": "Colorado Rockies", "abbr": "COL", "start": 2, "end": 9999, "logo": "./img/logos/COL.svg"}],
-    "CWS": [{"name": "Chicago White Sox", "abbr": "CWS", "start": 4, "end": 9999, "logo": "./img/logos/CWS.svg"}],
-    "DET": [{"name": "Detroit Tigers", "abbr": "DET", "start": 1, "end": 9999, "logo": "./img/logos/DET.svg"}],
+        {"name":"Texas Rangers","abbr":"TEX","start":2,"end":5,"logo_dark":"./img/logos/TEX.svg","logo_light":"./img/logos/TEX_light.svg"},
+        {"name":"Cleveland Guardians","abbr":"CLE","start":6,"end":9999,"logo_dark":"./img/logos/CLE.svg","logo_light":"./img/logos/CLE.svg"}],
+    "COL": [
+        {"name":"Colorado Rockies","abbr":"COL","start":2,"end":9999,"logo_dark":"./img/logos/COL.svg","logo_light":"./img/logos/COL_light.svg"}],
+    "CWS": [
+        {"name":"Chicago White Sox","abbr":"CWS","start":4,"end":9999,"logo_dark":"./img/logos/CWS.svg","logo_light":"./img/logos/CWS_light.svg"}],
+    "DET": [
+        {"name":"Detroit Tigers","abbr":"DET","start":1,"end":9999,"logo_dark":"./img/logos/DET.svg","logo_light":"./img/logos/DET_light.svg"}],
     "FLA": [
-        {"name": "Miami Marlins", "abbr": "MIA", "start": 3, "end": 10, "logo": "./img/logos/MIA.svg"},
-        {"name": "Florida Marlins", "abbr": "FLA", "start": 11, "end": 9999, "logo": "./img/logos/FLA.svg"}
-    ],
+        {"name":"Miami Marlins","abbr":"MIA","start":3,"end":10,"logo_dark":"./img/logos/MIA.svg","logo_light":"./img/logos/MIA.svg"},
+        {"name":"Florida Marlins","abbr":"FLA","start":11,"end":9999,"logo_dark":"./img/logos/FLA.svg","logo_light":"./img/logos/FLA.svg"}],
     "HOU": [
-        {"name": "Houston Astros", "abbr": "HOU", "start": 1, "end": 3, "logo": "./img/logos/HOU.svg"},
-        {"name": "Houston Colt .45s", "abbr": "HOU", "start": 4, "end": 10, "logo": "./img/logos/HOU.svg"},
-        {"name": "Houston Astros", "abbr": "HOU", "start": 11, "end": 9999, "logo": "./img/logos/HOU.svg"}
-    ],
-    "KCR": [{"name": "Kansas City Royals", "abbr": "KCR", "start": 3, "end": 9999, "logo": "./img/logos/KCR.svg"}],
-    "LAD": [{"name": "Los Angeles Dodgers", "abbr": "LAD", "start": 2, "end": 9999, "logo": "./img/logos/LAD.svg"}],
+        {"name":"Houston Astros","abbr":"HOU","start":1,"end":3,"logo_dark":"./img/logos/HOU.svg","logo_light":"./img/logos/HOU.svg"},
+        {"name":"Houston Colt .45s","abbr":"HOU","start":4,"end":10,"logo_dark":"./img/logos/HOU.svg","logo_light":"./img/logos/HOU.svg"},
+        {"name":"Houston Astros","abbr":"HOU","start":11,"end":9999,"logo_dark":"./img/logos/HOU.svg","logo_light":"./img/logos/HOU.svg"}],
+    "KCR": [
+        {"name":"Kansas City Royals","abbr":"KCR","start":3,"end":9999,"logo_dark":"./img/logos/KCR.svg","logo_light":"./img/logos/KCR_light.svg"}],
+    "LAD": [
+        {"name":"Los Angeles Dodgers","abbr":"LAD","start":2,"end":9999,"logo_dark":"./img/logos/LAD.svg","logo_light":"./img/logos/LAD_light.svg"}],
     "MIL": [
-        {"name": "New York Mets", "abbr": "NYM", "start": 1, "end": 1, "logo": "./img/logos/NYM.svg"},
-        {"name": "Milwaukee Brewers", "abbr": "MIL", "start": 2, "end": 9999, "logo": "./img/logos/MIL.svg"}
-    ],
-    "MIN": [{"name": "Minnesota Twins", "abbr": "MIN", "start": 4, "end": 9999, "logo": "./img/logos/MIN.svg"}],
-    "MIN (S1-2)": [{"name": "Minnesota Twins", "abbr": "MIN", "start": 1, "end": 2, "logo": "./img/logos/MIN.svg"}],
-    "MTL": [{"name": "Montreal Expos", "abbr": "MTL", "start": 4, "end": 9999, "logo": "./img/logos/MTL.svg"}],
-    "NYM": [{"name": "New York Mets", "abbr": "NYM", "start": 3, "end": 9999, "logo": "./img/logos/NYM.svg"}],
-    "NYY": [{"name": "New York Yankees", "abbr": "NYY", "start": 3, "end": 9999, "logo": "./img/logos/NYY.svg"}],
-    "OAK": [{"name": "Oakland Athletics", "abbr": "OAK", "start": 1, "end": 9999, "logo": "./img/logos/OAK.svg"}],
-    "PHI": [{"name": "Philadelphia Phillies", "abbr": "PHI", "start": 1, "end": 9999, "logo": "./img/logos/PHI.svg"}],
-    "PIT": [{"name": "Pittsburgh Pirates", "abbr": "PIT", "start": 1, "end": 9999, "logo": "./img/logos/PIT.svg"}],
-    "SDP": [{"name": "San Diego Padres", "abbr": "SDP", "start": 2, "end": 9999, "logo": "./img/logos/SDP.svg"}],
-    "SEA": [{"name": "Seattle Mariners", "abbr": "SEA", "start": 4, "end": 9999, "logo": "./img/logos/SEA.svg"}],
-    "SEA (S2)": [{"name": "Seattle Mariners", "abbr": "SEA", "start": 2, "end": 2, "logo": "./img/logos/SEA.svg"}],
-    "SFG": [{"name": "San Francisco Giants", "abbr": "SFG", "start": 2, "end": 9999, "logo": "./img/logos/SFG.svg"}],
-    "STL": [{"name": "St. Louis Cardinals", "abbr": "STL", "start": 2, "end": 9999, "logo": "./img/logos/STL.svg"}],
+        {"name":"New York Mets","abbr":"NYM","start":1,"end":1,"logo_dark":"./img/logos/NYM.svg","logo_light":"./img/logos/NYM.svg"},
+        {"name":"Milwaukee Brewers","abbr":"MIL","start":2,"end":9999,"logo_dark":"./img/logos/MIL.svg","logo_light":"./img/logos/MIL.svg"}],
+    "MIN": [
+        {"name":"Minnesota Twins","abbr":"MIN","start":4,"end":9999,"logo_dark":"./img/logos/MIN.svg","logo_light":"./img/logos/MIN_light.svg"}],
+    "MIN (S1-2)": [
+        {"name":"Minnesota Twins","abbr":"MIN","start":1,"end":2,"logo_dark":"./img/logos/MIN.svg","logo_light":"./img/logos/MIN_light.svg"}],
+    "MTL": [
+        {"name":"Montreal Expos","abbr":"MTL","start":4,"end":9999,"logo_dark":"./img/logos/MTL.svg","logo_light":"./img/logos/MTL.svg"}],
+    "NYM": [
+        {"name":"New York Mets","abbr":"NYM","start":3,"end":9999,"logo_dark":"./img/logos/NYM.svg","logo_light":"./img/logos/NYM.svg"}],
+    "NYY": [
+        {"name":"New York Yankees","abbr":"NYY","start":3,"end":9999,"logo_dark":"./img/logos/NYY.svg","logo_light":"./img/logos/NYY_light.svg"}],
+    "OAK": [
+        {"name":"Oakland Athletics","abbr":"OAK","start":1,"end":9999,"logo_dark":"./img/logos/OAK.svg","logo_light":"./img/logos/OAK_light.svg"}],
+    "PHI": [
+        {"name":"Philadelphia Phillies","abbr":"PHI","start":1,"end":9999,"logo_dark":"./img/logos/PHI.svg","logo_light":"./img/logos/PHI_light.svg"}],
+    "PIT": [
+        {"name":"Pittsburgh Pirates","abbr":"PIT","start":1,"end":9999,"logo_dark":"./img/logos/PIT.svg","logo_light":"./img/logos/PIT.svg"}],
+    "SDP": [
+        {"name":"San Diego Padres","abbr":"SDP","start":2,"end":9999,"logo_dark":"./img/logos/SDP.svg","logo_light":"./img/logos/SDP.svg"}],
+    "SEA": [
+        {"name":"Seattle Mariners","abbr":"SEA","start":4,"end":9999,"logo_dark":"./img/logos/SEA.svg","logo_light":"./img/logos/SEA.svg"}],
+    "SEA (S2)": [
+        {"name":"Seattle Mariners","abbr":"SEA","start":2,"end":2,"logo_dark":"./img/logos/SEA.svg","logo_light":"./img/logos/SEA.svg"}],
+    "SFG": [
+        {"name":"San Francisco Giants","abbr":"SFG","start":2,"end":9999,"logo_dark":"./img/logos/SFG.svg","logo_light":"./img/logos/SFG.svg"}],
+    "STL": [
+        {"name":"St. Louis Cardinals","abbr":"STL","start":2,"end":9999,"logo_dark":"./img/logos/STL.svg","logo_light":"./img/logos/STL_light.svg"}],
     "TBR": [
-        {"name": "Tampa Bay Devil Rays", "abbr": "TB", "start": 2, "end": 2, "logo": "./img/logos/TBD.svg"},
-        {"name": "Tampa Bay Devil Rays", "abbr": "TBD", "start": 3, "end": 3, "logo": "./img/logos/TBD.svg"},
-        {"name": "Tampa Bay Devil Rays", "abbr": "TBR", "start": 4, "end": 4, "logo": "./img/logos/TBD.svg"},
-        {"name": "Tampa Bay Rays", "abbr": "TBR", "start": 4, "end": 10, "logo": "./img/logos/TBR.svg"},
-        {"name": "Tampa Bay Devil Rays", "abbr": "TBR", "start": 11, "end": 9999, "logo": "./img/logos/TBD.svg"}
-    ],
+        {"name":"Tampa Bay Devil Rays","abbr":"TB","start":2,"end":2,"logo_dark":"./img/logos/TBD.svg","logo_light":"./img/logos/TBD.svg"},
+        {"name":"Tampa Bay Devil Rays","abbr":"TBD","start":3,"end":3,"logo_dark":"./img/logos/TBD.svg","logo_light":"./img/logos/TBD.svg"},
+        {"name":"Tampa Bay Devil Rays","abbr":"TBR","start":4,"end":4,"logo_dark":"./img/logos/TBD.svg","logo_light":"./img/logos/TBD.svg"},
+        {"name":"Tampa Bay Rays","abbr":"TBR","start":4,"end":10,"logo_dark":"./img/logos/TBR.svg","logo_light":"./img/logos/TBR_light.svg"},
+        {"name":"Tampa Bay Devil Rays","abbr":"TBR","start":11,"end":9999,"logo_dark":"./img/logos/TBD.svg","logo_light":"./img/logos/TBD.svg"}],
     "TEX": [
-        {"name": "Baltimore Orioles", "abbr": "BAL", "start": 1, "end": 2, "logo": "./img/logos/BAL.svg"},
-        {"name": "Los Angeles Angels", "abbr": "LAA", "start": 3, "end": 5, "logo": "./img/logos/LAA.svg"},
-        {"name": "Texas Rangers", "abbr": "TEX", "start": 6, "end": 9999, "logo": "./img/logos/TEX.svg"}
-    ],
-    "TOR": [{"name": "Toronto Blue Jays", "abbr": "TOR", "start": 1, "end": 9999, "logo": "./img/logos/TOR.svg"}],
+        {"name":"Baltimore Orioles","abbr":"BAL","start":1,"end":2,"logo_dark":"./img/logos/BAL.svg","logo_light":"./img/logos/BAL.svg"},
+        {"name":"Los Angeles Angels","abbr":"LAA","start":3,"end":5,"logo_dark":"./img/logos/LAA.svg","logo_light":"./img/logos/LAA.svg"},
+        {"name":"Texas Rangers","abbr":"TEX","start":6,"end":9999,"logo_dark":"./img/logos/TEX.svg","logo_light":"./img/logos/TEX_light.svg"}],
+    "TOR": [
+        {"name":"Toronto Blue Jays","abbr":"TOR","start":1,"end":9999,"logo_dark":"./img/logos/TOR.svg","logo_light":"./img/logos/TOR.svg"}],
     "WSH (S1-2)": [
-        {"name": "Washington Nationals", "abbr": "WAS", "start": 1, "end": 1, "logo": "./img/logos/WSH.svg"},
-        {"name": "Washington Nationals", "abbr": "WSH", "start": 2, "end": 2, "logo": "./img/logos/WSH.svg"}
-    ]
+        {"name":"Washington Nationals","abbr":"WAS","start":1,"end":1,"logo_dark":"./img/logos/WSH.svg","logo_light":"./img/logos/WSH_light.svg"},
+        {"name":"Washington Nationals","abbr":"WSH","start":2,"end":2,"logo_dark":"./img/logos/WSH.svg","logo_light":"./img/logos/WSH_light.svg"}]
 }

@@ -8,6 +8,7 @@
     --header-color: #FFFFFF;
     --accent-color: #FF4500;
     --border-color: #343536;
+    --subtle-text-color: #aaa; /* New variable */
 }
 
 body {
@@ -191,14 +192,14 @@ nav {
 
 .player-id-display {
     font-size: 0.9em;
-    color: #aaa;
+    color: var(--subtle-text-color); /* Updated */
     margin-top: -10px;
     margin-bottom: 10px;
 }
 
 .former-names {
     font-style: italic;
-    color: #aaa;
+    color: var(--subtle-text-color); /* Updated */
     margin-top: -10px;
     margin-bottom: 10px;
 }
@@ -312,7 +313,7 @@ nav {
 
 .qualifier {
     font-size: 0.8em;
-    color: #aaa;
+    color: var(--subtle-text-color); /* Updated */
     margin-top: -8px;
     margin-bottom: 10px;
 }
@@ -320,7 +321,7 @@ nav {
 .tie-info {
     text-align: center !important;
     font-style: italic;
-    color: #aaa;
+    color: var(--subtle-text-color); /* Updated */
 }
 
 #stats-controls {
@@ -334,19 +335,13 @@ nav {
 }
 
 .sub-row {
-
-    opacity: 0.5; /* Even duller */
-
     font-size: 0.8em; /* Slightly smaller */
-
     font-style: italic; /* Add italic for more distinction */
-
+    color: var(--subtle-text-color); /* Updated */
 }
 
 .sub-row td:first-child {
-
     padding-left: 25px !important;
-
 }
 
 
@@ -674,7 +669,7 @@ a:hover {
 
 .featured-player-season-range {
     font-size: 0.9em;
-    color: #aaa;
+    color: var(--subtle-text-color); /* New Variable */
     margin-top: -5px;
 }
 
@@ -705,4 +700,70 @@ input:disabled {
     color: #888; /* Apply to input value */
     -webkit-text-fill-color: #888; /* For some browsers like Safari */
     opacity: 1; /* Prevent default browser opacity change */
+}
+
+:root.light-mode {
+    --bg-color: #f0f2f5;
+    --primary-color: #ffffff;
+    --secondary-color: #e9ecef;
+    --text-color: #0e1113;
+    --header-color: #000000;
+    --accent-color: #FF4500;
+    --border-color: #ced4da;
+    --subtle-text-color: #555; /* New variable for light mode */
+}
+
+.theme-switch-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.theme-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.theme-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--secondary-color);
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23FF4500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input:checked + .slider {
+    background-color: var(--secondary-color);
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23FF4500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>');
 }
