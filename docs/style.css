@@ -9,6 +9,7 @@
     --accent-color: #FF4500;
     --border-color: #343536;
     --subtle-text-color: #aaa; /* New variable */
+    --slider-thumb-bg: var(--primary-color); /* New variable for slider thumb background */
 }
 
 body {
@@ -711,6 +712,7 @@ input:disabled {
     --accent-color: #FF4500;
     --border-color: #ced4da;
     --subtle-text-color: #555; /* New variable for light mode */
+    --slider-thumb-bg: white; /* New variable for slider thumb background in light mode */
 }
 
 .theme-switch-container {
@@ -751,10 +753,10 @@ input:disabled {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: var(--slider-thumb-bg);
     transition: .4s;
     border-radius: 50%;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23FF4500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>');
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>');
     background-repeat: no-repeat;
     background-position: center;
 }
