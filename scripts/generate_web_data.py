@@ -1864,6 +1864,7 @@ def preprocess_gamelogs_for_stat_corrections(df, player_id_to_name_map):
                     # If the original runner was credited with a run, move it to the pinch runner.
                     on_base_events = {'1B', '2B', '3B', 'HR', 'BB', 'IBB', 'BUNT 1B', 'Bunt 1B'}
                     original_runner_pa_mask = (
+                        (df['Season'] == game_id[0]) &
                         (df['Game ID'] == game_id[1]) &
                         (df.index < index) &
                         (df['Hitter ID'] == original_runner_id) &
@@ -1883,7 +1884,7 @@ def preprocess_gamelogs_for_stat_corrections(df, player_id_to_name_map):
                         player_on_base_map[player_id] = base
                     
                     # Find all future plays for the original runner and re-assign them
-                    mask = (df['Game ID'] == game_id[1]) & (df.index > index) & (df['Hitter ID'] == original_runner_id)
+                    mask = (df['Season'] == game_id[0]) & (df['Game ID'] == game_id[1]) & (df.index > index) & (df['Hitter ID'] == original_runner_id)
                     df.loc[mask, 'Hitter ID'] = player_id
 
             # --- Multi-Steal SB Attribution ---
@@ -2173,19 +2174,28 @@ def main():
     player_names = all_players.groupby('Player ID')['Player Name'].apply(lambda x: list(dict.fromkeys(x))).to_dict()
 
     player_id_map = {}
-    for player_id, names in player_names.items():
-        if player_id == 0: continue
-        if not names: continue
-        
-        # With reverse-chronological sort, the first unique name is the most recent.
-        current_name = names[0]
-        former_names = names[1:]
+    IMPORT_ERROR_STRING = "IMPORT ERROR"
 
-        # If the most recent name is "IMPORT ERROR", try to use the next one.
-        if current_name == "IMPORT ERROR" and len(names) > 1:
-            current_name = names[1]
-            former_names = names[2:]
+    for player_id, names_list in player_names.items():
+        if player_id == 0: continue
+        if not names_list: continue # Should not happen with player_names construction
+
+        # Filter out "IMPORT ERROR" initially, keep only valid names
+        valid_names = [name for name in names_list if name != IMPORT_ERROR_STRING]
         
+        current_name = IMPORT_ERROR_STRING
+        former_names = []
+
+        if valid_names:
+            # If there are valid names, the first one (most recent) is currentName
+            current_name = valid_names[0]
+            # All other valid names are formerNames (ensure uniqueness after filtering)
+            former_names = list(dict.fromkeys(valid_names[1:]))
+        else:
+            # If all names were "IMPORT ERROR", then currentName remains "IMPORT ERROR"
+            # and formerNames will be empty (as they are all "IMPORT ERROR" and not distinct)
+            pass # current_name is already IMPORT_ERROR_STRING and former_names is []
+
         player_id_map[int(player_id)] = {
             'currentName': current_name,
             'formerNames': former_names
