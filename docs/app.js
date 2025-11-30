@@ -726,6 +726,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     window.location.hash = '#/stats'; // Go to player stats view
                     elements.playerSearch.value = playerName;
                     elements.playerSuggestions.innerHTML = '';
+                    elements.playerSuggestions.style.display = 'none';
                     displayPlayerPage(playerId);
                 }
             }
@@ -739,6 +740,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     window.location.hash = '#/stats';
                     elements.playerSearch.value = playerName;
                     elements.playerSuggestions.innerHTML = '';
+                    elements.playerSuggestions.style.display = 'none';
                     displayPlayerPage(playerId);
                 }
             }
@@ -1664,13 +1666,18 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.hash = '#/stats'; // Navigate to player stats view
         elements.playerSearch.value = randomPlayerName;
         elements.playerSuggestions.innerHTML = ''; // Clear any suggestions
+        elements.playerSuggestions.style.display = 'none';
         displayPlayerPage(parseInt(randomPlayerId));
     };
 
     const handlePlayerSearch = (event) => {
         const query = event.target.value.toLowerCase();
         elements.playerSuggestions.innerHTML = '';
-        if (query.length < 2) return;
+
+        if (query.length < 2) {
+            elements.playerSuggestions.style.display = 'none';
+            return;
+        }
 
         const suggestions = new Map(); // Use a map to avoid duplicate players
 
@@ -1691,6 +1698,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        if (suggestions.size === 0) {
+            elements.playerSuggestions.style.display = 'none';
+            return;
+        }
+
+        elements.playerSuggestions.style.display = 'block';
         let count = 0;
         for (const [id, name] of suggestions) {
             if (count >= 10) break;
@@ -1700,6 +1713,7 @@ document.addEventListener('DOMContentLoaded', () => {
             div.addEventListener('click', () => {
                 elements.playerSearch.value = name;
                 elements.playerSuggestions.innerHTML = '';
+                elements.playerSuggestions.style.display = 'none';
                 displayPlayerPage(id);
             });
             elements.playerSuggestions.appendChild(div);
