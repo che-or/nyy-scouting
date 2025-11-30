@@ -1686,28 +1686,26 @@ document.addEventListener('DOMContentLoaded', () => {
         const query = event.target.value.toLowerCase();
         elements.playerSuggestions.innerHTML = '';
 
-        if (query.length < 2) {
-            elements.playerSuggestions.style.display = 'none';
-            return;
-        }
-
         const matchingIds = new Set();
 
-        // Search by name
-        for (const [name, ids] of state.playerMap.entries()) {
-            if (name.includes(query)) {
-                ids.forEach(id => matchingIds.add(id));
-            }
-        }
-
-        // Search by ID
-        if (/^-?\d+$/.test(query)) {
+        // Always attempt to search by ID, regardless of query length
+        if (/^\d+$/.test(query)) { // Matches one or more digits
             const id = parseInt(query);
             if (state.players[id]) {
                 matchingIds.add(id);
             }
         }
 
+        // Only search by name if query length is 2 or more
+        if (query.length >= 2) {
+            for (const [name, ids] of state.playerMap.entries()) {
+                if (name.includes(query)) {
+                    ids.forEach(id => matchingIds.add(id));
+                }
+            }
+        }
+        
+        // If no matches found after both ID and name search
         if (matchingIds.size === 0) {
             elements.playerSuggestions.style.display = 'none';
             return;
