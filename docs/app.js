@@ -260,13 +260,25 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             state.seasonsWithStats = Array.from(seasonsWithStats).sort((a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1)));
 
+            state.playerMap = new Map();
             for (const id in players) {
                 const player = players[id];
-                state.playerMap.set(player.currentName.toLowerCase(), parseInt(id));
+                const playerId = parseInt(id);
+
+                const addNameToMap = (name) => {
+                    const lowerCaseName = name.toLowerCase();
+                    if (!state.playerMap.has(lowerCaseName)) {
+                        state.playerMap.set(lowerCaseName, []);
+                    }
+                    const ids = state.playerMap.get(lowerCaseName);
+                    if (!ids.includes(playerId)) {
+                        ids.push(playerId);
+                    }
+                };
+
+                addNameToMap(player.currentName);
                 if (player.formerNames) {
-                    player.formerNames.forEach(name => {
-                        state.playerMap.set(name.toLowerCase(), parseInt(id));
-                    });
+                    player.formerNames.forEach(addNameToMap);
                 }
             }
 
@@ -1679,39 +1691,57 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        const suggestions = new Map(); // Use a map to avoid duplicate players
+        const matchingIds = new Set();
 
         // Search by name
-        for (const [name, id] of state.playerMap.entries()) {
-            if (name.toLowerCase().includes(query)) {
-                if (!suggestions.has(id)) {
-                    suggestions.set(id, state.players[id].currentName);
-                }
+        for (const [name, ids] of state.playerMap.entries()) {
+            if (name.includes(query)) {
+                ids.forEach(id => matchingIds.add(id));
             }
         }
 
         // Search by ID
         if (/^-?\d+$/.test(query)) {
             const id = parseInt(query);
-            if (state.players[id] && !suggestions.has(id)) {
-                suggestions.set(id, state.players[id].currentName);
+            if (state.players[id]) {
+                matchingIds.add(id);
             }
         }
 
-        if (suggestions.size === 0) {
+        if (matchingIds.size === 0) {
             elements.playerSuggestions.style.display = 'none';
             return;
         }
+        
+        // Now we have all matching IDs. Let's build the suggestions and handle name collisions.
+        const nameToIds = new Map();
+        matchingIds.forEach(id => {
+            const currentName = state.players[id].currentName;
+            if (!nameToIds.has(currentName)) {
+                nameToIds.set(currentName, []);
+            }
+            nameToIds.get(currentName).push(id);
+        });
 
         elements.playerSuggestions.style.display = 'block';
         let count = 0;
-        for (const [id, name] of suggestions) {
+
+        for (const id of matchingIds) {
             if (count >= 10) break;
+            
+            const currentName = state.players[id].currentName;
+            let suggestionText = currentName;
+
+            if (nameToIds.get(currentName).length > 1) {
+                // This name is shared among the matched suggestions. Disambiguate.
+                suggestionText += ` (#${id})`;
+            }
+
             const div = document.createElement('div');
-            div.textContent = name;
+            div.textContent = suggestionText;
             div.className = 'suggestion-item';
             div.addEventListener('click', () => {
-                elements.playerSearch.value = name;
+                elements.playerSearch.value = currentName; // Use original name for search bar
                 elements.playerSuggestions.innerHTML = '';
                 elements.playerSuggestions.style.display = 'none';
                 displayPlayerPage(id);
