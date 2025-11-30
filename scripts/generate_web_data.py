@@ -1864,6 +1864,7 @@ def preprocess_gamelogs_for_stat_corrections(df, player_id_to_name_map):
                     # If the original runner was credited with a run, move it to the pinch runner.
                     on_base_events = {'1B', '2B', '3B', 'HR', 'BB', 'IBB', 'BUNT 1B', 'Bunt 1B'}
                     original_runner_pa_mask = (
+                        (df['Season'] == game_id[0]) &
                         (df['Game ID'] == game_id[1]) &
                         (df.index < index) &
                         (df['Hitter ID'] == original_runner_id) &
@@ -1883,7 +1884,7 @@ def preprocess_gamelogs_for_stat_corrections(df, player_id_to_name_map):
                         player_on_base_map[player_id] = base
                     
                     # Find all future plays for the original runner and re-assign them
-                    mask = (df['Game ID'] == game_id[1]) & (df.index > index) & (df['Hitter ID'] == original_runner_id)
+                    mask = (df['Season'] == game_id[0]) & (df['Game ID'] == game_id[1]) & (df.index > index) & (df['Hitter ID'] == original_runner_id)
                     df.loc[mask, 'Hitter ID'] = player_id
 
             # --- Multi-Steal SB Attribution ---
