@@ -104,4 +104,58 @@ def apply_postprocessing_corrections(player_stats_df):
             player_stats_df.loc[total_mask, 'W'] -= 1
             _recalculate_wl_pct(player_stats_df, total_mask)
 
+    # S2, Player 2151, WSH: -1 W, +1 L
+    s2_p2151_mask = (player_stats_df['Season'] == 'S2') & \
+                   (player_stats_df['Pitcher ID'] == 2151) & \
+                   (player_stats_df['Team'] == 'WSH')
+    if not player_stats_df[s2_p2151_mask].empty:
+        player_stats_df.loc[s2_p2151_mask, 'W'] -= 1
+        player_stats_df.loc[s2_p2151_mask, 'L'] += 1
+        _recalculate_wl_pct(player_stats_df, s2_p2151_mask)
+
+        # If this was a sub-row, we also need to correct the total row.
+        is_sub_row = player_stats_df.loc[s2_p2151_mask, 'is_sub_row'].iloc[0]
+        if is_sub_row:
+            total_mask = (player_stats_df['Season'] == 'S2') & \
+                         (player_stats_df['Pitcher ID'] == 2151) & \
+                         (player_stats_df['is_sub_row'] == False)
+            if not player_stats_df[total_mask].empty:
+                player_stats_df.loc[total_mask, 'W'] -= 1
+                player_stats_df.loc[total_mask, 'L'] += 1
+                _recalculate_wl_pct(player_stats_df, total_mask)
+
+    # S2, Player 1997, SDP: +1 W
+    s2_p1997_mask = (player_stats_df['Season'] == 'S2') & \
+                   (player_stats_df['Pitcher ID'] == 1997) & \
+                   (player_stats_df['Team'] == 'SDP')
+    if not player_stats_df[s2_p1997_mask].empty:
+        player_stats_df.loc[s2_p1997_mask, 'W'] += 1
+        _recalculate_wl_pct(player_stats_df, s2_p1997_mask)
+
+        is_sub_row = player_stats_df.loc[s2_p1997_mask, 'is_sub_row'].iloc[0]
+        if is_sub_row:
+            total_mask = (player_stats_df['Season'] == 'S2') & \
+                         (player_stats_df['Pitcher ID'] == 1997) & \
+                         (player_stats_df['is_sub_row'] == False)
+            if not player_stats_df[total_mask].empty:
+                player_stats_df.loc[total_mask, 'W'] += 1
+                _recalculate_wl_pct(player_stats_df, total_mask)
+
+    # S2, Player 2031, SDP: -1 L
+    s2_p2031_mask = (player_stats_df['Season'] == 'S2') & \
+                   (player_stats_df['Pitcher ID'] == 2031) & \
+                   (player_stats_df['Team'] == 'SDP')
+    if not player_stats_df[s2_p2031_mask].empty:
+        player_stats_df.loc[s2_p2031_mask, 'L'] -= 1
+        _recalculate_wl_pct(player_stats_df, s2_p2031_mask)
+
+        is_sub_row = player_stats_df.loc[s2_p2031_mask, 'is_sub_row'].iloc[0]
+        if is_sub_row:
+            total_mask = (player_stats_df['Season'] == 'S2') & \
+                         (player_stats_df['Pitcher ID'] == 2031) & \
+                         (player_stats_df['is_sub_row'] == False)
+            if not player_stats_df[total_mask].empty:
+                player_stats_df.loc[total_mask, 'L'] -= 1
+                _recalculate_wl_pct(player_stats_df, total_mask)
+
     return player_stats_df

@@ -560,17 +560,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 <br>
 
                 <h3 class="section-title">Frequently Asked Questions</h3>
-                <p>Why is my W-L record different than it appears in the roster sheet?</p>
-                <p><i>The roster sheet requires starting pitchers to complete at least 3 innings (1/2 game) to qualify for the Win. MLR Reference requires starting pitchers to complete at least 3 1/3 innings (5/9 game, the same ratio as MLB) to qualify for the Win.</i></p>
-                <br>
                 <p>Why is my WAR different than it appears in the roster sheet?</p>
                 <p><i>Like any good baseball statistics site, MLR Reference has its own WAR formula. MLR Reference WAR (also known as "cheWAR") is calculated using RE24. More information about WAR calculation can be found in the glossary.</i></p>
                 <br>
                 <p>Why do my franchise total stat lines include teams I've never played for?</p>
                 <p><i>The franchise total stat lines use the abbreviations that are currently used by the franchise. For example, S2-S5 Texas Rangers has been Cleveland Guardians since S6, so even players who only played during the TEX era will have CLE in their franchise totals.</i></p>
-                <br>
-                <p>Why does S2 San Diego Padres have a different W-L record than the roster sheet?</p>
-                <p><i>The roster sheet is wrong.</i></p>
             </div>
         `;
     };
