@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MLR Reference</title>
+    <title>MLR Scouting</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,16 +12,15 @@
         <p>Loading All MLR Data...</p>
     </div>
 
+    <div id="welcome-screen" style="display: none; text-align: center; padding: 50px;">
+        <img id="welcome-logo" src="" alt="Team Logo" style="width: 150px; height: 150px; margin-bottom: 20px;">
+        <p>By continuing to the application, you agree that you are a member of the Fake New York Yankees</p>
+        <button id="continue-button">Continue</button>
+    </div>
+
     <div id="app" style="display: none;">
         <header>
-            <h1>MLR Reference</h1>
-            <nav>
-                <a href="#/home" class="nav-tab" id="home-tab">Home</a>
-                <a href="#/stats" class="nav-tab" id="stats-tab">Player Stats</a>
-                <a href="#/team-stats" class="nav-tab" id="team-stats-tab">Team Stats</a>
-                <a href="#/leaderboards" class="nav-tab" id="leaderboards-tab">Leaderboards</a>
-                <a href="#/glossary" class="nav-tab" id="glossary-tab">Glossary</a>
-            </nav>
+            <h1>MLR Scouting</h1>
             <div class="theme-switch-container">
                 <label id="theme-switch" class="theme-switch">
                     <input type="checkbox" id="theme-switch-input">
@@ -31,7 +30,6 @@
         </header>
 
         <main>
-            <div id="home-view" class="view"></div>
             <div id="stats-view" class="view">
                 <div class="controls" id="stats-controls">
                     <div class="control-group">
@@ -41,75 +39,9 @@
                     </div>
                 </div>
                 <div id="stats-content-display">
-                    <!-- Player stats and scouting reports will be rendered here -->
+                    <!-- Player scouting reports will be rendered here -->
                 </div>
             </div>
-
-            <div id="leaderboards-view" class="view" style="display: none;">
-                <div class="controls">
-                    <span class="control-item">
-                        <label for="leaderboard-type-select">Leaderboard:</label>
-                        <select id="leaderboard-type-select">
-                            <option value="batting">Batting</option>
-                            <option value="pitching">Pitching</option>
-                        </select>
-                    </span>
-                    <span class="control-item">
-                        <label for="leaderboard-stat-select">Stat:</label>
-                        <select id="leaderboard-stat-select">
-                            <option value="">-- Select Stat --</option>
-                        </select>
-                    </span>
-                    <span class="control-item">
-                        <label for="leaderboard-team-filter">Team:</label>
-                        <select id="leaderboard-team-filter">
-                            <option value="">All Teams</option>
-                        </select>
-                    </span>
-                    <span class="control-item">
-                        <label for="leaderboard-type-filter">Type:</label>
-                        <select id="leaderboard-type-filter">
-                            <option value="">All Types</option>
-                        </select>
-                    </span>
-                    <div id="batting-minimum-controls" class="control-item" style="display: inline-block;">
-                        <label for="min-pa">Min PA/Session:</label>
-                        <input type="number" id="min-pa" step="0.1" style="width: 60px;">
-                    </div>
-                    <div id="pitching-minimum-controls" class="control-item" style="display: none;">
-                        <label for="min-outs">Min Outs/Session:</label>
-                        <input type="number" id="min-outs" step="1" style="width: 60px;">
-                    </div>
-                    <div id="attempts-minimum-controls" class="control-item" style="display: none;">
-                        <label for="min-attempts">Min Attempts:</label>
-                        <input type="number" id="min-attempts" step="1" style="width: 60px;">
-                    </div>
-                    <div id="decisions-minimum-controls" class="control-item" style="display: none;">
-                        <label for="min-decisions">Min Decisions:</label>
-                        <input type="number" id="min-decisions" step="1" style="width: 60px;">
-                    </div>
-                    <span class="control-item">
-                        <label for="leaderboard-length">Top:</label>
-                        <input type="number" id="leaderboard-length" value="10" min="1" max="100" style="width: 60px;">
-                    </span>
-                    <span class="control-item">
-                        <label for="reverse-sort">Reverse:</label>
-                        <input type="checkbox" id="reverse-sort">
-                    </span>
-                    <span class="control-item">
-                        <button id="leaderboard-button">View</button>
-                    </span>
-                </div>
-                <div id="leaderboards-content-display">
-                    <!-- Leaderboards will be rendered here -->
-                </div>
-            </div>
-
-            <div id="glossary-view" class="view" style="display: none;">
-                <div id="glossary-sidebar"></div>
-                <div id="glossary-content"></div>
-            </div>
-            <div id="team-stats-view" class="view" style="display: none;"></div>
         </main>
     </div>
 
