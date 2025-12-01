@@ -1,5 +1,7 @@
 # MLR Scouting Endpoint
 
+Use of this application and underlying code is only authorized to members of the Fake New York Yankees of MLR.
+
 This repository contains a simplified set of Python scripts and a web interface designed solely for generating and viewing player scouting reports from MLR (Major League Redditball) game data. It focuses on processing raw game data to create detailed scouting profiles for pitchers.
 
 ## Web Application Interface
