@@ -185,6 +185,8 @@ def load_player_types(force_seasons=None):
         else:
              print(f"Info: Static player type file not found for {season_str} at {static_csv_path}. Skipping.")
 
+    seasons_to_process.sort(key=lambda x: int(x['season'].replace('S', '')))
+
     force_seasons = force_seasons or []
 
     for item in seasons_to_process:

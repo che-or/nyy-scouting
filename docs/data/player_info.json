@@ -14525,7 +14525,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "COL",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "3046": {
         "primary_position": "SS",
@@ -14609,7 +14609,7 @@
         "pitching_type": "TT-H",
         "handedness": "Right",
         "last_team": "SDP",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "3060": {
         "primary_position": "3B",
@@ -15089,7 +15089,7 @@
         "pitching_type": "POS",
         "handedness": "Left",
         "last_team": "NYM",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "3143": {
         "primary_position": "CF",
