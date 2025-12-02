@@ -158,6 +158,185 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
+    const createHistogramSection = (titleText, situationalHistograms, conditionalHistograms, seasonHistograms, chartLabelStyle, conditionalAfterDeltaHistograms) => {
+        const section = document.createElement('div');
+        section.className = 'scouting-section';
+    
+        const sectionHeader = document.createElement('div');
+        sectionHeader.className = 'scouting-section-header';
+    
+        const title = document.createElement('h3');
+        title.textContent = titleText;
+        sectionHeader.appendChild(title);
+    
+        const controlsWrapper = document.createElement('div');
+        controlsWrapper.className = 'histogram-header-controls';
+    
+        const nValueSpan = document.createElement('span');
+        nValueSpan.className = 'histogram-n-value';
+        controlsWrapper.appendChild(nValueSpan);
+    
+        const select = document.createElement('select');
+        select.className = 'histogram-select';
+    
+        if (situationalHistograms && Object.keys(situationalHistograms).length > 0) {
+            const situationalGroup = document.createElement('optgroup');
+            situationalGroup.label = 'Situational';
+            
+            let situationalTitleMap = {
+                'overall': 'All Pitches',
+                'first_of_game': 'First Pitch of Game',
+                'first_of_inning': 'First Pitch of Inning',
+                'risp': 'Pitches with Runners in Scoring Position',
+            };
+            if (chartLabelStyle === 'delta') {
+                situationalTitleMap = {
+                    'overall': 'All Pitch Deltas',
+                }
+            }
+
+            for (const key in situationalHistograms) {
+                const option = document.createElement('option');
+                option.value = key;
+                option.textContent = situationalTitleMap[key] || key.replace(/_/g, ' ');
+                situationalGroup.appendChild(option);
+            }
+            select.appendChild(situationalGroup);
+        }
+        
+        if (conditionalHistograms && Object.keys(conditionalHistograms).length > 0) {
+            const conditionalGroup = document.createElement('optgroup');
+            conditionalGroup.label = 'Conditional (After Pitch)';
+            const sortedKeys = Object.keys(conditionalHistograms).sort((a, b) => {
+                return parseInt(a.split('_')[1]) - parseInt(b.split('_')[1]);
+            });
+            for (const key of sortedKeys) {
+                const option = document.createElement('option');
+                option.value = key;
+                let friendlyName = `After ${key.split('_')[1]}`;
+                if (key === 'after_000s') {
+                    friendlyName = 'After 0s';
+                }
+                option.textContent = friendlyName;
+                conditionalGroup.appendChild(option);
+            }
+            select.appendChild(conditionalGroup);
+        }
+
+        if (conditionalAfterDeltaHistograms && Object.keys(conditionalAfterDeltaHistograms).length > 0) {
+            const conditionalGroup = document.createElement('optgroup');
+            conditionalGroup.label = 'Conditional (After Delta)';
+            const sortedKeys = Object.keys(conditionalAfterDeltaHistograms).sort((a, b) => {
+                const a_val = parseInt(a.split('_')[2].split('-')[0]);
+                const b_val = parseInt(b.split('_')[2].split('-')[0]);
+                return a_val - b_val;
+            });
+            for (const key of sortedKeys) {
+                const option = document.createElement('option');
+                option.value = key;
+                option.textContent = `After ${key.split('_')[2]}`;
+                conditionalGroup.appendChild(option);
+            }
+            select.appendChild(conditionalGroup);
+        }
+    
+        if (seasonHistograms && Object.keys(seasonHistograms).length > 0) {
+            const seasonGroup = document.createElement('optgroup');
+            seasonGroup.label = 'By Season';
+            const sortedSeasons = Object.keys(seasonHistograms).sort((a, b) => {
+                return parseInt(a.slice(1)) - parseInt(b.slice(1));
+            });
+            for (const season of sortedSeasons) {
+                const option = document.createElement('option');
+                option.value = season;
+                option.textContent = `Season ${season.slice(1)}`;
+                seasonGroup.appendChild(option);
+            }
+            select.appendChild(seasonGroup);
+        }
+    
+        controlsWrapper.appendChild(select);
+        sectionHeader.appendChild(controlsWrapper);
+        section.appendChild(sectionHeader);
+    
+        const chartWrapper = document.createElement('div');
+        chartWrapper.className = 'chart-wrapper';
+        section.appendChild(chartWrapper);
+    
+        const renderChart = (key) => {
+            chartWrapper.innerHTML = '';
+            
+            let data;
+            if (key.startsWith('after_delta_')) {
+                data = conditionalAfterDeltaHistograms[key];
+            } else if (key.startsWith('after_')) {
+                data = conditionalHistograms[key];
+            } else if (key.startsWith('S')) {
+                data = seasonHistograms[key];
+            } else {
+                data = situationalHistograms[key];
+            }
+    
+            if (!data) {
+                nValueSpan.textContent = '';
+                return;
+            }
+    
+            const totalN = data.reduce((sum, bin) => sum + bin.count, 0);
+            nValueSpan.textContent = `N = ${totalN}`;
+    
+            const chartContainer = document.createElement('div');
+            chartContainer.className = 'chart-container';
+    
+            let chartLabels;
+            if (chartLabelStyle === 'delta') {
+                chartLabels = data.map(bin => bin.label);
+            } else {
+                chartLabels = data.map(bin => {
+                    const lower_bound = parseInt(bin.label.split('-')[0], 10);
+                    if (lower_bound === 1) return '0s';
+                    return `${Math.floor(lower_bound / 100) * 100}s`;
+                });
+            }
+            const chartCounts = data.map(bin => bin.count);
+    
+            const canvas = document.createElement('canvas');
+            chartContainer.appendChild(canvas);
+            chartWrapper.appendChild(chartContainer);
+    
+            new Chart(canvas, {
+                type: 'bar',
+                data: {
+                    labels: chartLabels,
+                    datasets: [{
+                        label: 'Count',
+                        data: chartCounts,
+                        backgroundColor: 'rgba(255, 69, 0, 0.6)',
+                        borderColor: 'rgba(255, 69, 0, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: { beginAtZero: true, ticks: { color: '#D7DADC' }, grid: { color: '#343536' } },
+                        x: { ticks: { color: '#D7DADC' }, grid: { display: false } }
+                    },
+                    plugins: { legend: { display: false } }
+                }
+            });
+        };
+    
+        if(select.options.length > 0){
+            renderChart(select.value);
+        }
+
+        select.addEventListener('change', (event) => {
+            renderChart(event.target.value);
+        });
+    
+        return section;
+    }
+
     const displayScoutingReport = (playerId) => {
         const report = state.scoutingReports[playerId];
         if (!report) {
@@ -174,6 +353,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const rightColumn = document.createElement('div');
         rightColumn.className = 'scouting-report-right';
+        rightColumn.style.display = 'flex';
+        rightColumn.style.flexDirection = 'column';
+        rightColumn.style.gap = '20px';
 
         // --- Favorite Pitches ---
         if (report.top_5_pitches) {
@@ -253,190 +435,172 @@ document.addEventListener('DOMContentLoaded', () => {
             leftColumn.appendChild(section);
         }
 
-        // --- Recent Game Line Graph ---
-        if (report.recent_game_info && report.recent_game_info.pitches && report.recent_game_info.pitches.length > 0) {
+        // --- Recent Games Pitch Chart ---
+        if (report.recent_games_info && report.recent_games_info.length > 0) {
             const section = document.createElement('div');
             section.className = 'scouting-section';
             
-            const game_info = report.recent_game_info;
-            const titleText = `${game_info.pitcher_team} ${game_info.season}.${game_info.session} vs. ${game_info.opponent}`;
+            const header = document.createElement('div');
+            header.className = 'scouting-section-header';
             
             const title = document.createElement('h3');
-            title.textContent = titleText;
-            section.appendChild(title);
+            title.textContent = 'Recent Games - Pitches';
+            header.appendChild(title);
 
-            const canvas = document.createElement('canvas');
-            section.appendChild(canvas);
-
-            new Chart(canvas, {
-                type: 'line',
-                data: {
-                    labels: Array.from({ length: game_info.pitches.length }, (_, i) => i + 1),
-                    datasets: [{
-                        label: 'Pitch Number',
-                        data: game_info.pitches,
-                        borderColor: '#FF4500',
-                        backgroundColor: 'rgba(255, 69, 0, 0.2)',
-                        fill: true,
-                        tension: 0.1
-                    }]
-                },
-                options: {
-                    scales: {
-                        y: { ticks: { color: '#D7DADC' }, grid: { color: '#343536' } },
-                        x: { ticks: { color: '#D7DADC' }, grid: { color: '#343536' }, title: { display: true, text: 'Pitch in Sequence' } }
-                    },
-                    plugins: { legend: { display: false } }
-                }
-            });
-            
-            leftColumn.appendChild(section);
-        }
-
-        // --- Histograms ---
-        if (report.histograms) {
-            const section = document.createElement('div');
-            section.className = 'scouting-section';
-
-            const sectionHeader = document.createElement('div');
-            sectionHeader.className = 'scouting-section-header';
-
-            const title = document.createElement('h3');
-            title.textContent = 'Pitch Histograms';
-            sectionHeader.appendChild(title);
-
-            const controlsWrapper = document.createElement('div');
-            controlsWrapper.className = 'histogram-header-controls';
-
-            const nValueSpan = document.createElement('span');
-            nValueSpan.className = 'histogram-n-value';
-            controlsWrapper.appendChild(nValueSpan);
-            
-            const titleMap = {
-                'overall': 'All Pitches',
-                'first_of_game': 'First Pitch of Game',
-                'first_of_inning': 'First Pitch of Inning',
-                'risp': 'Pitches with Runners in Scoring Position'
-            };
+            const controls = document.createElement('div');
+            controls.className = 'histogram-header-controls';
 
             const select = document.createElement('select');
             select.className = 'histogram-select';
-
-            const situationalGroup = document.createElement('optgroup');
-            situationalGroup.label = 'Situational';
-            for (const key in report.histograms) {
+            report.recent_games_info.forEach((game, index) => {
                 const option = document.createElement('option');
-                option.value = key;
-                option.textContent = titleMap[key] || key.replace(/_/g, ' ');
-                situationalGroup.appendChild(option);
-            }
-            select.appendChild(situationalGroup);
+                option.value = index;
+                option.textContent = `${game.season}.${game.session} vs ${game.opponent}`;
+                select.appendChild(option);
+            });
+            controls.appendChild(select);
+            header.appendChild(controls);
+            section.appendChild(header);
 
-            if (report.conditional_histograms) {
-                const conditionalGroup = document.createElement('optgroup');
-                conditionalGroup.label = 'Conditional (After...)';
-                const sortedKeys = Object.keys(report.conditional_histograms).sort((a, b) => {
-                    return parseInt(a.split('_')[1]) - parseInt(b.split('_')[1]);
-                });
-                for (const key of sortedKeys) {
-                    const option = document.createElement('option');
-                    option.value = key;
-                    let friendlyName = `After ${key.split('_')[1]}`;
-                    if (key === 'after_000s') {
-                        friendlyName = 'After 0s';
-                    }
-                    option.textContent = friendlyName;
-                    conditionalGroup.appendChild(option);
-                }
-                select.appendChild(conditionalGroup);
-            }
+            const pitchChartContainer = document.createElement('div');
+            const pitchCanvas = document.createElement('canvas');
+            pitchChartContainer.appendChild(pitchCanvas);
+            section.appendChild(pitchChartContainer);
 
-            if (report.season_histograms) {
-                const seasonGroup = document.createElement('optgroup');
-                seasonGroup.label = 'By Season';
-                const sortedSeasons = Object.keys(report.season_histograms).sort((a, b) => {
-                    return parseInt(a.slice(1)) - parseInt(b.slice(1));
-                });
-                for (const season of sortedSeasons) {
-                    const option = document.createElement('option');
-                    option.value = season;
-                    option.textContent = `Season ${season.slice(1)}`;
-                    seasonGroup.appendChild(option);
-                }
-                select.appendChild(seasonGroup);
-            }
-            
-            controlsWrapper.appendChild(select);
-            sectionHeader.appendChild(controlsWrapper);
-            section.appendChild(sectionHeader);
+            let pitchChart;
 
-            const chartWrapper = document.createElement('div');
-            chartWrapper.className = 'chart-wrapper';
-            section.appendChild(chartWrapper);
+            const renderPitchChart = (gameIndex) => {
+                const game = report.recent_games_info[gameIndex];
 
-            const renderChart = (key) => {
-                chartWrapper.innerHTML = '';
-                
-                let data;
-                if (key.startsWith('after_')) {
-                    data = report.conditional_histograms[key];
-                } else if (key.startsWith('S')) {
-                    data = report.season_histograms[key];
-                } else {
-                    data = report.histograms[key];
-                }
-
-                if (!data) {
-                    nValueSpan.textContent = '';
-                    return;
-                }
-
-                const totalN = data.reduce((sum, bin) => sum + bin.count, 0);
-                nValueSpan.textContent = `N = ${totalN}`;
-
-                const chartContainer = document.createElement('div');
-                chartContainer.className = 'chart-container';
-
-                const chartLabels = data.map(bin => {
-                    const lower_bound = parseInt(bin.label.split('-')[0], 10);
-                    if (lower_bound === 1) return '0s';
-                    return `${Math.floor(lower_bound / 100) * 100}s`;
-                });
-                const chartCounts = data.map(bin => bin.count);
-
-                const canvas = document.createElement('canvas');
-                chartContainer.appendChild(canvas);
-                chartWrapper.appendChild(chartContainer);
-
-                new Chart(canvas, {
-                    type: 'bar',
+                if (pitchChart) pitchChart.destroy();
+                pitchChart = new Chart(pitchCanvas, {
+                    type: 'line',
                     data: {
-                        labels: chartLabels,
+                        labels: Array.from({ length: game.pitches.length }, (_, i) => i + 1),
                         datasets: [{
-                            label: 'Count',
-                            data: chartCounts,
-                            backgroundColor: 'rgba(255, 69, 0, 0.6)',
-                            borderColor: 'rgba(255, 69, 0, 1)',
-                            borderWidth: 1
+                            label: 'Pitch Number',
+                            data: game.pitches,
+                            borderColor: '#FF4500',
+                            backgroundColor: 'rgba(255, 69, 0, 0.2)',
+                            fill: true,
+                            tension: 0.1
                         }]
                     },
                     options: {
                         scales: {
-                            y: { beginAtZero: true, ticks: { color: '#D7DADC' }, grid: { color: '#343536' } },
-                            x: { ticks: { color: '#D7DADC' }, grid: { display: false } }
+                            y: { min: 0, max: 1000, ticks: { color: '#D7DADC' }, grid: { color: '#343536' } },
+                            x: { ticks: { color: '#D7DADC' }, grid: { color: '#343536' }, title: { display: true, text: 'Pitch in Sequence' } }
                         },
                         plugins: { legend: { display: false } }
                     }
                 });
             };
 
-            renderChart(select.value);
+            renderPitchChart(0);
+            select.addEventListener('change', (e) => renderPitchChart(e.target.value));
+            
+            leftColumn.appendChild(section);
+        }
 
-            select.addEventListener('change', (event) => {
-                renderChart(event.target.value);
+        // --- Recent Games Delta Chart ---
+        if (report.recent_games_info && report.recent_games_info.length > 0) {
+            const section = document.createElement('div');
+            section.className = 'scouting-section';
+            
+            const header = document.createElement('div');
+            header.className = 'scouting-section-header';
+            
+            const title = document.createElement('h3');
+            title.textContent = 'Recent Games - Deltas';
+            header.appendChild(title);
+
+            const controls = document.createElement('div');
+            controls.className = 'histogram-header-controls';
+
+            const select = document.createElement('select');
+            select.className = 'histogram-select';
+            report.recent_games_info.forEach((game, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = `${game.season}.${game.session} vs ${game.opponent}`;
+                select.appendChild(option);
             });
+            controls.appendChild(select);
 
-            rightColumn.appendChild(section);
+            const absLabel = document.createElement('label');
+            const absCheckbox = document.createElement('input');
+            absCheckbox.type = 'checkbox';
+            absLabel.appendChild(absCheckbox);
+            absLabel.append(' Absolute Value');
+
+
+
+            header.appendChild(controls);
+            section.appendChild(header);
+
+            const deltaChartContainer = document.createElement('div');
+            const deltaCanvas = document.createElement('canvas');
+            deltaChartContainer.appendChild(deltaCanvas);
+            section.appendChild(deltaChartContainer);
+
+            // Container for the absolute value checkbox, placed below the chart
+            const absCheckboxContainer = document.createElement('div');
+            absCheckboxContainer.className = 'abs-checkbox-container'; // Add a class for styling
+            absCheckboxContainer.appendChild(absLabel); // absLabel already contains absCheckbox
+
+            section.appendChild(absCheckboxContainer);
+
+
+
+            let deltaChart;
+
+            const renderDeltaChart = () => {
+                const gameIndex = select.value;
+                const game = report.recent_games_info[gameIndex];
+                const useAbs = absCheckbox.checked;
+                const deltaData = useAbs ? game.deltas.map(Math.abs) : game.deltas;
+                
+                if (deltaChart) deltaChart.destroy();
+                deltaChart = new Chart(deltaCanvas, {
+                    type: 'line',
+                    data: {
+                        labels: Array.from({ length: game.deltas.length }, (_, i) => i + 1),
+                        datasets: [{
+                            label: 'Pitch Delta',
+                            data: deltaData,
+                            borderColor: '#FF4500',
+                            backgroundColor: 'rgba(255, 69, 0, 0.2)',
+                            fill: true,
+                            tension: 0.1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: { min: useAbs ? 0 : -500, max: 500, ticks: { color: '#D7DADC' }, grid: { color: '#343536' } },
+                            x: { ticks: { color: '#D7DADC' }, grid: { color: '#343536' }, title: { display: true, text: 'Delta in Sequence' } }
+                        },
+                        plugins: { legend: { display: false } }
+                    }
+                });
+            };
+            
+            renderDeltaChart();
+            select.addEventListener('change', renderDeltaChart);
+            absCheckbox.addEventListener('change', renderDeltaChart);
+            
+            leftColumn.appendChild(section);
+        }
+
+
+        // --- Histograms ---
+        if (report.histograms || report.conditional_histograms || report.season_histograms) {
+            const histSection = createHistogramSection('Pitch Histograms', report.histograms, report.conditional_histograms, report.season_histograms, 'pitch', null);
+            rightColumn.appendChild(histSection);
+        }
+        
+        if (report.delta_histograms || report.conditional_delta_histograms || report.season_delta_histograms) {
+            const deltaHistSection = createHistogramSection('Pitch Delta Histograms', report.delta_histograms, report.conditional_delta_histograms, report.season_delta_histograms, 'delta', report.conditional_after_delta_histograms);
+            rightColumn.appendChild(deltaHistSection);
         }
 
         mainGrid.appendChild(leftColumn);

@@ -26,6 +26,23 @@ def _get_pitch_histogram_data(pitch_series, bin_size):
         output.append({'label': label, 'count': int(count)})
     return output
 
+def _get_pitch_delta_histogram_data(delta_series):
+    if delta_series.empty: return []
+    
+    bins = [-1, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
+    labels = ["0-50", "51-100", "101-150", "151-200", "201-250", "251-300", "301-350", "351-400", "401-450", "451-500"]
+    
+    delta_series = delta_series.astype(int)
+    binned_data = pd.cut(delta_series, bins=bins, labels=labels, right=True)
+    histogram_data = binned_data.value_counts()
+    
+    histogram_data = histogram_data.reindex(labels, fill_value=0)
+
+    output = []
+    for label, count in histogram_data.items():
+        output.append({'label': str(label), 'count': int(count)})
+    return output
+
 def get_scouting_report_data(player_id, pitcher_df, bin_size=100):
     if pitcher_df.empty: return None
     pitcher_df = pitcher_df.copy()
@@ -49,6 +66,10 @@ def get_scouting_report_data(player_id, pitcher_df, bin_size=100):
     meme_numbers = {69, 420, 666, 327, 880}
     meme_percentage = pitcher_df['Pitch'].isin(meme_numbers).sum() / len(pitcher_df) * 100 if len(pitcher_df) > 0 else 0
 
+    # Pitch normalization for various histogram calculations
+    pitcher_df['pitch_norm'] = pitcher_df['Pitch'].apply(lambda x: 0 if x == 1000 else x)
+    pitcher_df['previous_pitch'] = pitcher_df.groupby(['Season', 'Game ID'])['pitch_norm'].shift(1)
+
     # Histograms
     histograms = {
         "overall": _get_pitch_histogram_data(pitcher_df['Pitch'], bin_size),
@@ -58,9 +79,6 @@ def get_scouting_report_data(player_id, pitcher_df, bin_size=100):
     }
 
     # Conditional Histograms
-    pitcher_df['pitch_norm'] = pitcher_df['Pitch'].apply(lambda x: 0 if x == 1000 else x)
-    pitcher_df['previous_pitch'] = pitcher_df.groupby(['Season', 'Game ID'])['pitch_norm'].shift(1)
-    
     conditional_histograms = {}
     for i in range(10):
         lower_bound = i * 100
@@ -81,27 +99,104 @@ def get_scouting_report_data(player_id, pitcher_df, bin_size=100):
         if hist_data:
             season_histograms[season] = hist_data
 
-    # Recent Game Info
-    recent_game_info = {}
-    if not pitcher_df.empty:
-        last_game_row = pitcher_df.iloc[-1]
-        last_game_season = last_game_row['Season']
-        last_game_id = last_game_row['Game ID']
-        
-        last_game_df = pitcher_df[(pitcher_df['Season'] == last_game_season) & (pitcher_df['Game ID'] == last_game_id)]
-        
-        if not last_game_df.empty:
-            last_game_details = last_game_df.iloc[0]
-            opposing_teams = last_game_df['Batter Team'].unique()
-            opposing_team = opposing_teams[0] if len(opposing_teams) > 0 else ''
+    # --- Pitch Delta Histograms ---
+    delta_histograms = {}
+    season_delta_histograms = {}
+    conditional_delta_histograms = {}
+    conditional_after_delta_histograms = {}
 
-            recent_game_info = {
-                'pitcher_team': last_game_details['Pitcher Team'],
-                'season': last_game_details['Season'],
-                'session': int(last_game_details['Session']),
-                'opponent': opposing_team,
-                'pitches': last_game_df['Pitch'].dropna().astype(int).tolist()
-            }
+    deltas_df = pitcher_df.dropna(subset=['pitch_norm', 'previous_pitch']).copy()
+    if not deltas_df.empty:
+        deltas = deltas_df.apply(lambda row: abs(row['pitch_norm'] - row['previous_pitch']), axis=1)
+        deltas = deltas.apply(lambda d: 1000 - d if d > 500 else d)
+        deltas_df['delta'] = deltas
+        
+        # Overall
+        delta_hist_data = _get_pitch_delta_histogram_data(deltas)
+        if delta_hist_data:
+            delta_histograms["overall"] = delta_hist_data
+
+        # By Season
+        for season, season_df in pitcher_df.groupby('Season'):
+            season_deltas_df = season_df.dropna(subset=['pitch_norm', 'previous_pitch'])
+            if not season_deltas_df.empty:
+                season_deltas = season_deltas_df.apply(lambda row: abs(row['pitch_norm'] - row['previous_pitch']), axis=1)
+                season_deltas = season_deltas.apply(lambda d: 1000 - d if d > 500 else d)
+                hist_data = _get_pitch_delta_histogram_data(season_deltas)
+                if hist_data:
+                    season_delta_histograms[season] = hist_data
+        
+        # Conditional on Previous Pitch
+        for i in range(10):
+            lower_bound = i * 100
+            upper_bound = (i + 1) * 100
+            
+            filtered_df = pitcher_df[(pitcher_df['previous_pitch'] >= lower_bound) & (pitcher_df['previous_pitch'] < upper_bound)]
+            
+            if not filtered_df.empty:
+                cond_deltas_df = filtered_df.dropna(subset=['pitch_norm'])
+                if not cond_deltas_df.empty:
+                    cond_deltas = cond_deltas_df.apply(lambda row: abs(row['pitch_norm'] - row['previous_pitch']), axis=1)
+                    cond_deltas = cond_deltas.apply(lambda d: 1000 - d if d > 500 else d)
+                    hist_data = _get_pitch_delta_histogram_data(cond_deltas)
+                    key = f'after_{i}00s'
+                    if hist_data:
+                        conditional_delta_histograms[key] = hist_data
+
+        # Conditional on Previous Delta
+        deltas_df['previous_delta'] = deltas_df.groupby(['Season', 'Game ID'])['delta'].shift(1)
+        bins = [-1, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
+        labels = ["0-50", "51-100", "101-150", "151-200", "201-250", "251-300", "301-350", "351-400", "401-450", "451-500"]
+
+        for i in range(len(bins) - 1):
+            lower_bound = bins[i]
+            upper_bound = bins[i+1]
+            
+            filtered_df = deltas_df[(deltas_df['previous_delta'] > lower_bound) & (deltas_df['previous_delta'] <= upper_bound)]
+            
+            if not filtered_df.empty:
+                hist_data = _get_pitch_delta_histogram_data(filtered_df['delta'])
+                key = f'after_delta_{labels[i]}'
+                if hist_data:
+                    conditional_after_delta_histograms[key] = hist_data
+
+    # Recent Games Info
+    recent_games_info = []
+    if not pitcher_df.empty:
+        last_5_games = pitcher_df.groupby(['Season', 'Game ID']).tail(1).tail(5)
+        
+        for _, last_game_row in last_5_games.iloc[::-1].iterrows():
+            last_game_season = last_game_row['Season']
+            last_game_id = last_game_row['Game ID']
+            
+            last_game_df = pitcher_df[(pitcher_df['Season'] == last_game_season) & (pitcher_df['Game ID'] == last_game_id)]
+            
+            if not last_game_df.empty:
+                last_game_details = last_game_df.iloc[0]
+                opposing_teams = last_game_df['Batter Team'].unique()
+                opposing_team = opposing_teams[0] if len(opposing_teams) > 0 else ''
+
+                pitches = last_game_df['pitch_norm'].dropna().to_numpy()
+                deltas = []
+                if len(pitches) > 1:
+                    raw_deltas = pitches[1:] - pitches[:-1]
+                    for d in raw_deltas:
+                        if d > 500:
+                            deltas.append(int(d - 1000))
+                        elif d < -500:
+                            deltas.append(int(d + 1000))
+                        else:
+                            deltas.append(int(d))
+
+                game_info = {
+                    'pitcher_team': last_game_details['Pitcher Team'],
+                    'season': last_game_details['Season'],
+                    'session': int(last_game_details['Session']),
+                    'opponent': opposing_team,
+                    'pitches': last_game_df['Pitch'].dropna().astype(int).tolist(),
+                    'deltas': deltas
+                }
+                recent_games_info.append(game_info)
 
     return {
         "top_5_pitches": {int(k): int(v) for k, v in top_5_pitches.to_dict().items()},
@@ -115,7 +210,11 @@ def get_scouting_report_data(player_id, pitcher_df, bin_size=100):
         },
         "conditional_histograms": conditional_histograms,
         "season_histograms": season_histograms,
-        "recent_game_info": recent_game_info
+        "delta_histograms": delta_histograms,
+        "conditional_delta_histograms": conditional_delta_histograms,
+        "season_delta_histograms": season_delta_histograms,
+        "conditional_after_delta_histograms": conditional_after_delta_histograms,
+        "recent_games_info": recent_games_info
     }
 
 def main():
@@ -260,12 +359,17 @@ def main():
         }
     
     # Add most recent team to player info
-    last_appearance = all_players.loc[all_players.groupby('Player ID')['Season_num'].idxmax()]
+    last_appearance = all_players.drop_duplicates(subset='Player ID', keep='first')
     for _, row in last_appearance.iterrows():
-        pid = row['Player ID']
+        pid = int(row['Player ID'])
         if pid in player_info:
             player_info[pid]['last_team'] = row['Team']
             player_info[pid]['last_season'] = row['Season']
+        else:
+            player_info[pid] = {
+                'last_team': row['Team'],
+                'last_season': row['Season']
+            }
 
     output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'docs', 'data')
     if not os.path.exists(output_dir): os.makedirs(output_dir)
@@ -282,8 +386,14 @@ def main():
 
     print("Generating scouting reports...")
     scouting_reports = {}
-    all_pitcher_ids = combined_df['Pitcher ID'].unique()
-    for pitcher_id in all_pitcher_ids:
+    
+    most_recent_season_num = int(most_recent_season.replace('S', ''))
+    seasons_to_check = [f'S{most_recent_season_num}', f'S{most_recent_season_num - 1}']
+    
+    recent_pitchers_df = combined_df[combined_df['Season'].isin(seasons_to_check)]
+    recent_pitcher_ids = recent_pitchers_df['Pitcher ID'].unique()
+
+    for pitcher_id in recent_pitcher_ids:
         if pitcher_id <= 0: continue
         pitcher_df = combined_df[combined_df['Pitcher ID'] == pitcher_id]
         report = get_scouting_report_data(pitcher_id, pitcher_df)
