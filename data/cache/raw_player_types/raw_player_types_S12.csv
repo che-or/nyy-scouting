@@ -397,6 +397,7 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 2950,Anthony Esposito III,FLA,BC,,,Right,RF,CF,LF,/u/Wiley_1909,BigFern99#0114,53,1,11,,
 2951,Brandon Rice III,CLE,BN,WC,S,Left,SS,2B,1B,/u/RetroRice316,CoachRice#5642,53,1,8,,
 2959,Kries Von Kriestalhauser,OAK,BN,FP,H,Right,CF,LF,RF,/u/oneforceone,kriestinaf,53,1,10,1.0,SAL
+2960,Penguino,,WC,EG,H,Left,PH,,,/u/penguinothepenguin,penguinothepenguin101,53,5,1,1.0,SEF
 2962,Carlos Narvaez Jr.,DET,S,TT,S,Left,P,,,/u/AmokSpain,m_ksp__n_,53,1,2,1.0,CCS
 2963,Vartan Ichabod Cassidy,BAL,BP,,,Right,C,3B,RF,/u/Blackcobra29,Vic8713,53,1,4,,
 2965,Randall Peppers,MTL,TT,EN,S,Left,3B,LF,1B,/u/hnard,Hnard,23,1,7,1.0,SEF
@@ -582,7 +583,7 @@ Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary
 3270,OilCanFloydTheBarber,ARI,XB,,,Right,SS,3B,,/u/j0nfr33m4n,j0nfr33m4n,53,1,8,1.0,SDV
 3271,Reece Vardy,,XB,BS,,Right,LF,1B,,/u/Plat1numPath0s,PlatinumPathos,53,1,9,,
 3272,Ben McBain,,MH,,,Right,CF,LF,,/u/GreenBay89387,greenbay_89387,53,1,10,,
-3273,Cher Noble,MIL,HK,,,Left,1B,LF,,/u/MLR_NoReddit_User,Captainplate,53,1,5,1.0,MMN
+3273,Cher Noble,MIL,HK,SF,H,Left,1B,LF,,/u/MLR_NoReddit_User,Captainplate,53,1,5,1.0,MMN
 3274,Curly Hanlon,,XB,EG,H,Left,2B,RF,,/u/MLR_NoReddit_User,Tommy! ,53,1,6,,
 3297,Damon Razor,ARI,P,FP,H,Left,P,,,/u/MLR_NoReddit_User,.ikonic,53,1,2,1.0,
 3298,Delly Schmidt,,WC,,,Right,CF,LF,,/u/jaleclaney,jale28711,53,1,10,,

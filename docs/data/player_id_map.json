@@ -577,8 +577,9 @@
         "formerNames": []
     },
     "108": {
-        "currentName": "Spiro Agnew",
+        "currentName": "Phillip J Fry",
         "formerNames": [
+            "Spiro Agnew",
             "Sam Wood",
             "Chavo Delocho",
             "Wilbur Wood"
@@ -1154,8 +1155,9 @@
         "formerNames": []
     },
     "230": {
-        "currentName": "Mike Oxlong",
+        "currentName": "Howie Feltersnatch",
         "formerNames": [
+            "Mike Oxlong",
             "Matt Verdin"
         ]
     },
@@ -3299,8 +3301,9 @@
         "formerNames": []
     },
     "1705": {
-        "currentName": "Usada Pekora",
+        "currentName": "Hoshimi Miyabi",
         "formerNames": [
+            "Usada Pekora",
             "Haachama",
             "sarah"
         ]
@@ -7133,6 +7136,62 @@
     },
     "3193": {
         "currentName": "Secret Wolfe",
+        "formerNames": []
+    },
+    "3202": {
+        "currentName": "Alex Blockman",
+        "formerNames": []
+    },
+    "3203": {
+        "currentName": "Peter Nautilus",
+        "formerNames": []
+    },
+    "3208": {
+        "currentName": "Kendrick Lamar",
+        "formerNames": []
+    },
+    "3214": {
+        "currentName": "Napoleon Swingsalot",
+        "formerNames": []
+    },
+    "3222": {
+        "currentName": "Steven Scola",
+        "formerNames": []
+    },
+    "3226": {
+        "currentName": "Ezra Wind",
+        "formerNames": []
+    },
+    "3229": {
+        "currentName": "Ant man",
+        "formerNames": []
+    },
+    "3239": {
+        "currentName": "Justin Carlson",
+        "formerNames": []
+    },
+    "3243": {
+        "currentName": "Jaime Villafuerte",
+        "formerNames": []
+    },
+    "3249": {
+        "currentName": "Jiggs Kingman",
+        "formerNames": []
+    },
+    "3253": {
+        "currentName": "Captain Hate",
+        "formerNames": []
+    },
+    "3255": {
+        "currentName": "Alph Overdale",
+        "formerNames": []
+    },
+    "3256": {
+        "currentName": "Angry Lizard",
+        "formerNames": []
+    },
+    "3268": {
+        "currentName": "Dave Bartholomew",
         "formerNames": []
     }
 }
