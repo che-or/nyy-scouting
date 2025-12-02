@@ -260,12 +260,17 @@ def main():
         }
     
     # Add most recent team to player info
-    last_appearance = all_players.loc[all_players.groupby('Player ID')['Season_num'].idxmax()]
+    last_appearance = all_players.drop_duplicates(subset='Player ID', keep='first')
     for _, row in last_appearance.iterrows():
-        pid = row['Player ID']
+        pid = int(row['Player ID'])
         if pid in player_info:
             player_info[pid]['last_team'] = row['Team']
             player_info[pid]['last_season'] = row['Season']
+        else:
+            player_info[pid] = {
+                'last_team': row['Team'],
+                'last_season': row['Season']
+            }
 
     output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'docs', 'data')
     if not os.path.exists(output_dir): os.makedirs(output_dir)
