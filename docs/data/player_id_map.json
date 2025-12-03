@@ -2277,8 +2277,9 @@
         ]
     },
     "488": {
-        "currentName": "AA --xXx-- Main Event Juni Panda --xXx--",
+        "currentName": "Juni ''XOXO'' Panda RX-78-69",
         "formerNames": [
+            "AA --xXx-- Main Event Juni Panda --xXx--",
             "Juni Juni Panda",
             "Juni Panda",
             "Juniped Catfish"
@@ -6234,8 +6235,10 @@
         "formerNames": []
     },
     "2869": {
-        "currentName": "Charles Vella",
-        "formerNames": []
+        "currentName": "Charlie Buntman",
+        "formerNames": [
+            "Charles Vella"
+        ]
     },
     "2870": {
         "currentName": "Lincoln Pickett",
@@ -6693,8 +6696,9 @@
         "formerNames": []
     },
     "3029": {
-        "currentName": "Dan Von DOOM",
+        "currentName": "DV DOOM",
         "formerNames": [
+            "Dan Von DOOM",
             "Dan Van Damme"
         ]
     },
@@ -7146,24 +7150,52 @@
         "currentName": "Peter Nautilus",
         "formerNames": []
     },
+    "3204": {
+        "currentName": "Cat with a Bat",
+        "formerNames": []
+    },
+    "3206": {
+        "currentName": "Hiram Birnbaum",
+        "formerNames": []
+    },
     "3208": {
         "currentName": "Kendrick Lamar",
+        "formerNames": []
+    },
+    "3213": {
+        "currentName": "Henry McCade",
         "formerNames": []
     },
     "3214": {
         "currentName": "Napoleon Swingsalot",
         "formerNames": []
     },
+    "3215": {
+        "currentName": "Mario Goretti",
+        "formerNames": []
+    },
     "3222": {
         "currentName": "Steven Scola",
+        "formerNames": []
+    },
+    "3223": {
+        "currentName": "Mo Soso",
         "formerNames": []
     },
     "3226": {
         "currentName": "Ezra Wind",
         "formerNames": []
     },
+    "3227": {
+        "currentName": "Camden Yardsy",
+        "formerNames": []
+    },
     "3229": {
         "currentName": "Ant man",
+        "formerNames": []
+    },
+    "3237": {
+        "currentName": "Greggy Gabagool",
         "formerNames": []
     },
     "3239": {
@@ -7174,8 +7206,20 @@
         "currentName": "Jaime Villafuerte",
         "formerNames": []
     },
+    "3247": {
+        "currentName": "Jodie Baller",
+        "formerNames": []
+    },
     "3249": {
         "currentName": "Jiggs Kingman",
+        "formerNames": []
+    },
+    "3250": {
+        "currentName": "Jack Hoffman",
+        "formerNames": []
+    },
+    "3251": {
+        "currentName": "Erik Hamilton",
         "formerNames": []
     },
     "3253": {
@@ -7190,8 +7234,28 @@
         "currentName": "Angry Lizard",
         "formerNames": []
     },
+    "3257": {
+        "currentName": "Joseph Randome",
+        "formerNames": []
+    },
+    "3263": {
+        "currentName": "Aladdin Sane",
+        "formerNames": []
+    },
+    "3265": {
+        "currentName": "Robert Sitkowski",
+        "formerNames": []
+    },
     "3268": {
         "currentName": "Dave Bartholomew",
+        "formerNames": []
+    },
+    "3273": {
+        "currentName": "Cher Noble",
+        "formerNames": []
+    },
+    "3299": {
+        "currentName": "Dusty Rhodes",
         "formerNames": []
     }
 }
