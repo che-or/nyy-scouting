@@ -1734,8 +1734,9 @@
         "formerNames": []
     },
     "355": {
-        "currentName": "Alvin and the Chipmunks The Squeakquel",
+        "currentName": "Alvin and the Chipmunks Chipwrecked",
         "formerNames": [
+            "Alvin and the Chipmunks The Squeakquel",
             "Catboy Frank",
             "Chuck Tingle"
         ]
@@ -4886,9 +4887,9 @@
         "formerNames": []
     },
     "2329": {
-        "currentName": "Fauxtani",
+        "currentName": "Tencer Sporkelson",
         "formerNames": [
-            "Tencer Sporkelson"
+            "Fauxtani"
         ]
     },
     "2332": {
@@ -5596,8 +5597,9 @@
         "formerNames": []
     },
     "2640": {
-        "currentName": "Anthony Barkevious IV ",
+        "currentName": "Anthony Barkevious IV",
         "formerNames": [
+            "Anthony Barkevious IV ",
             "Coltrane McClaine"
         ]
     },
@@ -5770,8 +5772,9 @@
         "formerNames": []
     },
     "2702": {
-        "currentName": "Adam Autovino",
+        "currentName": "Evan LOMgoria",
         "formerNames": [
+            "Adam Autovino",
             "Jamie Voyeur",
             "Tequila Mockingbird",
             "Tomathius Neillson"
@@ -6372,9 +6375,9 @@
         "formerNames": []
     },
     "2916": {
-        "currentName": "Jawberry Stones",
+        "currentName": "Strawberry Jones",
         "formerNames": [
-            "Strawberry Jones"
+            "Jawberry Stones"
         ]
     },
     "2922": {
@@ -6899,8 +6902,10 @@
         "formerNames": []
     },
     "3102": {
-        "currentName": "Marquis de Leek",
-        "formerNames": []
+        "currentName": "Nathaniel Pewterson",
+        "formerNames": [
+            "Marquis de Leek"
+        ]
     },
     "3103": {
         "currentName": "Psykokwak",
@@ -6924,6 +6929,10 @@
     },
     "3108": {
         "currentName": "Cormac Karona",
+        "formerNames": []
+    },
+    "3109": {
+        "currentName": "Jersey Wooders",
         "formerNames": []
     },
     "3110": {
@@ -7174,6 +7183,10 @@
         "currentName": "Mario Goretti",
         "formerNames": []
     },
+    "3216": {
+        "currentName": "Pike Trout",
+        "formerNames": []
+    },
     "3222": {
         "currentName": "Steven Scola",
         "formerNames": []
@@ -7200,6 +7213,10 @@
     },
     "3239": {
         "currentName": "Justin Carlson",
+        "formerNames": []
+    },
+    "3242": {
+        "currentName": "Dusk Jackson",
         "formerNames": []
     },
     "3243": {
@@ -7256,6 +7273,10 @@
     },
     "3299": {
         "currentName": "Dusty Rhodes",
+        "formerNames": []
+    },
+    "3301": {
+        "currentName": "London Bridges",
         "formerNames": []
     }
 }
