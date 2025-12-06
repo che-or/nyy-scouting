@@ -525,7 +525,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "PHI",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "125": {
         "primary_position": "CF",
@@ -3357,7 +3357,7 @@
         "pitching_type": "TT-S",
         "handedness": "Right",
         "last_team": "ANA",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2044": {
         "primary_position": "2B",
@@ -5141,7 +5141,7 @@
         "pitching_type": "FP-S",
         "handedness": "Right",
         "last_team": "PIT",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "368": {
         "primary_position": "RF",
@@ -6919,7 +6919,7 @@
         "pitching_type": "FP-H",
         "handedness": "Left",
         "last_team": "MIL",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "787": {
         "primary_position": "P",
@@ -8367,7 +8367,7 @@
         "pitching_type": "TT-H",
         "handedness": "Right",
         "last_team": "NYM",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "1943": {
         "primary_position": "2B",
@@ -8629,7 +8629,7 @@
         "pitching_type": "SF-B",
         "handedness": "Left",
         "last_team": "KCR",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "1815": {
         "primary_position": "3B",
@@ -8747,7 +8747,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "SFG",
-        "last_season": "S9"
+        "last_season": "S12"
     },
     "1704": {
         "primary_position": "2B",
@@ -12845,7 +12845,7 @@
         "pitching_type": "TD-H",
         "handedness": "Right",
         "last_team": "SEA",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2793": {
         "primary_position": "SS",
@@ -13277,7 +13277,7 @@
         "pitching_type": "NT-H",
         "handedness": "Right",
         "last_team": "KCR",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2856": {
         "primary_position": "SS",
@@ -13581,7 +13581,7 @@
         "pitching_type": "POS",
         "handedness": "Left",
         "last_team": "PHI",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2898": {
         "primary_position": "C",
@@ -13871,7 +13871,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "NYM",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2947": {
         "primary_position": "PH",
@@ -14887,7 +14887,7 @@
         "pitching_type": "POS",
         "handedness": "Left",
         "last_team": "LAD",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "3107": {
         "primary_position": "PH",
@@ -14918,8 +14918,8 @@
         "batting_type": "HK",
         "pitching_type": "POS",
         "handedness": "Left",
-        "last_team": "BAL",
-        "last_season": "S11"
+        "last_team": "PHI",
+        "last_season": "S12"
     },
     "3111": {
         "primary_position": "C",
