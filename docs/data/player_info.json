@@ -2933,7 +2933,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "NYM",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "386": {
         "primary_position": "1B",
@@ -3492,8 +3492,8 @@
         "batting_type": "P",
         "pitching_type": "EG-H",
         "handedness": "Right",
-        "last_team": "ATL",
-        "last_season": "S11"
+        "last_team": "PHI",
+        "last_season": "S12"
     },
     "2179": {
         "primary_position": "CF",
@@ -6589,7 +6589,7 @@
         "pitching_type": "POS",
         "handedness": "Left",
         "last_team": "BOS",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "597": {
         "primary_position": "RF",
@@ -8995,7 +8995,7 @@
         "pitching_type": "EG-S",
         "handedness": "Left",
         "last_team": "NYM",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2277": {
         "primary_position": "C",
@@ -13409,7 +13409,7 @@
         "pitching_type": "WC-S",
         "handedness": "Right",
         "last_team": "OAK",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2874": {
         "primary_position": "3B",
@@ -14385,7 +14385,7 @@
         "pitching_type": "BB-H",
         "handedness": "Right",
         "last_team": "DET",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "3026": {
         "primary_position": "LF",
@@ -14727,7 +14727,7 @@
         "pitching_type": "TT-B",
         "handedness": "Left",
         "last_team": "PIT",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "3078": {
         "primary_position": "P",
@@ -15011,7 +15011,7 @@
         "pitching_type": "EG-H",
         "handedness": "Left",
         "last_team": "MTL",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "3129": {
         "primary_position": "PH",
@@ -15257,7 +15257,7 @@
         "pitching_type": "EG-H",
         "handedness": "Left",
         "last_team": "CHC",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "3175": {
         "primary_position": "P",
@@ -15595,7 +15595,9 @@
         "primary_position": "P",
         "batting_type": "P",
         "pitching_type": "BB-H",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "ANA",
+        "last_season": "S12"
     },
     "3229": {
         "primary_position": "P",
@@ -15641,7 +15643,9 @@
         "primary_position": "P",
         "batting_type": "P",
         "pitching_type": "EN-S",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "CIN",
+        "last_season": "S12"
     },
     "3236": {
         "primary_position": "RF",
