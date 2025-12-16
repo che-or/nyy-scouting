@@ -469,7 +469,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "HOU",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "1984": {
         "primary_position": "3B",
@@ -2612,8 +2612,8 @@
         "batting_type": "P",
         "pitching_type": "BS-B",
         "handedness": "Right",
-        "last_team": "BOS",
-        "last_season": "S11"
+        "last_team": "ATL",
+        "last_season": "S12"
     },
     "2175": {
         "primary_position": "2B",
@@ -10687,7 +10687,7 @@
         "pitching_type": "BS-H",
         "handedness": "Right",
         "last_team": "PIT",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2335": {
         "primary_position": "P",
@@ -15887,7 +15887,9 @@
         "primary_position": "P",
         "batting_type": "P",
         "pitching_type": "WC-B",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "CWS",
+        "last_season": "S12"
     },
     "3268": {
         "primary_position": "1B",
