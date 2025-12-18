@@ -13007,7 +13007,7 @@
         "pitching_type": "BS-B",
         "handedness": "Left",
         "last_team": "ATL",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2818": {
         "primary_position": "SS",
@@ -16024,6 +16024,12 @@
         "handedness": "Right",
         "last_team": "BOS",
         "last_season": "S12"
+    },
+    "3308": {
+        "primary_position": "CF",
+        "batting_type": "SM",
+        "pitching_type": "POS",
+        "handedness": "Left"
     },
     "2822": {
         "last_team": "BAL",
