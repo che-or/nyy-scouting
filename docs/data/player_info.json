@@ -421,7 +421,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "CIN",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "112": {
         "primary_position": "P",
@@ -5477,7 +5477,7 @@
         "pitching_type": "WC-S",
         "handedness": "Right",
         "last_team": "HOU",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "612": {
         "primary_position": "C",
