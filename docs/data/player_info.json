@@ -1645,7 +1645,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "CIN",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "211": {
         "primary_position": "P",
@@ -13974,8 +13974,8 @@
         "batting_type": "P",
         "pitching_type": "TT-S",
         "handedness": "Left",
-        "last_team": "PHI",
-        "last_season": "S11"
+        "last_team": "DET",
+        "last_season": "S12"
     },
     "2963": {
         "primary_position": "C",
@@ -14329,7 +14329,7 @@
         "pitching_type": "NH-H",
         "handedness": "Right",
         "last_team": "STL",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "3017": {
         "primary_position": "LF",
@@ -15173,7 +15173,7 @@
         "pitching_type": "BS-H",
         "handedness": "Right",
         "last_team": "MIL",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "3160": {
         "primary_position": "2B",
@@ -15649,7 +15649,9 @@
         "primary_position": "SS",
         "batting_type": "S",
         "pitching_type": "POS",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "MIN",
+        "last_season": "S12"
     },
     "3235": {
         "primary_position": "P",
@@ -15735,7 +15737,9 @@
         "primary_position": "P",
         "batting_type": "P",
         "pitching_type": "EG-S",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "NYM",
+        "last_season": "S12"
     },
     "3247": {
         "primary_position": "LF",
@@ -15903,7 +15907,9 @@
         "primary_position": "P",
         "batting_type": "P",
         "pitching_type": "WC-H",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "TBR",
+        "last_season": "S12"
     },
     "3270": {
         "primary_position": "SS",
@@ -16041,7 +16047,9 @@
         "primary_position": "CF",
         "batting_type": "S",
         "pitching_type": "POS",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "SDP",
+        "last_season": "S12"
     },
     "3311": {
         "primary_position": "CF",
