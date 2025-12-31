@@ -10908,8 +10908,8 @@
         "batting_type": "BN",
         "pitching_type": "POS",
         "handedness": "Right",
-        "last_team": "BOS",
-        "last_season": "S10"
+        "last_team": "STL",
+        "last_season": "S12"
     },
     "2580": {
         "primary_position": "CF",
@@ -16058,6 +16058,12 @@
         "batting_type": "XB",
         "pitching_type": "POS",
         "handedness": "Right"
+    },
+    "3312": {
+        "primary_position": "2B",
+        "batting_type": "WC",
+        "pitching_type": "POS",
+        "handedness": "Left"
     },
     "2822": {
         "last_team": "BAL",
