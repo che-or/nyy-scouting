@@ -15991,7 +15991,9 @@
         "primary_position": "P",
         "batting_type": "P",
         "pitching_type": "NH-S",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "CWS",
+        "last_season": "S12"
     },
     "3303": {
         "primary_position": "SS",
