@@ -11323,7 +11323,7 @@
         "pitching_type": "EG-B",
         "handedness": "Left",
         "last_team": "CHC",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2470": {
         "primary_position": "CF",
@@ -16039,7 +16039,9 @@
         "primary_position": "CF",
         "batting_type": "SM",
         "pitching_type": "POS",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "BOS",
+        "last_season": "S12"
     },
     "3309": {
         "primary_position": "CF",
