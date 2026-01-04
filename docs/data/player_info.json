@@ -4229,7 +4229,7 @@
         "pitching_type": "EG-H",
         "handedness": "Right",
         "last_team": "HOU",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "118": {
         "primary_position": "3B",
@@ -6437,7 +6437,7 @@
         "pitching_type": "POS",
         "handedness": "Left",
         "last_team": "MIL",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "675": {
         "primary_position": "CF",
@@ -15955,7 +15955,9 @@
         "primary_position": "P",
         "batting_type": "P",
         "pitching_type": "FP-H",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "ARI",
+        "last_season": "S12"
     },
     "3298": {
         "primary_position": "CF",
