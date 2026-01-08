@@ -16071,6 +16071,12 @@
         "pitching_type": "POS",
         "handedness": "Left"
     },
+    "3313": {
+        "primary_position": "C",
+        "batting_type": "XB",
+        "pitching_type": "POS",
+        "handedness": "Right"
+    },
     "2822": {
         "last_team": "BAL",
         "last_season": "S8"
