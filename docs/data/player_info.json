@@ -16063,13 +16063,17 @@
         "primary_position": "CF",
         "batting_type": "XB",
         "pitching_type": "POS",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "CWS",
+        "last_season": "S12"
     },
     "3312": {
         "primary_position": "2B",
         "batting_type": "WC",
         "pitching_type": "POS",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "MTL",
+        "last_season": "S12"
     },
     "3313": {
         "primary_position": "C",
