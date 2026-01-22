@@ -4568,10 +4568,10 @@
         "last_season": "S6"
     },
     "196": {
-        "primary_position": "P",
-        "batting_type": "P",
-        "pitching_type": "WC-B",
-        "handedness": "Right",
+        "primary_position": "RF",
+        "batting_type": "XB",
+        "pitching_type": "POS",
+        "handedness": "Left",
         "last_team": "LAA",
         "last_season": "S6"
     },
