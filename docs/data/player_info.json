@@ -13427,7 +13427,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "SDP",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2876": {
         "primary_position": "2B",
@@ -15533,7 +15533,9 @@
         "primary_position": "SS",
         "batting_type": "XB",
         "pitching_type": "POS",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "MIL",
+        "last_season": "S12"
     },
     "3219": {
         "primary_position": "2B",
@@ -16073,7 +16075,9 @@
         "primary_position": "C",
         "batting_type": "XB",
         "pitching_type": "POS",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "PHI",
+        "last_season": "S12"
     },
     "2822": {
         "last_team": "BAL",

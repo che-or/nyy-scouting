@@ -6272,8 +6272,9 @@
         "formerNames": []
     },
     "2875": {
-        "currentName": "Velma Dingkerly ",
+        "currentName": "Velma Dingkerly",
         "formerNames": [
+            "Velma Dingkerly ",
             "Leo Pollersbeck"
         ]
     },
@@ -7214,6 +7215,10 @@
         "currentName": "jorjor wel",
         "formerNames": []
     },
+    "3218": {
+        "currentName": "Harry Johnson",
+        "formerNames": []
+    },
     "3220": {
         "currentName": "Tomba",
         "formerNames": []
@@ -7416,6 +7421,10 @@
     },
     "3312": {
         "currentName": "Fat Lever",
+        "formerNames": []
+    },
+    "3313": {
+        "currentName": "Hiram 'Longshank' Shanahan",
         "formerNames": []
     }
 }
