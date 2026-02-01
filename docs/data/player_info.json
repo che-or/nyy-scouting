@@ -16079,6 +16079,30 @@
         "last_team": "PHI",
         "last_season": "S12"
     },
+    "3314": {
+        "primary_position": "P",
+        "batting_type": "P",
+        "pitching_type": "WC-S",
+        "handedness": "Left"
+    },
+    "3315": {
+        "primary_position": "3B",
+        "batting_type": "1B",
+        "pitching_type": "POS",
+        "handedness": "Left"
+    },
+    "3316": {
+        "primary_position": "LF",
+        "batting_type": "BN",
+        "pitching_type": "POS",
+        "handedness": "Right"
+    },
+    "3317": {
+        "primary_position": "SS",
+        "batting_type": "S",
+        "pitching_type": "POS",
+        "handedness": "Right"
+    },
     "2822": {
         "last_team": "BAL",
         "last_season": "S8"
