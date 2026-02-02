@@ -4536,8 +4536,8 @@
         "last_season": "S6"
     },
     "189": {
-        "primary_position": "CF",
-        "batting_type": "BC",
+        "primary_position": "3B",
+        "batting_type": "1B",
         "pitching_type": "POS",
         "handedness": "Left",
         "last_team": "SFG",
@@ -16086,18 +16086,12 @@
         "handedness": "Left"
     },
     "3315": {
-        "primary_position": "3B",
-        "batting_type": "1B",
-        "pitching_type": "POS",
-        "handedness": "Left"
-    },
-    "3316": {
         "primary_position": "LF",
         "batting_type": "BN",
         "pitching_type": "POS",
         "handedness": "Right"
     },
-    "3317": {
+    "3316": {
         "primary_position": "SS",
         "batting_type": "S",
         "pitching_type": "POS",
