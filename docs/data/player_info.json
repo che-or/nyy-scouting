@@ -12254,9 +12254,9 @@
         "handedness": "Left"
     },
     "2702": {
-        "primary_position": "2B",
+        "primary_position": "PH",
         "batting_type": "HK",
-        "pitching_type": "POS",
+        "pitching_type": "TD-S",
         "handedness": "Right",
         "last_team": "CWS",
         "last_season": "S12"
