@@ -16097,6 +16097,24 @@
         "pitching_type": "POS",
         "handedness": "Right"
     },
+    "3317": {
+        "primary_position": "P",
+        "batting_type": "P",
+        "pitching_type": "WC-S",
+        "handedness": "Right"
+    },
+    "3318": {
+        "primary_position": "3B",
+        "batting_type": "BC",
+        "pitching_type": "POS",
+        "handedness": "Right"
+    },
+    "3319": {
+        "primary_position": "3B",
+        "batting_type": "EN",
+        "pitching_type": "POS",
+        "handedness": "Right"
+    },
     "2822": {
         "last_team": "BAL",
         "last_season": "S8"
