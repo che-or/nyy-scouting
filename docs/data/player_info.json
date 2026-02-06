@@ -6021,7 +6021,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "MIN",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "671": {
         "primary_position": "2B",
@@ -8128,8 +8128,8 @@
     "1686": {
         "primary_position": "P",
         "batting_type": "P",
-        "pitching_type": "NT-H",
-        "handedness": "Right",
+        "pitching_type": "WC-S",
+        "handedness": "Left",
         "last_team": "CLE",
         "last_season": "S5"
     },
@@ -10127,7 +10127,7 @@
         "pitching_type": "TT-S",
         "handedness": "Left",
         "last_team": "MTL",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2524": {
         "primary_position": "3B",
@@ -14888,7 +14888,7 @@
         "batting_type": "SM",
         "pitching_type": "POS",
         "handedness": "Left",
-        "last_team": "LAD",
+        "last_team": "STL",
         "last_season": "S12"
     },
     "3107": {
@@ -16080,38 +16080,38 @@
         "last_season": "S12"
     },
     "3314": {
-        "primary_position": "P",
-        "batting_type": "P",
-        "pitching_type": "WC-S",
-        "handedness": "Left"
-    },
-    "3315": {
         "primary_position": "LF",
         "batting_type": "BN",
         "pitching_type": "POS",
         "handedness": "Right"
     },
-    "3316": {
+    "3315": {
         "primary_position": "SS",
         "batting_type": "S",
         "pitching_type": "POS",
         "handedness": "Right"
     },
-    "3317": {
+    "3316": {
         "primary_position": "P",
         "batting_type": "P",
         "pitching_type": "WC-S",
         "handedness": "Right"
     },
-    "3318": {
+    "3317": {
         "primary_position": "3B",
         "batting_type": "BC",
         "pitching_type": "POS",
         "handedness": "Right"
     },
-    "3319": {
+    "3318": {
         "primary_position": "3B",
         "batting_type": "EN",
+        "pitching_type": "POS",
+        "handedness": "Right"
+    },
+    "3319": {
+        "primary_position": "C",
+        "batting_type": "BP",
         "pitching_type": "POS",
         "handedness": "Right"
     },
