@@ -12860,10 +12860,10 @@
         "handedness": "Left"
     },
     "2795": {
-        "primary_position": "P",
-        "batting_type": "P",
-        "pitching_type": "FP-S",
-        "handedness": "Right",
+        "primary_position": "2B",
+        "batting_type": "SF",
+        "pitching_type": "POS",
+        "handedness": "Left",
         "last_team": "MTL",
         "last_season": "S11"
     },
