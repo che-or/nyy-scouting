@@ -3953,7 +3953,7 @@
     },
     "29": {
         "primary_position": "SS",
-        "batting_type": "SF",
+        "batting_type": "XB",
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "BOS",
@@ -10955,7 +10955,7 @@
         "pitching_type": "EG-H",
         "handedness": "Right",
         "last_team": "MIL",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2614": {
         "primary_position": "CF",
