@@ -16103,13 +16103,17 @@
         "primary_position": "3B",
         "batting_type": "BC",
         "pitching_type": "POS",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "TEX",
+        "last_season": "S12"
     },
     "3318": {
         "primary_position": "3B",
         "batting_type": "EN",
         "pitching_type": "POS",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "TEX",
+        "last_season": "S12"
     },
     "3319": {
         "primary_position": "C",
