@@ -16083,7 +16083,9 @@
         "primary_position": "LF",
         "batting_type": "BN",
         "pitching_type": "POS",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "MTL",
+        "last_season": "S12"
     },
     "3315": {
         "primary_position": "SS",
