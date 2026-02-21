@@ -8252,9 +8252,9 @@
         "last_season": "S5"
     },
     "1834": {
-        "primary_position": "P",
-        "batting_type": "P",
-        "pitching_type": "NT-H",
+        "primary_position": "3B",
+        "batting_type": "S",
+        "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "BAL",
         "last_season": "S11"
@@ -16120,6 +16120,18 @@
     "3319": {
         "primary_position": "C",
         "batting_type": "BP",
+        "pitching_type": "POS",
+        "handedness": "Right"
+    },
+    "3320": {
+        "primary_position": "SS",
+        "batting_type": "BC",
+        "pitching_type": "POS",
+        "handedness": "Right"
+    },
+    "3321": {
+        "primary_position": "1B",
+        "batting_type": "TT",
         "pitching_type": "POS",
         "handedness": "Right"
     },
