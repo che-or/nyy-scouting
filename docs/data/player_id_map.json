@@ -3699,8 +3699,10 @@
         "formerNames": []
     },
     "1834": {
-        "currentName": "Bob Kelso",
-        "formerNames": []
+        "currentName": "Cilantro Onataco",
+        "formerNames": [
+            "Bob Kelso"
+        ]
     },
     "1838": {
         "currentName": "Brian Taylor",

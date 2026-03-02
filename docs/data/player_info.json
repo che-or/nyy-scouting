@@ -8257,7 +8257,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "BAL",
-        "last_season": "S11"
+        "last_season": "S12"
     },
     "2232": {
         "primary_position": "LF",
@@ -11046,11 +11046,11 @@
         "last_season": "S11"
     },
     "2508": {
-        "primary_position": "PH",
+        "primary_position": "3B",
         "batting_type": "SM",
-        "pitching_type": "SF-S",
+        "pitching_type": "POS",
         "handedness": "Right",
-        "last_team": "STL",
+        "last_team": "FLA",
         "last_season": "S12"
     },
     "2570": {
@@ -14256,7 +14256,7 @@
         "batting_type": "P",
         "pitching_type": "NH-S",
         "handedness": "Right",
-        "last_team": "MIL",
+        "last_team": "STL",
         "last_season": "S12"
     },
     "3005": {
