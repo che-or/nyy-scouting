@@ -12110,7 +12110,7 @@
         "batting_type": "BC",
         "pitching_type": "POS",
         "handedness": "Right",
-        "last_team": "PHI",
+        "last_team": "SEA",
         "last_season": "S12"
     },
     "2680": {
@@ -14212,7 +14212,7 @@
         "last_season": "S12"
     },
     "2999": {
-        "primary_position": "1B",
+        "primary_position": "C",
         "batting_type": "BP",
         "pitching_type": "POS",
         "handedness": "Left",
@@ -16030,7 +16030,7 @@
         "batting_type": "BC",
         "pitching_type": "POS",
         "handedness": "Right",
-        "last_team": "BOS",
+        "last_team": "CLE",
         "last_season": "S12"
     },
     "3308": {
