@@ -16045,7 +16045,9 @@
         "primary_position": "CF",
         "batting_type": "BC",
         "pitching_type": "POS",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "PHI",
+        "last_season": "S12"
     },
     "3310": {
         "primary_position": "CF",
