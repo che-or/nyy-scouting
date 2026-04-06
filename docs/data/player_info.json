@@ -16151,6 +16151,12 @@
         "pitching_type": "POS",
         "handedness": "Right"
     },
+    "3324": {
+        "primary_position": "1B",
+        "batting_type": "1B",
+        "pitching_type": "POS",
+        "handedness": "Right"
+    },
     "2822": {
         "last_team": "BAL",
         "last_season": "S8"
