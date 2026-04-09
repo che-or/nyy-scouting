@@ -6687,8 +6687,10 @@
         "formerNames": []
     },
     "3013": {
-        "currentName": "Total Dial",
-        "formerNames": []
+        "currentName": "Big Woop",
+        "formerNames": [
+            "Total Dial"
+        ]
     },
     "3016": {
         "currentName": "Copernicus Hel",

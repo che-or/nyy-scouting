@@ -6600,8 +6600,8 @@
         "last_season": "S12"
     },
     "481": {
-        "primary_position": "P",
-        "batting_type": "P",
+        "primary_position": "PH",
+        "batting_type": "BN",
         "pitching_type": "NH-S",
         "handedness": "Right",
         "last_team": "TBR",
@@ -14204,8 +14204,8 @@
         "last_season": "S11"
     },
     "2998": {
-        "primary_position": "P",
-        "batting_type": "P",
+        "primary_position": "PH",
+        "batting_type": "XB",
         "pitching_type": "WC-S",
         "handedness": "Left",
         "last_team": "PHI",
@@ -16156,6 +16156,12 @@
         "batting_type": "1B",
         "pitching_type": "POS",
         "handedness": "Right"
+    },
+    "3325": {
+        "primary_position": "2B",
+        "batting_type": "WC",
+        "pitching_type": "POS",
+        "handedness": "Left"
     },
     "2822": {
         "last_team": "BAL",
