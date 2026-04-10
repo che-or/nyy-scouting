@@ -10784,10 +10784,10 @@
         "handedness": "Right"
     },
     "2367": {
-        "primary_position": "RF",
-        "batting_type": "HK",
+        "primary_position": "CF",
+        "batting_type": "BN",
         "pitching_type": "POS",
-        "handedness": "Left",
+        "handedness": "Right",
         "last_team": "TBR",
         "last_season": "S7"
     },
