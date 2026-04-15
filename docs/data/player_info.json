@@ -16163,6 +16163,12 @@
         "pitching_type": "POS",
         "handedness": "Left"
     },
+    "3372": {
+        "primary_position": "LF",
+        "batting_type": "MH",
+        "pitching_type": "POS",
+        "handedness": "Left"
+    },
     "2822": {
         "last_team": "BAL",
         "last_season": "S8"
