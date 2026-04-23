@@ -4244,7 +4244,7 @@
         "batting_type": "1B",
         "pitching_type": "POS",
         "handedness": "Right",
-        "last_team": "HOU",
+        "last_team": "ATL",
         "last_season": "S12"
     },
     "121": {
@@ -10180,8 +10180,8 @@
         "batting_type": "1B",
         "pitching_type": "POS",
         "handedness": "Right",
-        "last_team": "NYM",
-        "last_season": "S8"
+        "last_team": "MIL",
+        "last_season": "S12"
     },
     "2583": {
         "primary_position": "2B",
