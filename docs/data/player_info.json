@@ -15925,7 +15925,9 @@
         "primary_position": "C",
         "batting_type": "SM",
         "pitching_type": "POS",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "BOS",
+        "last_season": "S12"
     },
     "3271": {
         "primary_position": "LF",
