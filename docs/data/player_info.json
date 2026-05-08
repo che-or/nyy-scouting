@@ -11055,9 +11055,9 @@
     },
     "2570": {
         "primary_position": "1B",
-        "batting_type": "BP",
+        "batting_type": "WC",
         "pitching_type": "POS",
-        "handedness": "Right",
+        "handedness": "Left",
         "last_team": "STL",
         "last_season": "S8"
     },
@@ -16170,6 +16170,12 @@
         "batting_type": "MH",
         "pitching_type": "POS",
         "handedness": "Left"
+    },
+    "3373": {
+        "primary_position": "SS",
+        "batting_type": "WC",
+        "pitching_type": "POS",
+        "handedness": "Right"
     },
     "2822": {
         "last_team": "BAL",
