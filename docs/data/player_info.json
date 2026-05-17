@@ -11058,8 +11058,8 @@
         "batting_type": "WC",
         "pitching_type": "POS",
         "handedness": "Left",
-        "last_team": "STL",
-        "last_season": "S8"
+        "last_team": "TEX",
+        "last_season": "S12"
     },
     "2571": {
         "primary_position": "2B",
@@ -15438,7 +15438,7 @@
         "batting_type": "BC",
         "pitching_type": "POS",
         "handedness": "Right",
-        "last_team": "PIT",
+        "last_team": "TEX",
         "last_season": "S12"
     },
     "3205": {
@@ -16040,7 +16040,7 @@
         "batting_type": "SM",
         "pitching_type": "POS",
         "handedness": "Left",
-        "last_team": "BOS",
+        "last_team": "SDP",
         "last_season": "S12"
     },
     "3309": {
