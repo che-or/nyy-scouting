@@ -2403,8 +2403,9 @@
         "formerNames": []
     },
     "529": {
-        "currentName": "Wheeler",
+        "currentName": "Big Telemachus",
         "formerNames": [
+            "Wheeler",
             "Psycopathic Goblin",
             "Holden Beers",
             "Kyle Mullins",
@@ -6293,8 +6294,10 @@
         "formerNames": []
     },
     "2878": {
-        "currentName": "Goaty McGoatFace",
-        "formerNames": []
+        "currentName": "Goaticus Von Boaticus",
+        "formerNames": [
+            "Goaty McGoatFace"
+        ]
     },
     "2879": {
         "currentName": "Hickey Renderson",
