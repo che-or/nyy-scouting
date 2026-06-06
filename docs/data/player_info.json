@@ -2988,7 +2988,7 @@
         "batting_type": "P",
         "pitching_type": "EN-S",
         "handedness": "Left",
-        "last_team": "ATL",
+        "last_team": "PIT",
         "last_season": "S12"
     },
     "414": {
@@ -12626,8 +12626,8 @@
         "last_season": "S12"
     },
     "2761": {
-        "primary_position": "C",
-        "batting_type": "TT",
+        "primary_position": "1B",
+        "batting_type": "BC",
         "pitching_type": "POS",
         "handedness": "Left",
         "last_team": "CHC",
