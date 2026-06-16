@@ -10986,9 +10986,9 @@
         "last_season": "S10"
     },
     "2499": {
-        "primary_position": "PH",
+        "primary_position": "LF",
         "batting_type": "XB",
-        "pitching_type": "WC-B",
+        "pitching_type": "POS",
         "handedness": "Left",
         "last_team": "TOR",
         "last_season": "S12"
