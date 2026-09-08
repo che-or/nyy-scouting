@@ -1,92 +1,4 @@
 {
-    "-22": {
-        "currentName": "Eric Tsai",
-        "formerNames": []
-    },
-    "-21": {
-        "currentName": "William Constantine",
-        "formerNames": []
-    },
-    "-20": {
-        "currentName": "I.M. Robbot",
-        "formerNames": []
-    },
-    "-19": {
-        "currentName": "Aaron Range",
-        "formerNames": []
-    },
-    "-18": {
-        "currentName": "Khalil Underscore",
-        "formerNames": []
-    },
-    "-17": {
-        "currentName": "Hyper Scoops",
-        "formerNames": []
-    },
-    "-16": {
-        "currentName": "Bix Kayne",
-        "formerNames": []
-    },
-    "-15": {
-        "currentName": "Art Inova",
-        "formerNames": []
-    },
-    "-14": {
-        "currentName": "Clark Web",
-        "formerNames": []
-    },
-    "-13": {
-        "currentName": "John C. Johnson",
-        "formerNames": []
-    },
-    "-12": {
-        "currentName": "Rick Gymnast",
-        "formerNames": []
-    },
-    "-11": {
-        "currentName": "falcs51",
-        "formerNames": []
-    },
-    "-10": {
-        "currentName": "Obi-Wan Canoli",
-        "formerNames": []
-    },
-    "-9": {
-        "currentName": "Rupert Apple",
-        "formerNames": []
-    },
-    "-8": {
-        "currentName": "Justin Virga",
-        "formerNames": []
-    },
-    "-7": {
-        "currentName": "Jay Lupp",
-        "formerNames": []
-    },
-    "-6": {
-        "currentName": "Hashcoin Shitstorm",
-        "formerNames": []
-    },
-    "-5": {
-        "currentName": "Luis Flemus",
-        "formerNames": []
-    },
-    "-4": {
-        "currentName": "Daniel Maymoun",
-        "formerNames": []
-    },
-    "-3": {
-        "currentName": "Matt Carver",
-        "formerNames": []
-    },
-    "-2": {
-        "currentName": "Yacob Yevans",
-        "formerNames": []
-    },
-    "-1": {
-        "currentName": "Junks Tandem",
-        "formerNames": []
-    },
     "1": {
         "currentName": "Thomas Nova",
         "formerNames": []
@@ -244,9 +156,7 @@
     },
     "35": {
         "currentName": "Jeffrey Nolan",
-        "formerNames": [
-            "Jeffery Nolan"
-        ]
+        "formerNames": []
     },
     "36": {
         "currentName": "Jericho Caulfield",
@@ -461,9 +371,7 @@
     },
     "82": {
         "currentName": "Juan Diego De Las Rosas",
-        "formerNames": [
-            "J.D. De Las Rosas"
-        ]
+        "formerNames": []
     },
     "83": {
         "currentName": "Les Dee-Ache",
@@ -865,8 +773,7 @@
     "167": {
         "currentName": "Ronald Eagle Jr.",
         "formerNames": [
-            "Ronald Eagle Sr.",
-            "Ronald Eagle, Sr."
+            "Ronald Eagle Sr."
         ]
     },
     "168": {
@@ -2195,7 +2102,9 @@
     },
     "464": {
         "currentName": "Bronske Jones",
-        "formerNames": []
+        "formerNames": [
+            "Daniel Maymoun"
+        ]
     },
     "466": {
         "currentName": "Pewdiepie",
@@ -2307,10 +2216,6 @@
     },
     "495": {
         "currentName": "Oral Nanny",
-        "formerNames": []
-    },
-    "496": {
-        "currentName": "Mike Hunt",
         "formerNames": []
     },
     "497": {
@@ -2638,7 +2543,9 @@
     },
     "604": {
         "currentName": "Callie Braden",
-        "formerNames": []
+        "formerNames": [
+            "Eric Tsai"
+        ]
     },
     "605": {
         "currentName": "Sini Alexander",
@@ -2767,9 +2674,7 @@
     },
     "651": {
         "currentName": "Rusty Nails",
-        "formerNames": [
-            "Rusty  Nails"
-        ]
+        "formerNames": []
     },
     "653": {
         "currentName": "Jobert Maclin",
@@ -3836,6 +3741,10 @@
         "currentName": "Ludd Van Shark",
         "formerNames": []
     },
+    "1971": {
+        "currentName": "Mike Hunt",
+        "formerNames": []
+    },
     "1972": {
         "currentName": "Bernie Petrol",
         "formerNames": []
@@ -4147,9 +4056,7 @@
     },
     "2056": {
         "currentName": "Moritz Stiefel",
-        "formerNames": [
-            "Moritz Steifel"
-        ]
+        "formerNames": []
     },
     "2057": {
         "currentName": "Pi Bacon",
@@ -4345,10 +4252,6 @@
     },
     "2109": {
         "currentName": "Cody Omega",
-        "formerNames": []
-    },
-    "2111": {
-        "currentName": "Cy Hadd",
         "formerNames": []
     },
     "2113": {
@@ -5613,7 +5516,6 @@
     "2640": {
         "currentName": "Anthony Barkevious IV",
         "formerNames": [
-            "Anthony Barkevious IV ",
             "Coltrane McClaine"
         ]
     },
@@ -6004,7 +5906,6 @@
     "2785": {
         "currentName": "Basil",
         "formerNames": [
-            "Basil ",
             "Kai Johnson"
         ]
     },
@@ -6110,10 +6011,6 @@
     },
     "2821": {
         "currentName": "Jack Parkman",
-        "formerNames": []
-    },
-    "2822": {
-        "currentName": "IMPORT ERROR",
         "formerNames": []
     },
     "2823": {
@@ -6288,7 +6185,6 @@
     "2875": {
         "currentName": "Velma Dingkerly",
         "formerNames": [
-            "Velma Dingkerly ",
             "Leo Pollersbeck"
         ]
     },
@@ -6351,8 +6247,9 @@
         "formerNames": []
     },
     "2897": {
-        "currentName": "Dr. Chocochoco Choo Choo",
+        "currentName": "Nana Choc",
         "formerNames": [
+            "Dr. Chocochoco Choo Choo",
             "Choc Tuah",
             "XxBlaise Bailey Finnegan IIIxX",
             "Choc Banana"
@@ -7154,8 +7051,10 @@
         "formerNames": []
     },
     "3180": {
-        "currentName": "Sir Walks-A-Littlw",
-        "formerNames": []
+        "currentName": "Walks",
+        "formerNames": [
+            "Sir Walks-A-Littlw"
+        ]
     },
     "3181": {
         "currentName": "Jingle Bohnson",
@@ -7215,7 +7114,9 @@
     },
     "3208": {
         "currentName": "Lillian Fields",
-        "formerNames": []
+        "formerNames": [
+            "Kendrick Lamar"
+        ]
     },
     "3213": {
         "currentName": "Henry McCade",
@@ -7389,6 +7290,90 @@
         "currentName": "Cher Noble",
         "formerNames": []
     },
+    "3275": {
+        "currentName": "Luis Flemus",
+        "formerNames": []
+    },
+    "3276": {
+        "currentName": "Junks Tandem",
+        "formerNames": []
+    },
+    "3277": {
+        "currentName": "Hashcoin Shitstorm",
+        "formerNames": []
+    },
+    "3278": {
+        "currentName": "Jay Lupp",
+        "formerNames": []
+    },
+    "3279": {
+        "currentName": "Justin Virga",
+        "formerNames": []
+    },
+    "3280": {
+        "currentName": "Rupert Apple",
+        "formerNames": []
+    },
+    "3281": {
+        "currentName": "Obi-Wan Canoli",
+        "formerNames": []
+    },
+    "3282": {
+        "currentName": "falcs51",
+        "formerNames": []
+    },
+    "3283": {
+        "currentName": "Rick Gymnast",
+        "formerNames": []
+    },
+    "3284": {
+        "currentName": "John C. Johnson",
+        "formerNames": []
+    },
+    "3285": {
+        "currentName": "Clark Web",
+        "formerNames": []
+    },
+    "3286": {
+        "currentName": "Art Inova",
+        "formerNames": []
+    },
+    "3287": {
+        "currentName": "Bix Kayne",
+        "formerNames": []
+    },
+    "3288": {
+        "currentName": "Hyper Scoops",
+        "formerNames": []
+    },
+    "3289": {
+        "currentName": "Khalil Underscore",
+        "formerNames": []
+    },
+    "3290": {
+        "currentName": "Aaron Range",
+        "formerNames": []
+    },
+    "3291": {
+        "currentName": "I.M. Robbot",
+        "formerNames": []
+    },
+    "3292": {
+        "currentName": "William Constantine",
+        "formerNames": []
+    },
+    "3293": {
+        "currentName": "Yacob Yevans",
+        "formerNames": []
+    },
+    "3294": {
+        "currentName": "Matt Carver",
+        "formerNames": []
+    },
+    "3295": {
+        "currentName": "Cy Hadd",
+        "formerNames": []
+    },
     "3297": {
         "currentName": "Damon Razor",
         "formerNames": []
@@ -7475,6 +7460,94 @@
     },
     "3324": {
         "currentName": "Gurt",
+        "formerNames": []
+    },
+    "3374": {
+        "currentName": "Felipe Coyne",
+        "formerNames": []
+    },
+    "3378": {
+        "currentName": "Kenji Matsumoto",
+        "formerNames": []
+    },
+    "3380": {
+        "currentName": "Gracie Cwej-Mlodzianowski",
+        "formerNames": []
+    },
+    "3381": {
+        "currentName": "Socks Maybe",
+        "formerNames": []
+    },
+    "3383": {
+        "currentName": "Alan",
+        "formerNames": []
+    },
+    "3387": {
+        "currentName": "Jah Muis",
+        "formerNames": []
+    },
+    "3388": {
+        "currentName": "Benny Schwa",
+        "formerNames": []
+    },
+    "3390": {
+        "currentName": "Arlon Gemini",
+        "formerNames": []
+    },
+    "3401": {
+        "currentName": "Heliotrope Selenifuge Jr.",
+        "formerNames": []
+    },
+    "3405": {
+        "currentName": "Tanya Degurechaff",
+        "formerNames": []
+    },
+    "3414": {
+        "currentName": "Allidois Nguyen",
+        "formerNames": []
+    },
+    "3415": {
+        "currentName": "Harto Thekhards",
+        "formerNames": []
+    },
+    "3423": {
+        "currentName": "Scooter Funkypants",
+        "formerNames": []
+    },
+    "3430": {
+        "currentName": "Krbmeister",
+        "formerNames": []
+    },
+    "3432": {
+        "currentName": "Nathan Explosion",
+        "formerNames": []
+    },
+    "3441": {
+        "currentName": "Fred Fredericks",
+        "formerNames": []
+    },
+    "3444": {
+        "currentName": "Rabs Roland",
+        "formerNames": []
+    },
+    "3448": {
+        "currentName": "Knight Newton",
+        "formerNames": []
+    },
+    "3464": {
+        "currentName": "Willie Ruth",
+        "formerNames": []
+    },
+    "3467": {
+        "currentName": "Alexa Quick",
+        "formerNames": []
+    },
+    "3469": {
+        "currentName": "Auspicious Infinity",
+        "formerNames": []
+    },
+    "3470": {
+        "currentName": "Max Muncy",
         "formerNames": []
     }
 }

@@ -1,5 +1,4 @@
 from data_loader import load_all_seasons, load_player_types
-from gamelog_corrections import apply_gamelog_corrections
 import pandas as pd
 import sys
 import json
@@ -265,7 +264,10 @@ def main():
                 if pid not in player_info:
                     player_info[pid] = {}
                 for key, value in data.items():
-                    if value is not None:
+                    # pd.notna guards against NaN slipping through (an all-null
+                    # column stays float64, so .where(..., None) leaves NaN),
+                    # which json.dump would emit as invalid `NaN` tokens.
+                    if value is not None and pd.notna(value):
                         player_info[pid][key] = value
 
     print("Reconciling player IDs across seasons...")
@@ -316,12 +318,6 @@ def main():
     no_id_mask_hitter = combined_df['Hitter ID'].isna()
     if no_id_mask_hitter.any():
         combined_df.loc[no_id_mask_hitter, 'Hitter ID'] = combined_df.loc[no_id_mask_hitter, 'Hitter'].apply(get_or_assign_temp_id)
-
-    print("Applying manual gamelog corrections...")
-    combined_df = combined_df.groupby(['Season', 'Game ID']).apply(
-        lambda g: apply_gamelog_corrections(g, g.name), include_groups=False
-    ).reset_index()
-    print("Gamelog corrections applied.")
 
     all_players = pd.concat([
         combined_df[['Hitter ID', 'Hitter', 'Season', 'Session', 'Batter Team']].rename(columns={'Hitter ID': 'Player ID', 'Hitter': 'Player Name', 'Batter Team': 'Team'})
