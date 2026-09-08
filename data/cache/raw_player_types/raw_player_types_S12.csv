@@ -1,594 +1,566 @@
-Player ID,Name,Team,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary Position,Secondary Position,Teritary Position,Reddit Username,Discord Username,Format #,Status,POS Value,MiLR Status,MiLR Team
-1,Thomas Nova,STL,TT,NH,S,Left,C,3B,2B,/u/AtomikaNova,daitryu,53,1,4,,
-3,Syd Kidd,KCR,BN,EG,B,Left,P,,,/u/MNSyd,iaresyd,53,1,2,,
-5,Y.E. Wally,TEX,TT,WC,H,Right,P,,,/u/whywebuildthewall,y.e.wally,53,1,2,,
-10,Holden Summers,TBR,BC,BS,H,Left,2B,RF,C,/u/SemiCharmedMike,semicharmedmike,53,1,6,,
-14,Baba Ganoosh,OAK,TT,,,Right,LF,RF,3B,/u/AZAthleticsfan,,53,1,9,,
-20,Q Kimbrel,PHI,WC,NH,S,Right,CF,LF,SS,/u/imcerebrus,qkimmel7,53,1,10,1.0,WWC
-21,Silver Edgeworth,,BN,TD,B,Right,DH,,,/u/Eddytarr,SilverEdgeLord#9453,53,1,3,,
-32,Larry Longshot,BAL,EN,EN,B,Right,CF,RF,LF,/u/TrickyTroy2,larold,23,1,10,1.0,SCR
-34,Dixon Uraz,BOS,WC,EG,H,Left,RF,CF,LF,/u/club_toasty,club_toasty,33,1,11,1.0,SCR
-37,Artanis Jones,FLA,SM,BS,H,Left,P,,,/u/AdmiralJones42,admiraljones,53,1,2,,
-39,Commie Ohtani,COL,BC,NH,H,Right,P,,,/u/kickthepony,kickthepony,53,1,2,,
-48,Willow Briansdóttir,SFG,BC,FP,S,Right,2B,RF,SS,/u/jokullmusic,joks,53,1,6,,
-54,Holly Kühnhackl,SFG,XB,NT,H,Left,SS,CF,,/u/MLR_NoReddit_User,southoffinland,53,1,8,,
-55,Rick McLightning,CIN,BN,,,Right,RF,1B,3B,/u/evan466,evan466,53,1,11,,
-59,La+ Darknesss,SDP,BC,NT,H,Left,P,,,/u/Huskerfan90001,annadeneko,53,1,2,1.0,
-65,Dakota Carolina Montana,PHI,BC,BB,H,Right,1B,LF,3B,/u/New-Analysis-4060,dakotacarolinamontana,33,1,5,,
-66,Daniel Dove,SEA,SF,BB,H,Right,2B,RF,LF,/u/Smurfman254,smurfman254,53,1,6,,
-68,Erin Pickles,CHC,WC,TD,H,Right,2B,SS,C,/u/erindizmo,erindizmo,53,1,6,,
-71,Miroslav,TOR,1B,FP,S,Right,CF,RF,,/u/nikolaer_,nikolaer_,53,1,10,,
-73,Jack Alpha,COL,BN,BB,B,Right,3B,LF,C,/u/androidsen,androidsen,11,1,7,,
-76,Hank Murphy,COL,BN,BF,S,Left,P,,,/u/squishfacethegloop,hankmurphy,33,1,2,1.0,PQD
-80,Steel Pipe Simpson,COL,BP,FP,S,Left,1B,LF,,/u/ClintonBalls,alch233,53,1,5,,
-81,Dick McScrotington,COL,BC,,,Left,2B,SS,,/u/ConstantQuarreling,,53,1,6,,
-82,Juan Diego De Las Rosas,COL,1B,,,Right,2B,SS,,/u/Dancingtree444,,53,1,6,,
-84,Henrik Omega,COL,BP,FP,S,Left,3B,SS,,/u/tomas3345,bigbossuru,53,1,7,,
-89,Gottlieb Giannopolous,COL,EN,BF,S,Right,C,1B,RF,/u/HighVoltLemonBattery,Lemon Battery #4879,53,1,4,1.0,
-91,John Johnson Jr.,SDP,TT,BF,H,Right,3B,LF,SS,/u/Barnsley1001,barno,53,1,7,,
-93,Tree Fiddy,ARI,WC,,,Right,LF,RF,,/u/MasterCashier,mastercashier,53,1,9,,
-99,Tyler Phoenix,DET,SM,,,Right,1B,3B,SS,/u/Touchdownmike55,touchdownmike55,53,1,5,,
-100,Merodach Baladan,DET,1B,WC,B,Right,P,,,/u/ghostelephant,ghostelephant,53,1,2,,
-103,Mason Spurs,BAL,S,EG,S,Left,P,,,/u/miasanspurs,,53,1,2,,
-104,Morris Deratt,DET,BN,,,Left,LF,RF,2B,/u/debater3301,kylek810,53,1,9,,
-108,Phillip J Fry,HOU,BC,BS,S,Left,C,1B,2B,/u/brownspectacledbear,wilburforresterwood,23,1,4,,
-109,Pauiie Wag,HOU,BP,FP,B,Right,C,3B,,/u/MiguelSlamdujar,dbon,53,1,4,,
-112,Willoughby Hoose,HOU,SM,TT,H,Left,P,,,/u/Woozy_Woozle,woozy_woozle,53,1,2,,
-113,Kevin Arianna,HOU,HK,TD,S,Left,C,3B,2B,/u/hiariannalol,,53,1,4,,
-114,Rocco Rudnikov,TEX,HK,BF,H,Right,P,,,/u/BrockSlamson,brockslamson,53,1,2,,
-117,Harry Peritestes,HOU,1B,EG,H,Right,PH,,,/u/Huskie1997,jpulto,13,1,1,1.0,WWC
-119,Ola Gjeilo,HOU,1B,TT,H,Right,SS,2B,LF,/u/munkysnuflz,munkysnuflz,51,1,8,,
-127,Blaise Bailey Finnegan III,OAK,SF,EN,S,Right,RF,CF,LF,/u/zandthesecond,zand37,53,1,11,1.0,DDD
-130,Mongy Whumpus,KCR,1B,TD,H,Left,C,1B,3B,/u/Zephaerus,the_slaw,53,1,4,,
-131,Nori Aru,,TT,FP,H,Left,RF,1B,,/u/Ocelot_Tuga,nori_aru,53,1,11,,
-134,Dart Ragusa,NYM,MH,EG,S,Right,1B,3B,RF,/u/Dart31AF,thedart31,23,1,5,1.0,SAL
-138,Donnie Draper,NYY,S,TT,S,Right,2B,SS,3B,/u/-Don-Draper-,thedondraper,33,1,6,,
-140,Rob Patterson,KCR,EN,,,Left,CF,LF,1B,/u/pappy96,pappy96,53,1,10,,
-151,Indy Sayne,KCR,BC,WC,S,Right,C,1B,3B,/u/Museamaniac,museamaniac,53,1,4,,
-161,Girth Brooks,SDP,BN,,,Right,LF,1B,C,/u/Velocitron,.velocitron,53,1,9,,
-163,Tuck,LAD,1B,FP,H,Left,CF,RF,2B,/u/amesker,tuck7,33,1,10,,
-165,Geno Scaramucci,LAD,WC,NH,S,Left,1B,LF,,/u/Silky_Mango,silkymango,53,1,5,,
-166,Lefty Louis,SFG,SF,FP,S,Left,P,,,/u/lewislewes,lewislewes,53,1,2,,
-168,Bo-Horse Jackman,LAD,BN,,,Right,C,3B,,/u/Phillyproud21,phillyproud21,53,1,4,,
-169,Todd Bonzalez II,,BN,,,Left,1B,LF,C,/u/Spear585,onlyfenns,53,1,5,,
-170,Aych Imtiyaz,LAD,BC,TD,H,Right,2B,1B,SS,/u/Aychim23,Aych#2738,53,1,6,,
-178,Hannah Outlaw,CWS,BN,,,Left,CF,RF,C,/u/theshinymew64,awildhannahappeared,53,1,10,,
-180,Demetrios Ooga,CLE,BC,BS,S,Left,C,3B,RF,/u/oogadebob,oogadebob,43,1,4,,
-183,Erin Theolia,SDP,BC,WC,H,Right,P,,,/u/sovietninetales,valpix,53,1,2,,
-190,Lane Drew,FLA,BC,NH,S,Left,LF,1B,SS,/u/StridentBoss,Stride#5944,53,1,9,,
-191,Andrew REDACTED Nova,COL,BC,TT,H,Right,LF,1B,RF,/u/Schauera30,.andrewsc,53,1,9,,
-198,Skye Comet,ATL,S,EN,S,Left,P,,,/u/Almy43,curealmy,53,1,2,,
-204,Coco Watanabe,LAD,1B,BB,S,Right,C,3B,1B,/u/jorleeduf,jorleeduf,53,1,4,,
-219,Chris Orosz,CHC,SM,EG,B,Left,C,3B,CF,/u/Aenir01,aenir07,53,1,4,,
-220,Charles Magnus,PHI,S,BS,S,Right,RF,CF,C,/u/CharlemagneOfTheUSA,cassiopeia__,53,1,11,,
-226,Phil Coulson,PHI,SF,,,Left,3B,2B,LF,/u/PHICOU10,philc14,53,1,7,,
-230,Howie Feltersnatch,CWS,XB,,,Right,3B,2B,,/u/Vauntice,gasbreads,53,1,7,1.0,
-233,Johnny Dickshot,LAD,BP,TD,H,Right,SS,3B,RF,/u/NumberOneDork,numberonedork,53,1,8,1.0,
-238,Ben Bramly,NYM,SF,EN,B,Right,C,3B,RF,/u/bzb113,bennys,53,1,4,,
-241,Jay Money,ARI,HK,WC,H,Right,1B,LF,2B,/u/iJayMoney,TFiiC#0879,53,1,5,,
-255,S. Jay Cutler,BAL,EN,WC,B,Left,C,1B,CF,/u/Mellam0,mellam0,53,1,4,,
-258,Ty Palmatier,BOS,BP,BS,B,Right,P,,,/u/Jagsfootball51,jags,53,1,2,,
-259,Mr Peggable,NYY,WC,EG,S,Right,2B,SS,3B,/u/Twilight_Ike_Galaxy,big_botto_m,23,1,6,1.0,KEG
-262,Dirtbag Darrell,FLA,SM,EG,S,Left,PH,,,/u/bearded_wildcard,wildcard09,13,1,1,1.0,SCR
-264,Skye McDowell,TBR,WC,WC,S,Right,2B,RF,SS,/u/nayseloid,starryyskye,53,1,6,,
-265,Grand Slamdalf,CIN,BP,EG,H,Right,3B,LF,,/u/Vulfzilla,vulfzilla,53,1,7,,
-268,Jefferson Steelflex,COL,XB,EN,B,Left,CF,LF,1B,/u/cardinalidae,yokotuna,53,1,10,,
-270,Ferda Bois,CIN,HK,TT,S,Right,P,,,/u/DaveyClarkman4Prez,it's mason#6682,53,1,2,,
-271,Assassin Xekutioner,BAL,BC,BF,H,Left,2B,RF,CF,/u/TheXekutioner,thexekutioner,53,1,6,,
-275,Richard Northstar,SDP,WC,FP,S,Left,P,,,/u/StrategyGameventures,nectarofambrosia,53,1,2,1.0,
-278,Dominus Nominus,NYM,1B,BS,B,Right,LF,1B,C,/u/steelermade28,bucmade28,53,1,9,,
-287,Dongmen Ximen,PHI,BC,TD,B,Right,SS,2B,1B,/u/kc3551,kc3551,53,1,8,,
-290,Miguel Snow Jr,LAD,XB,BF,S,Right,P,,,/u/biigdog,madno6,53,1,2,,
-295,Jocko Jones,LAD,BN,,,Right,2B,RF,CF,/u/Dodger_Rej3ct,1ashen_1,53,1,6,,
-298,Jeff Dingerhitter,PHI,BC,BB,B,Left,SS,CF,C,/u/thedarkonesarehere,jsnyc,53,1,8,,
-301,Joe Pidgeon,CLE,WC,WC,S,Right,P,,,/u/AnAngryPidgeon,anangrypidgeon,33,1,2,1.0,KEG
-305,Dylan Green,PIT,BC,FP,H,Left,1B,3B,RF,/u/RamblingWreckFromGT,dylang5,53,1,5,,
-308,Moose McCracken,PIT,BC,,,Right,C,3B,RF,/u/KitandCanoodle,honorsystem,53,1,4,,
-309,Emer Bock,PIT,BN,,,Left,1B,LF,RF,/u/gitisbaggz,marjoriemynxpitrecorder,53,1,5,,
-310,Jameson Poe,PHI,WC,TT,H,Right,P,,,/u/Toli820,jamesonpoe,53,1,2,1.0,WWC
-327,Makesiondon Kelkboom,TBR,WC,,,Right,C,1B,3B,/u/AZhawk,Tenny#1917,53,1,4,,
-331,KeyElle,SDP,SM,NH,S,Right,PH,,,/u/Ashbymtg,keyo,13,1,1,1.0,SEF
-337,Andrew Peters,TOR,BN,BS,H,Left,P,,,/u/GoodMorningWood,goodmorningwood,53,1,2,,
-339,Isaac Snowbender,CIN,HK,1B,S,Left,C,3B,LF,/u/mvh1015,mvh1015,23,1,4,,
-344,Mongster Mash,TOR,1B,NT,H,Left,3B,SS,CF,/u/mongster03_,mongster_03,53,1,7,,
-349,Kentho Birne,CIN,BC,TT,H,Left,RF,1B,SS,/u/Natsochist,natsochist,53,1,11,,
-350,Lightning Balls,CIN,BC,,,Right,RF,CF,3B,/u/lightning_balls,lightning_balls,53,1,11,,
-354,Jack Jackie Jackson,TOR,MH,,,Right,C,1B,LF,/u/Jaxx_on,jaxx_on,53,1,4,,
-355,Alvin and the Chipmunks Chipwrecked,DET,BP,,,Left,C,3B,1B,/u/Iamdumberdore,fr28k,53,1,4,,
-357,Stan Mann,STL,1B,,,Right,3B,2B,LF,/u/kylesell,celciusii,53,1,7,,
-361,Matt Himynamis,PIT,WC,FP,S,Right,P,,,/u/Hi_mynameis_Matt,hi_mynameis_matt,33,1,2,1.0,SDV
-362,Connor Morgan,KCR,BC,,,Right,3B,LF,2B,/u/bigvoldaddy,bigvoldaddy,53,1,7,,
-371,Robin Reynolds,ANA,,TT,S,Right,P,,,/u/kekar29,,53,1,2,,
-378,Carly Bae,PHI,BC,EG,H,Right,P,,,/u/Scum-Phoenix,,53,1,2,,
-391,Jasper de Bever,MTL,WC,NT,S,Right,2B,RF,CF,/u/ex1tway,reflectionblues,53,1,6,,
-392,Haydn Werfer,TBR,S,WC,S,Left,P,,,/u/XemyrLexasey,xemyrlebeau,53,1,2,,
-394,Ryan Gastings,TOR,SM,EG,B,Left,P,,,/u/roothockey,aspence,53,1,2,,
-395,S.A.R. Dinka,TOR,1B,WC,H,Right,P,,,/u/sardinka,sardinka,53,1,2,,
-396,Mylo Grams,TOR,BC,TT,S,Right,C,3B,1B,/u/canigetawoop_woop,mylograms,23,1,4,,
-400,Graham Grams,TOR,BC,WC,S,Left,2B,RF,SS,/u/roleplayinggrandma1,roleplayinggrandma,33,1,6,,
-402,Amelia,SDP,SF,,,Right,2B,RF,,/u/maddydotcom,ameliadotweb,53,1,6,,
-405,Sven Jorgenson,TOR,BC,,,Right,3B,2B,SS,/u/LetsHaveAwkwardSex,,53,1,7,,
-413,Superbone Threefinger,CLE,XB,NH,S,Right,2B,SS,3B,/u/23baseball3,superbone,53,1,6,,
-443,Hess Nahstee,SFG,1B,,,Right,1B,LF,C,/u/snasty728,,53,1,5,,
-471,Kowboy Rivers,ANA,TT,NT,B,Right,P,,,/u/Redditor_1022,kkowboy,53,1,2,,
-479,Revan Skywalker,,WC,BS,H,Left,2B,SS,CF,/u/revan1211,revan1211,53,1,6,,
-480,Captain Harry C Legs,TOR,BP,,,Left,2B,RF,C,/u/i_like_space,legs,53,1,6,,
-481,Don Chalupa,TBR,BN,NH,S,Right,P,,,/u/Wiulamas,.jslamas,23,1,2,,
-485,Cal Q. Lon,MIN,TT,EG,S,Right,P,,,/u/theFrownTownClown,frowntownclown,33,1,2,,
-488,Juni ''XOXO'' Panda RX-78-69,CIN,HK,TT,H,Left,2B,SS,1B,/u/juniped,juniped,53,1,6,,
-490,Zelk Antilles,CIN,WC,FP,H,Right,2B,SS,C,/u/CaptainSolo96,captainjacensolo,13,1,6,,
-492,Wallace Grommet,NYM,BC,EG,S,Right,2B,1B,LF,/u/klittle6,kaylittle6,53,1,6,1.0,
-516,Brick Bruiser,MIL,TT,WC,H,Right,C,3B,1B,/u/TheDuckyNinja,busterducks,33,1,4,,
-517,Ryan Tyburn,CLE,1B,NH,H,Right,P,,,/u/thelordstrum,,53,1,2,1.0,DDD
-518,Arthur Vandelay,MIN,SF,FP,S,Left,C,1B,2B,/u/Dahdscear,8_art_8,23,1,4,,
-522,Good Doggo,CHC,TT,EG,S,Right,2B,RF,C,/u/FlamboDoggo,JRequis#7202,53,1,6,,
-525,Cam'ron Simmons,SDP,1B,TD,H,Right,2B,SS,,/u/DPZ1156,dpz1156,53,1,6,,
-529,Wheeler,ANA,SF,BS,H,Left,2B,SS,,/u/Not_Really_Jon_Snow,turtles_allthe_waydown,53,1,6,,
-530,Ping Pong,MIN,MH,,,Left,1B,LF,SS,/u/Bearmay33,,53,1,5,,
-534,Bill Billiamson,,1B,EN,B,Right,CF,RF,,/u/Grhlk,,53,1,10,,
-549,Paddy O'Connor,MIL,1B,TT,H,Left,LF,RF,CF,/u/Apom52,apom52,53,1,9,,
-557,Monty Johnson,STL,WC,,,Left,C,3B,LF,/u/TheMontyJohnson,themontyjohnson,53,1,4,,
-559,Big T,NYY,TT,,,Left,SS,2B,RF,/u/mrmouseman,.hotdiggitydog,53,1,8,,
-563,Fizzbear Doormat,FLA,BP,NT,H,Left,2B,SS,RF,/u/Metsareawesome5,metsareawesome5,53,1,6,,
-564,Nate Kondylis,ATL,XB,,,Right,CF,RF,SS,/u/phillygear3,therealnc3,53,1,10,1.0,
-567,Tucker Doubt,CIN,BC,FP,B,Left,LF,RF,CF,/u/MikeyTKO,mikeytko,53,1,9,,
-583,Derek Bon Giovanni,HOU,BC,TD,H,Left,P,,,/u/Sandsrashu,pelochyta,33,1,2,,
-597,Charpasm Chim,CIN,XB,SF,H,Left,RF,CF,2B,/u/ssk417,ssk417,53,1,11,1.0,
-606,Homer Nocker,MIN,1B,EG,S,Right,C,3B,LF,/u/CableCubed,cablecubed,12,1,4,1.0,SCR
-607,Eli Sasak,CWS,BP,TT,H,Right,P,,,/u/TheRealDraid,draid,53,1,2,,
-610,Francis Swagger,DET,MH,BS,H,Left,P,,,/u/bellysk8er2005,bellysk8er2005,53,1,2,,
-620,Edward Duncan,COL,BP,BS,S,Right,RF,CF,1B,/u/ESCMalfunction,escmalfunction,53,1,11,,
-622,Delta Airlines,BOS,1B,WC,B,Left,CF,RF,SS,/u/tim696969,tml2pbb,53,1,10,,
-638,Sablo Panchez,TEX,SM,,,Right,SS,CF,3B,/u/KurtVonnebeergut,alcoholympics,53,1,8,1.0,KEG
-639,Bingo Hammersmith,MIL,BC,,,Left,SS,CF,RF,/u/Weighthewedge,vinylsneverdie#3333,53,1,8,,
-646,Aaron Burr,CWS,EN,TT,H,Right,P,,,/u/VirginiaTeamsIGuess,Alan#2958,53,1,2,,
-647,Walter Yeller Weller,PIT,SM,NH,S,Left,PH,,,/u/Saxsquatch,the_saxsquatch,13,1,1,1.0,SEF
-649,Nelson Van Halen,BAL,HK,TT,B,Right,CF,LF,1B,/u/radpoolparty,igobyt,53,1,10,,
-651,Rusty Nails,ARI,TT,WC,B,Left,CF,LF,3B,/u/howiejriii,chickenjoeofsheboygan,13,1,10,1.0,SEF
-662,Joey Wheeler,MIN,TT,BS,B,Right,2B,SS,3B,/u/hartman_,gosling3,53,1,6,,
-675,Speedo Meter,SFG,S,TD,S,Right,CF,RF,C,/u/EricS53,erics53,53,1,10,,
-679,Scherbie Fully-Loaded,TOR,S,BF,H,Right,CF,LF,RF,/u/twinsfan94,scherbie,53,1,10,,
-683,Kris Kringle,HOU,1B,1B,S,Right,SS,3B,CF,/u/Spidermanno,spidermanno,53,1,8,,
-686,Julio Escobar,PHI,MH,BS,B,Right,SS,3B,,/u/ChowLemon,ChowLemon2.0#8936,53,1,8,,
-703,Emerson,MTL,BP,BF,H,Right,LF,RF,C,/u/MarkShrekerburg,emersonaustin,53,1,9,,
-713,Pang Winn,CLE,HK,EG,H,Left,SS,CF,C,/u/TBKLarry,tbklarry,53,1,8,,
-714,Randy Pole,TOR,SF,TT,S,Right,P,,,/u/MattA2930,matt2930,53,1,2,,
-734,Gryffith Lindley,BOS,S,,,Left,3B,2B,C,/u/yellowcat5,thunderwolf53,53,1,7,,
-771,Lee Allen Ripley,,BP,FP,H,Left,P,,,/u/SubcheckForum,subcheckforum,53,1,2,,
-772,Mike Fruitstand,SDP,BC,EG,S,Right,3B,LF,CF,/u/ItsJustFruity,itsjustfruity,33,1,7,,
-776,Sierra Hightower,OAK,HK,TD,S,Right,LF,RF,C,/u/Deathwing_Dragonlord,theymightbereno,53,2,9,2.0,DDD
-778,Tyler Pylon,ARI,1B,FP,S,Left,CF,LF,3B,/u/NSAPHI,hannahg32,53,1,10,,
-780,Matt Taylor,BOS,BC,,,Right,CF,RF,LF,/u/matt__17,Matt17#9726,53,1,10,,
-783,Kenny Kawaguchi,,BN,WC,S,Right,P,,,/u/therealslimcampbell,kennyk10,53,2,2,,
-786,Mason Troy Adams,MIL,S,FP,H,Left,P,,,/u/Hunter-327,turts.com,43,1,2,1.0,KEG
-788,Jericho Styles,HOU,SM,WC,S,Right,P,,,/u/Jzkitty21,jzkitty,33,1,2,,
-814,Saitoo Syde,NYY,TT,EN,B,Right,C,1B,2B,/u/iamslm22,iamslm22,53,1,4,,
-1692,Tristan,CIN,BC,TT,S,Left,P,,,/u/TriAsian,.xtri,33,1,2,,
-1703,Harry McPotterson,MIN,HK,BF,H,Left,SS,3B,2B,/u/Boliestro,holo_icy_holo,31,1,8,1.0,KEG
-1705,Hoshimi Miyabi,SDP,S,,,Left,SS,2B,3B,/u/ghosthardware515,sarahposting,53,1,8,,
-1709,Sean Carrcrash,TEX,WC,BS,S,Right,LF,RF,2B,/u/iCrashedMyCarr,CarrCrashed#6615,53,1,9,1.0,SEF
-1717,Corey Scooter,CHC,1B,WC,H,Right,1B,3B,CF,/u/mrwalrus99,butteryknees,53,1,5,,
-1719,Moby Dick,HOU,1B,WC,H,Left,C,1B,CF,/u/Scratched_Nalgene,macdog213,53,1,4,,
-1724,Hannibal Bligh,TBR,BN,EG,H,Right,PH,,,/u/ArmadilloPenguin,armadillopenguin,13,1,1,1.0,MMN
-1725,Trevor Rosé,CLE,SF,TT,H,Right,SS,2B,3B,/u/Trexxy2,trexxy2,11,1,8,1.0,SCR
-1733,Bonesy McSkellington,OAK,BP,NT,S,Left,CF,RF,C,/u/tweezletorp,bonesymcskellington,53,1,10,,
-1734,Streetlamp LeMoose,ATL,EN,TD,S,Left,2B,1B,,/u/nickjohnson92,streetlamplemoose,23,1,6,1.0,MMN
-1737,Slappy McBatty,PIT,BN,BF,B,Right,2B,1B,3B,/u/A_Hanging_Noose,crimge,53,1,6,,
-1745,Robbie,TOR,BP,BB,B,Left,1B,LF,RF,/u/IndianGiraffe,robgod_,53,1,5,,
-1759,Che Or,NYY,BC,WC,S,Right,P,,,/u/Che-or,che.or,53,1,2,,
-1763,Dermot Mulveiny,TBR,BP,,,Right,2B,RF,1B,/u/fluctuat-necmergitur,davy909,53,1,6,,
-1764,Ross Ewage,TBR,BC,TD,H,Right,1B,LF,3B,/u/HaV0C,HaV0C#3504,53,1,5,1.0,
-1772,Dick Shitfart,ATL,MH,NH,S,Right,P,,,/u/TheHeelHawks,walkertxranger33,53,1,2,,
-1776,Nicholas Fouss,KCR,SM,BS,H,Left,C,1B,LF,/u/supereggfish,superfish1205,13,1,4,1.0,SAL
-1777,Alexander West,ARI,P,SF,H,Right,P,,,/u/DemBonez665,dembonez665,53,1,2,,
-1781,BEANS Leschnewski,NYY,BP,NT,B,Right,CF,LF,RF,/u/vrtxzenith,laserdarts,53,1,10,,
-1786,im sleve,PHI,WC,BF,H,Right,P,,,/u/entenduintransit,megal0,53,1,2,,
-1788,Apple Watch,NYY,BC,,,Left,CF,LF,RF,/u/TheGlaceon78,glacelover,53,1,10,,
-1792,Simba,SFG,BC,WC,S,Left,P,,,/u/Sgtbuttercup,fartzillla,33,1,2,,
-1797,Mike Unt,DET,SF,,,Right,3B,2B,CF,/u/andy_q8,andy_q8,53,1,7,,
-1799,Alt Site,SDP,BN,EG,B,Left,RF,CF,SS,/u/cjd024,captwildfir3,53,1,11,1.0,SEF
-1801,Doc Dockgoose,CHC,BN,TD,H,Right,P,,,/u/Dontweezthejuice,docdockgoose,53,1,2,,
-1813,Freddie Eggman Huff,MTL,WC,EG,H,Right,C,3B,LF,/u/dwmatl,dwmatl,53,1,4,1.0,MMN
-1814,Maximus Os,COL,BC,,,Left,CF,RF,,/u/TheLastBison,mojungo,53,1,10,,
-1824,Ax Finesse,DET,TT,EN,S,Right,C,3B,CF,/u/chriskol,axfinesse,33,1,4,,
-1826,Jimmy Haase,ANA,EN,,,Right,1B,3B,CF,/u/TrashWithLimbs,trench.lad,53,1,5,,
-1838,Brian Taylor,MTL,WC,TD,S,Left,3B,SS,CF,/u/gamr1021,beeguy75,43,1,7,1.0,SCR
-1839,Big Smoke Anderson,SFG,XB,BS,S,Right,CF,RF,LF,/u/SpicyMeatloaf77,spicymeatloaf,53,1,10,,
-1843,Skipper Studebaker,PIT,BC,NT,H,Right,P,,,/u/wtoelkers,woelkers,53,1,2,,
-1844,Ioe Torrent,ATL,HK,WC,B,Left,LF,RF,3B,/u/skindog44,ioe,33,1,9,1.0,SCR
-1942,Hero Brine,NYM,BP,TT,H,Right,P,,,/u/KickMC,eurena0507,53,1,2,,
-1949,Davoin Shower-Handel,KCR,BC,FP,S,Left,CF,RF,1B,/u/sezenack,sezenack,53,1,10,,
-1960,Richard Sucker II,PIT,BC,FP,S,Right,C,3B,SS,/u/Vel0zity,whlae,53,1,4,,
-1961,Gray Goose McGillicuddy,KCR,S,EG,H,Right,P,,,/u/Ramicus,judah1924,53,1,2,1.0,
-1963,Slim Mathers,ARI,WC,NT,S,Right,P,,,/u/Jsteele1423,frostysteele,53,1,2,,
-1977,Alex Yaxley,COL,P,NH,S,Right,P,,,/u/BIGxM1KE,bigxm1ke,53,1,2,,
-2135,Baron Samedi,FLA,TT,,,Left,1B,3B,CF,/u/globalabortion,haunted666,53,1,5,,
-2206,Dirk Digglet,TBR,SF,EN,S,Left,P,,,/u/OutbachSteakhouse,dirkdigglet,53,1,2,,
-2207,Fik Seiko,NYY,1B,NH,S,Left,P,,,/u/FountainOfDew,fountainofdew,53,1,2,,
-2212,Kyle Brambley,,BC,,,Right,2B,1B,,/u/JesusOfSurbaria,Human Wreckage#5329,53,1,6,,
-2220,Dogwood Maple,KCR,BP,WC,H,Right,P,,,/u/dogwoodmaple,dogwoodmaple,53,1,2,,
-2222,Dazzy Zastempowski,,XB,TT,H,Right,P,,,/u/Philliesphan96,philliesphan96,53,1,2,,
-2229,King Kruul,MIN,TT,EN,B,Left,RF,CF,LF,/u/Druidicdwarf,leflop,53,1,11,,
-2230,Garfield Chubbs,CIN,BP,TD,S,Right,3B,SS,,/u/htb24,honestdave,53,1,7,,
-2242,Wonder Francoh,KCR,XB,,,Right,1B,3B,LF,/u/josh30601,joshthejew,53,1,5,,
-2248,Raja Ayun,SDP,SF,SF,S,Left,3B,2B,C,/u/G2019,G2019#0639,53,1,7,,
-2256,Doc Otis,KCR,WC,SF,B,Left,PH,,,/u/mootmahsn,mootmahsn,23,1,1,1.0,KEG
-2262,Burg McTurdBerg,TBR,SF,,,Right,2B,SS,CF,/u/baruch_shahi,matt5616,53,1,6,,
-2275,Franz Lisztpitcher,NYM,BC,EG,S,Left,P,,,/u/Boostieyay,randy4,33,1,2,1.0,SAL
-2282,Troy Pressing,TOR,BP,,,Right,1B,3B,2B,/u/SNAG-God,tp3480,53,1,5,,
-2291,Richard Avery,CIN,SF,,,Right,3B,LF,1B,/u/rickypop,rickypop,53,1,7,,
-2327,Pope Coswi,,SM,BF,H,Left,PH,,,/u/iCoswi,Coswi,53,4,1,,
-2329,Tencer Sporkelson,CLE,BC,NH,S,Left,3B,SS,CF,/u/slothfacekilla,slothfacekilla,53,1,7,1.0,SDV
-2334,Buck Maverick,TEX,SF,,,Left,3B,SS,RF,/u/preauxtip,preaux,53,1,7,,
-2337,Evil Corn Barn,,MH,TT,H,Left,LF,RF,,/u/PomraiiIkodu,corn_barn,53,1,9,1.0,
-2342,Egor Kucherov,KCR,BC,,,Left,SS,2B,CF,/u/Djenthallman,djenthallman_,53,1,8,,
-2344,Cybeast Falzar,,1B,TD,S,Right,SS,3B,CF,/u/CybeastID,cybeastid,53,1,8,,
-2350,Bad Mulligan,PHI,1B,NH,B,Left,P,,,/u/koufaxattacks,badmulligan,53,1,2,,
-2353,Theo Rodder,PIT,BC,,,Right,1B,3B,CF,/u/jidno,jidno,53,1,5,,
-2371,Frederick Thunderpants,CHC,TT,NT,H,Left,SS,2B,RF,/u/drunkmunkee,crackmunkee,53,1,8,,
-2377,Mark Spoon,CHC,EN,EG,B,Left,P,,,/u/samoa-men666,markspoon,53,1,2,,
-2389,Gerald McCoy,MIL,WC,EG,S,Left,2B,SS,1B,/u/muffinkiller2000,strongbalwas,31,1,6,,
-2390,Chester Einhorn,HOU,S,TD,H,Right,P,,,/u/blanketbread,obiwancoyote#1719,53,1,2,,
-2397,Kuuma Kivi,SFG,S,TT,B,Left,SS,3B,RF,/u/Snussu,snussu,53,1,8,,
-2455,Malcolm Fish,SFG,HK,FP,H,Left,C,1B,CF,/u/TehMoofish,teh_moofish,53,1,4,,
-2457,Nate Duke,SFG,BN,BB,S,Left,PH,,,/u/therealduke96,bigbosstone,13,1,1,,
-2461,Pontius Inebrius,PIT,BC,BS,H,Right,P,,,/u/jk410,jk410,53,1,2,,
-2467,Nota Nam III,SDP,BP,,,Right,LF,RF,SS,/u/NotAName320,nota.name,53,1,9,,
-2474,Six,OAK,SM,BS,H,Right,PH,,,/u/armagev17,sixhausen,13,1,1,1.0,SEF
-2482,Dingers McGee,ARI,TT,EG,B,Left,CF,RF,1B,/u/Dingers_McGee,mrocks301,33,1,10,,
-2486,Tex Wolffe,ATL,SF,,,Right,2B,1B,3B,/u/Texwolf96,Texwolf96#1795,53,1,6,,
-2487,Stu PunDous,OAK,BC,TD,S,Right,RF,1B,2B,/u/MLR_NoReddit_User,doggery_,53,1,11,1.0,DDD
-2499,Cash Considerations,TOR,XB,WC,B,Left,PH,,,/u/Chop_80,Chop_80#0271,13,1,1,,
-2501,Hakuna Moncada,FLA,HK,EG,S,Left,3B,SS,C,/u/Electric_Queen,electric,33,1,7,1.0,DDD
-2504,Peter Hoomanawanui,MIL,BC,BS,B,Right,3B,LF,C,/u/IDntWannaBeFamous,idntwannabe,53,1,7,1.0,MMN
-2507,Hank Braun,,S,EG,S,Left,C,3B,,/u/Logical_Pop_2026,noxiousimposter#7477,53,1,4,,
-2508,Fatts Richard,STL,SM,SF,S,Right,PH,,,/u/notthesinginjonas,yaboimorey,13,1,1,,
-2509,Big Cheech,STL,S,TD,B,Right,1B,3B,RF,/u/TheAjCalvillo,TheAjCalvillo#0420,53,1,5,1.0,MMN
-2518,Sammy Scully,DET,S,WC,S,Left,2B,RF,C,/u/halsnobordrgrl,halsno,53,1,6,1.0,
-2523,Martin Ducksworth,MTL,TT,TT,S,Left,PH,,,/u/IReviewDiscord,yannykai,12,1,1,,
-2524,WoodCutter Jones,CHC,TT,TD,H,Left,3B,SS,LF,/u/woodcutterjones,incutt,23,1,7,,
-2532,Herb Bumbleflower,PIT,S,,,Right,CF,LF,2B,/u/TylerGlasass20,caity#0566,53,1,10,1.0,
-2542,Ovaltine,TBR,BC,TD,S,Left,RF,CF,LF,/u/ohToaster,ohtoaster,33,1,11,1.0,SAL
-2543,Numbers Spector,HOU,1B,,,Right,3B,2B,,/u/TimelyConcern,jablair3483,53,1,7,,
-2544,Mark Schihne,OAK,HK,EG,H,Right,P,,,/u/n8_n_,n8_n,33,1,2,1.0,SCR
-2545,New Age Ms Frizzle,MIN,1B,SF,H,Left,RF,CF,C,/u/Urp34,onionhead,53,1,11,,
-2573,Giles Sweeney,,BN,,,Right,1B,LF,CF,/u/Sensei-Giles,Giles#3206,53,1,5,1.0,
-2584,Robbie Tightpants,NYM,BC,FP,B,Left,PH,,,/u/dhgrainger,dhgrainger,11,1,1,1.0,CCS
-2589,Lil Lilith Lillian,BAL,XB,TT,H,Left,SS,3B,2B,/u/jmanhajh,jmanhajh#7930,53,1,8,,
-2591,Hunter D. Parker,NYY,MH,NH,S,Right,C,1B,,/u/IXMCMXCII,deliciouskashmiri,53,1,4,,
-2593,Don Sturgeon,,1B,TT,S,Left,P,,,/u/ChewiesMahDog,chewiesmahdog,53,1,2,,
-2594,Hunter West,ANA,TT,WC,S,Right,PH,,,/u/Jbwest31,Hunter West RF/1B#4945,13,1,1,,
-2597,Rod Kimball,TOR,BC,NH,B,Right,RF,CF,SS,/u/PinkSnuggie,pinksnuggie,43,1,11,,
-2598,Mattie Christewson,KCR,S,,,Left,2B,SS,C,/u/AcuPriest,acupriest,53,1,6,,
-2606,peaches,CWS,BC,TD,B,Right,PH,,,/u/PeachyKeeeeeen,peachesurf,13,1,1,,
-2611,CJ Ayer,MIL,SM,EG,H,Right,PH,,,/u/BaseballCJ22,Zeltrox#0126,13,1,1,,
-2616,Peter Hadley,NYY,XB,WC,H,Right,C,3B,LF,/u/anatabolica,anatabolica,53,1,4,,
-2621,Mike Truk,NYY,BC,EG,S,Right,P,,,/u/Explosion2,explosion2,53,1,2,,
-2625,Dutch Boggs,LAD,BC,EG,H,Left,PH,,,/u/heylookjorge,heylookjorge#6136,23,1,1,1.0,CCS
-2627,Kenny Powers,TEX,SM,BS,S,Left,P,,,/u/Kenny_Powers_MLR,_mike22,13,1,2,1.0,SCR
-2629,Doc Mainframe,,EN,BS,B,Right,P,,,/u/doc_mainframe,,53,1,2,,
-2634,Jimmy Pop,TEX,SM,,,Left,CF,RF,2B,/u/tandrewpike,wlupike,53,1,10,,
-2637,Mo Cheeks,TBR,BC,1B,S,Right,LF,RF,C,/u/rocco5w,rocsabs#3597,53,1,9,,
-2640,Anthony Barkevious IV,ANA,EN,,,Right,3B,LF,,/u/PopeGordon,popegordon,53,1,7,,
-2641,Jerome Peterson,MTL,MH,NH,H,Left,1B,LF,2B,/u/rhezz12,rhezz#9759,33,1,5,1.0,CCS
-2642,Seymour Asses,ATL,WC,,,Right,RF,1B,CF,/u/The_Hoff34,benthethrill_7,53,1,11,1.0,SCR
-2651,Mack MacMack,ATL,BN,,,Left,SS,2B,3B,/u/iHateLiams,sense_n,53,1,8,,
-2657,Vader Page,SEA,BC,NT,S,Right,P,,,/u/VishyVCA,Vishy#4767,53,1,2,1.0,WWC
-2659,Kevin James,NYM,S,TT,H,Right,P,,,/u/Swarm140,Swarm#3461,33,1,2,,
-2660,Ronnie Pickering,SFG,XB,EN,B,Right,1B,3B,CF,/u/KingNashII,Sketbandit#1243,53,1,5,,
-2664,Robert Glasses,LAD,TT,,,Right,3B,LF,SS,/u/CptJudgeNMS,WARCRIMINAL#5005,33,1,7,,
-2668,Biff Sexy Hotbod,CWS,BC,,,Left,SS,3B,CF,/u/changemyusername,ruoh#0914,53,1,8,,
-2671,Rich Driver,NYY,BP,BF,H,Left,3B,LF,SS,/u/BearN7,YaBoiLogiBear#4073,53,1,7,1.0,SAL
-2673,Noah Diamond,CLE,S,WC,S,Left,CF,RF,LF,/u/olympus803,Olympus803#8087,53,1,10,1.0,DDD
-2675,Goose Gordon,SEA,BP,WC,B,Right,C,1B,RF,/u/AndPaxt,andpaxt#6396,53,1,4,,
-2678,Alex Lancer,TBR,P,BS,S,Right,P,,,/u/BlueTheHobo,Tierrnan#1321,53,1,2,,
-2679,Kiwi Cleveland,PHI,BC,BS,S,Right,2B,SS,LF,/u/BeanieWellsStanAcct,schax #3225,53,1,6,,
-2681,Jim Johnman,MTL,TT,,,Right,RF,CF,3B,/u/Tribaldragon1,tribaldragon1,53,1,11,,
-2683,Huell Babineaux,NYM,BC,,,Left,2B,SS,C,/u/TheChief107,TheChief107,53,1,6,,
-2689,Brent Chillwater,SEA,SM,EG,H,Left,PH,,,/u/Kelbo11,kelbo11,13,1,1,1.0,CCS
-2691,Francesco Hardgust,ANA,BC,EG,S,Left,SS,2B,C,/u/cheddarbating,Steamboat#4248,33,1,8,,
-2692,Bryce Parker,SEA,1B,WC,S,Right,SS,3B,C,/u/_BryceParker,Packermage,53,1,8,,
-2696,Captain Trash,FLA,BN,TT,H,Left,RF,1B,C,/u/KingIsMe123,seanyewest#2006,23,1,11,1.0,DDD
-2702,Evan LOMgoria,CWS,HK,TD,S,Right,2B,RF,CF,/u/TRTAEDITG,pota_tomas,23,1,6,,
-2706,Cameron Trinidad,MTL,WC,,,Right,1B,LF,2B,/u/MyAmazingNam,Hawk#3373,53,1,5,,
-2708,Saul Pewald,CLE,SM,EG,B,Right,PH,,,/u/mnomz,,23,1,1,1.0,WWC
-2710,Sterling Turlington,OAK,HK,EG,B,Right,2B,1B,C,/u/sethurax,Veritable Quandary#2187,53,1,6,1.0,WWC
-2720,Lee Luda,MIL,BC,BS,H,Left,P,,,/u/eWeapons,Aerolite#1034,23,1,2,1.0,CCS
-2722,Teddy Bigstick,OAK,BC,BB,S,Right,3B,2B,1B,/u/Roosevelt_Coronary,eccentric54 (#8189),23,1,7,1.0,SAL
-2723,Matias Thagod,PHI,S,BS,B,Left,C,1B,3B,/u/seraphm01,mati01#8876,53,1,4,1.0,SEF
-2730,Laars Nootbaar jr,ATL,MH,NH,S,Left,PH,,,/u/CanaDan,CanaDan#0490,13,1,1,1.0,KEG
-2734,Enrique Rosales,ANA,XB,NT,B,Left,2B,SS,C,/u/strosfan85,Strosfan85#4415,23,1,6,,
-2735,Dill Doe,LAD,HK,TD,S,Left,P,,,/u/colabottlebaby,Linkkjm#0760,53,1,2,1.0,PQD
-2736,James Jameson CDXX,NYY,S,NH,S,Left,3B,SS,CF,/u/jso__,jsoner,53,1,7,,
-2738,Joel Justice,BOS,WC,TT,S,Left,P,,,/u/rivalmejr,rivalmejr#7892,23,1,2,1.0,SDV
-2740,Justin P. L. Griffin,DET,BP,,,Right,RF,1B,LF,/u/ScraaaaaaaambledEggs,Cathay Paciic#1210,53,1,11,,
-2743,Pete Morris,NYY,SM,BS,B,Left,P,,,/u/oosirnaym,Yoosirnaym#2492,33,1,2,,
-2744,Troy-Anthony Parker,BAL,P,TT,H,Right,P,,,/u/HavkinKnight,HavkinKnight#5829,13,1,2,,
-2752,Henry Thibodeau,KCR,XB,BS,B,Right,C,3B,SS,/u/Egglton,Egglton#6732,53,1,4,,
-2754,Jacques François,STL,1B,,,Right,2B,SS,1B,/u/BoltUpSTL,zimon#5482,53,1,6,,
-2760,Shorty McDougall,NYM,WC,EG,H,Left,SS,2B,LF,/u/lil-mommy,ann#7670,53,1,8,1.0,SAL
-2761,Mike LaViva,CHC,TT,EG,H,Left,C,1B,3B,/u/VivaLaPit,85Argent#6716,53,1,4,,
-2768,Spencer Hart,STL,BP,NH,S,Left,1B,3B,LF,/u/Skotch33,SpencerF#2020,53,1,5,,
-2772,Creatør Slander,BOS,XB,,,Right,3B,LF,,/u/creatxrcreator,Creatør#3519,53,1,7,,
-2773,Toky Oto,ARI,BN,NT,B,Right,LF,RF,CF,/u/Innerstander,Gold3nSTW#9736,53,1,9,1.0,WWC
-2774,Bill Aural Jr. III,ATL,BC,,,Left,LF,RF,1B,/u/degmeister,Deg#2745,53,1,9,,
-2782,Eijun Sawamura,MIN,TT,BS,H,Left,P,,,/u/Silveryo9717,Silveryo#9717,53,1,2,1.0,MMN
-2785,Basil,STL,BP,TD,H,Left,C,1B,3B,/u/Baxlor12,basilthespice,53,1,4,,
-2787,Buster Worthington,SEA,BC,,,Right,C,3B,CF,/u/lawnicus18,lawnicus18#8150,53,1,4,,
-2789,Roosevelt Sandoval,FLA,XB,BF,H,Right,2B,RF,SS,/u/booga_booga_booga_,booga_booga_booga_#5768,53,1,6,,
-2791,Pete Harper,CIN,1B,WC,S,Right,P,,,/u/kevinnc,kevinnc#1243,53,1,2,,
-2792,Jerome S. Monroe,SEA,1B,TD,H,Right,P,,,/u/crabface5,crabface5#2766,53,1,2,1.0,PQD
-2800,Buzz Carlton,STL,BC,,,Left,RF,CF,1B,/u/Shuichi_1,shuichi1#0724,53,1,11,,
-2802,Abel Greene,SFG,WC,,,Left,SS,2B,RF,/u/Kohanky,Kohanky#4271,53,1,8,,
-2804,Billy TheKid,NYM,WC,EG,S,Right,2B,RF,1B,/u/Billythekid1701,Billythekid1701#7225,53,1,6,,
-2805,Calvin Ball,SEA,HK,FP,H,Left,CF,LF,RF,/u/Vrain_19,Vrain#3864,33,1,10,,
-2810,Sonar McDeuceski II,SFG,P,TT,H,Right,P,,,/u/deucemc26,Sonar#6969,53,1,2,,
-2811,Jeb Barnes,SEA,TT,NT,H,Right,1B,3B,2B,/u/arbadak,Jeb!#3894,53,1,5,,
-2815,Jamal Jackson,ATL,S,NH,B,Left,CF,LF,C,/u/aliventpls,Jaquaviontavious#0751,53,1,10,,
-2816,Ferris Wheeler,ANA,BC,WC,S,Right,2B,RF,,/u/MrPenguin80,Dan-1591,53,1,6,1.0,
-2817,Maxwell Slander,ATL,TT,BS,B,Left,P,,,/u/Public-Equivalent-45,FireballMax34#6573,53,1,2,,
-2820,Michael Last-Name,NYY,MH,NH,H,Right,P,,,/u/Excellent-Turnip-232,King_Gelato#8059,53,1,2,,
-2821,Jack Parkman,TEX,XB,,,Left,C,1B,3B,/u/chuck_dizzle29,Chuck_Dizzle29#2978,53,1,4,,
-2825,Casper Greenwell,FLA,BC,BS,B,Left,2B,SS,RF,/u/ToastedRavs4Life,jbuck#0116,53,1,6,1.0,SCR
-2826,Friday,LAD,XB,TT,B,Left,1B,3B,CF,/u/fridayphd,fridayphd#1825,13,1,5,1.0,CCS
-2827,Corbin Christmas Carol,MIN,BP,BS,B,Right,1B,3B,,/u/mitch_burns_red,mdot#9602,53,1,5,1.0,SAL
-2833,Dayman Nightman,SEA,BN,EG,S,Right,SS,2B,LF,/u/mycatsananalasshole,fiercepenguin#9774,33,1,8,,
-2834,Mack Quackerson,TEX,BC,BB,B,Right,C,1B,CF,/u/frathoss,Frathoss#5398,33,1,4,1.0,CCS
-2835,Salsa Steve,OAK,BC,FP,S,Right,CF,RF,LF,/u/icnatspel,icnatspel#5217,53,1,10,1.0,WWC
-2838,Ringo Swingo,BOS,BC,,,Right,CF,LF,2B,/u/pnssc,Ringo #8652,53,1,10,,
-2840,Wheezy Whifflesworth,NYM,SM,TT,S,Right,C,3B,SS,/u/kazayn,Kazayn#2664,53,1,4,,
-2842,Moon Malarkey,ARI,SF,,,Right,SS,CF,C,/u/LuckeCharmsx,McKinnon#5585,53,1,8,,
-2844,Tony Pizza,BOS,1B,BB,B,Right,C,1B,,/u/celticsoldier566,TonyPizza#9043,53,1,4,1.0,
-2846,Dante Dagostino,COL,BP,,,Left,CF,LF,,/u/Peterparker7182,ParkerK718#1927,53,1,10,,
-2847,Jorbel Boykins,LAD,BC,EG,S,Left,2B,SS,3B,/u/earlbk,earlboykins#7008,53,1,6,1.0,CCS
-2848,Axkoa Griffin,TEX,WC,,,Left,RF,CF,2B,/u/Rogue_Jellybean,Rogue_Jellybean#8327,53,1,11,,
-2849,Johnmaine Chupri,COL,SM,BB,S,Right,PH,,,/u/upchuc,Chupri#7769,23,1,1,1.0,CCS
-2852,Dusty Jabroni,DET,BN,,,Left,3B,2B,,/u/Xylarouix,Jabroni#5360,53,1,7,,
-2853,Tubby Wubby,SEA,WC,WC,S,Left,C,3B,1B,/u/LeRuul,Roel#6224,53,1,4,1.0,DDD
-2854,Verde Jack,SFG,BC,,,Right,LF,1B,C,/u/fingerlickinggud3,Zona_James#1446,53,1,9,,
-2855,Triscuit McBiskit,KCR,P,NT,H,Right,P,,,/u/gapporin,Gapporin#8725,53,1,2,,
-2856,Willie Gardner,OAK,WC,BS,B,Left,SS,2B,CF,/u/andrew_j2288,andrew_j2288#4188,53,1,8,,
-2857,River James,PHI,SF,,,Right,SS,3B,RF,/u/agentjx7,AgentJX7#7587,53,1,8,,
-2858,16-bit Griffey,PIT,BN,,,Right,CF,LF,2B,/u/ElTres,the_3,33,1,10,,
-2864,Scorkle McCorkle,SDP,S,,,Left,SS,CF,C,/u/RhinoAlien-UDK,Staple#0566,53,1,8,,
-2866,Stupido Einsteiny,,S,BS,S,Right,2B,RF,SS,/u/Stupido_Einsteiny,yawetag,53,1,6,,
-2867,William T. Striker,,MH,TD,B,Right,P,,,/u/aStockUsername,snick#8643,53,4,2,,
-2868,TWs Frozen Head,ANA,SM,BF,B,Left,2B,RF,1B,/u/awesomesox,Awesomesox#6002,53,1,6,1.0,KEG
-2869,Charlie Buntman,PIT,BP,,,Right,C,3B,SS,/u/ClassyKaty,Katy Vella#8726,23,1,4,1.0,MMN
-2870,Lincoln Pickett,MIL,BC,,,Left,2B,RF,SS,/u/TotalTakapuna1,TotalTakapuna#6108,53,1,6,,
-2873,Jihmih Tyranus,OAK,SM,WC,S,Right,P,,,/u/Real_JoeWest,Sandyman#7341,53,1,2,1.0,SDV
-2874,Ace Ventura,HOU,BP,,,Right,3B,LF,RF,/u/L3ACH13,TMGxL3ACH#7475,53,1,7,,
-2875,Velma Dingkerly,SDP,BC,WC,S,Right,C,1B,3B,/u/MinorBaconator,MinorBaconater#1409,23,1,4,,
-2877,C. T. Bailiff,SFG,BC,TD,S,Right,P,,,/u/CNard12,cnard12,23,1,2,1.0,DDD
-2878,Goaty McGoatFace,PHI,S,TT,H,Left,1B,LF,C,/u/Victorystar0,Victorystar0#6406,33,1,5,1.0,DDD
-2880,Ryan McBryan,ANA,SF,TD,H,Right,LF,RF,CF,/u/BioCrohn,BioCrohn#7600,33,1,9,,
-2882,Mîke Ock,MIL,TT,NH,H,Right,RF,CF,LF,/u/monferno27,8ight#9428,53,1,11,,
-2886,Justin Time,CLE,BC,BB,B,Right,C,1B,CF,/u/ShellShocked121,ShellShocked1#6788,53,1,4,1.0,KEG
-2887,Jimothy Jhompson,CLE,S,NT,B,Left,P,,,/u/pm_me_ur_stardewfarm,CodexJack#6024,53,1,2,,
-2888,Just A. Girl,FLA,P,SF,S,Left,P,,,/u/Tht1guy101,That1Guy101#7680,53,1,2,,
-2889,Primero Ultimo,TBR,BC,,,Left,3B,SS,,/u/curryward,yesman81,53,1,7,,
-2890,Pablo The Hip Kawasaki,CHC,WC,BF,H,Left,P,,,/u/Voodewman,voodooman,13,1,2,1.0,CCS
-2891,Chad Isotope,,S,NH,H,Right,CF,RF,SS,/u/scotchtape22,Scotchtape22#8575,53,1,10,1.0,
-2893,Hitgood McChunky,ARI,MH,TT,H,Right,1B,3B,CF,/u/IanCusick,Ian#1330,53,1,5,,
-2897,Dr. Choc Banana,PHI,BC,EN,H,Left,C,3B,LF,/u/DrChocolateBanana,DrShokoladeBanana#4441,13,1,4,,
-2900,Bart Bishop,MIN,BN,BS,S,Right,3B,LF,,/u/vitefish,Vitefish,53,1,7,,
-2902,Hippo Jars,ARI,SM,NT,S,Right,3B,2B,C,/u/spanxc,spanxc35#4998,53,1,7,,
-2904,Nicaragua del Toro,CIN,1B,,,Left,2B,1B,SS,/u/3236-on-MC,rob manfred#1503,53,1,6,1.0,
-2905,Jose Can-Fake-O,,MH,,,Right,C,1B,RF,/u/mississippimadness,corydozia#8137,53,1,4,,
-2908,T-Rav,NYM,S,BS,S,Right,SS,3B,C,/u/skeetsquid,Skeeton300#2203,53,1,8,1.0,DDD
-2910,Mustard Fatherson,,BN,,,Left,CF,LF,,/u/tribecalledflex,kyleok#0436,53,1,10,,
-2911,Karl Havoc,CHC,BC,WC,H,Right,LF,RF,1B,/u/grays55,GrayMatter,43,1,9,1.0,SEF
-2913,Scoot Heller,MTL,BC,NT,S,Left,SS,2B,RF,/u/ATechnicalDifficulty,Asti#8990,53,1,8,,
-2914,MILKBOY,MTL,BN,1B,S,Left,LF,RF,C,/u/notabot4005,olivergardener_,53,1,9,1.0,DDD
-2915,Hans Zahn,MTL,SM,BF,B,Right,P,,,/u/Joima985,M00NLiTe#7193,33,1,2,1.0,WWC
-2916,Strawberry Jones,CLE,BP,TT,H,Left,C,1B,LF,/u/DAK_PRESCOTT_4,PercNowitzki#7893,33,1,4,1.0,SDV
-2922,Randy Mann,BAL,WC,,,Left,2B,SS,1B,/u/Zytabyte,zyta,53,1,6,,
-2931,Jeff Newman,BOS,S,BS,H,Left,P,,,/u/Luminosityfan,Lumosityfan#9019,53,1,2,1.0,
-2932,Seth Kablamo,CIN,HK,,,Right,CF,RF,LF,/u/catfishhugo,Hugorm#2424,33,1,10,,
-2933,Boomer Fisher,BOS,BC,,,Left,3B,SS,2B,/u/longjumpinglime,Therane#3187,53,1,7,,
-2942,Tleyber Alfredo Cruz Fernandez III,ATL,SF,EG,H,Left,SS,CF,3B,/u/spiderrrpigg,tonyeatworld,33,1,8,,
-2943,Mo Bonzalez,DET,BN,,,Right,2B,SS,,/u/irishfan117,irishfan117#0066,53,1,6,,
-2944,Bobert Hideyoshi,SEA,XB,BS,H,Left,C,3B,LF,/u/TorchedPineapple,torchedpineapple,53,1,4,,
-2945,Smokey Zygowski,MIN,BP,BS,H,Right,P,,,/u/Bearinthewoods1,Bearinthewoods2,53,1,2,1.0,WWC
-2946,Tueballs Wunbatt,NYM,BP,,,Right,3B,2B,CF,/u/Fit_Consequence_8910,MrNawledgbawms#7049,53,1,7,,
-2947,Mama Luigi,NYY,XB,BS,H,Right,PH,,,/u/baetaro,bigredd17,13,1,1,1.0,KEG
-2948,Grunt Manly,MIL,TT,,,Left,3B,2B,C,/u/koalasama,koala#3190,53,1,7,,
-2949,Twatt Barton,SEA,BP,TD,B,Right,1B,LF,C,/u/paryt,Joyy#9904,53,1,5,,
-2950,Anthony Esposito III,FLA,BC,,,Right,RF,CF,LF,/u/Wiley_1909,BigFern99#0114,53,1,11,,
-2951,Brandon Rice III,CLE,BN,WC,S,Left,SS,2B,1B,/u/RetroRice316,CoachRice#5642,53,1,8,,
-2959,Kries Von Kriestalhauser,OAK,BN,FP,H,Right,CF,LF,RF,/u/oneforceone,kriestinaf,53,1,10,1.0,SAL
-2960,Penguino,,WC,EG,H,Left,PH,,,/u/penguinothepenguin,penguinothepenguin101,53,5,1,1.0,SEF
-2962,Carlos Narvaez Jr.,DET,S,TT,S,Left,P,,,/u/AmokSpain,m_ksp__n_,53,1,2,1.0,CCS
-2963,Vartan Ichabod Cassidy,BAL,BP,,,Right,C,3B,RF,/u/Blackcobra29,Vic8713,53,1,4,,
-2965,Randall Peppers,MTL,TT,EN,S,Left,3B,LF,1B,/u/hnard,Hnard,23,1,7,1.0,SEF
-2969,Crystal Claire,SFG,S,,,Right,2B,1B,3B,/u/Choice-Ad-5227,Callte,53,1,6,,
-2970,John Baseball,MIL,WC,WC,B,Right,SS,3B,CF,/u/Red_Herring_XOR,red_herring_xor,53,1,8,1.0,CCS
-2973,Champ Kind,TEX,SF,EG,H,Right,3B,SS,LF,/u/iGingerBeardGuy,iGingerBeardGuy,53,1,7,,
-2976,Junior Antonius,NYM,BC,TT,H,Right,RF,CF,,/u/Junior-Hobobot,,53,1,11,,
-2978,Corva Johnson,,XB,TD,B,Right,SS,3B,C,/u/Caesar_of_the_NRE,lalainecaprenia,53,1,8,,
-2983,Liru Wolf,SFG,BN,BS,S,Right,3B,SS,LF,/u/CapLiru,.liru.,33,1,7,1.0,SAL
-2988,Rip Dingers,DET,XB,EG,S,Left,RF,CF,SS,/u/brainj5471,LostMyBrain.,53,1,11,,
-2989,Serengeti Fingers,LAD,MH,WC,S,Right,P,,,/u/AngleInternal3445,@_riseup,53,1,2,,
-2991,Tanzig Nordic,ANA,WC,FP,S,Right,P,,,/u/HornetBusiness2277,sc4recr0w5,53,1,2,,
-2992,Butch Sterling,MIN,EN,,,Right,CF,RF,,/u/chuckz0r,chuckz0r,53,1,10,,
-2994,Gavrilo Principle,SEA,,BS,H,Right,P,,,/u/inhindsight7,m1ghtymulder,23,1,2,,
-2996,Chico Pappas,DET,XB,WC,B,Left,LF,RF,SS,/u/arcothunder,Arcothunder,33,1,9,,
-2998,Makoto Date,NYM,EN,WC,H,Left,P,,,/u/dieperske,anpheitseog,53,1,2,1.0,SEF
-2999,Rex McStrange,LAD,BP,BB,S,Left,P,,,/u/Frostylemur,Zedella,53,1,2,,
-3000,Cornbread House,CWS,MH,,,Left,1B,LF,3B,/u/B-rice1211,Bryce_XI,53,1,5,,
-3002,Shag McBenny,ANA,BC,,,Right,3B,SS,LF,/u/shag4031,shag3140,53,1,7,,
-3004,Otto von Pitchmark,MIL,MH,NH,S,Right,P,,,/u/bamabuffseattle,chomutovsojo13,53,1,2,1.0,
-3006,Not Gaca,SFG,WC,NH,S,Left,3B,2B,LF,/u/ThatsNotGACA,thatsnotgaca,53,1,7,,
-3009,CJ,STL,WC,BS,H,Left,3B,LF,C,/u/camwyo,camwyo,53,1,7,,
-3011,Marlboro Jesus,HOU,WC,,,Right,RF,1B,,/u/rawrxdjackerie,jackerie_,53,1,11,,
-3012,Erling De La Cruz,CHC,BC,,,Right,SS,2B,CF,/u/astar54,A123S123,53,1,8,,
-3013,Total Dial,OAK,SM,TT,S,Left,RF,CF,SS,/u/MatteJew,MatteBleu,33,1,11,1.0,DDD
-3016,Copernicus Hel,STL,XB,NH,H,Right,P,,,/u/grapefruittechnique,Crowe,53,1,2,1.0,PQD
-3018,Fin 'Shark' Maddox,BOS,WC,,,Right,1B,LF,2B,/u/AliensAteMyAMC,gtpwoody,53,1,5,1.0,KEG
-3021,Jason Sensation,ATL,BC,TD,B,Right,CF,RF,1B,/u/bigpappyj,Bigpappyj,53,1,10,,
-3023,Duke Houston,CWS,BP,,,Right,C,3B,,/u/AngryTree76,CrocInSpelling,53,1,4,,
-3025,Matty Jay,DET,BP,BB,H,Right,PH,,,/u/MattyJay17,mattyjay2209,23,1,1,,
-3026,John Applebees,LAD,XB,WC,S,Left,LF,RF,SS,/u/michaeldix33,luffydix,53,1,9,,
-3028,Dan Candoit,,WC,WC,S,Right,P,,,/u/dms6598,youthought,53,1,2,,
-3029,DV DOOM,STL,SF,WC,S,Right,P,,,/u/disenthalus,disenthalus,23,1,2,1.0,PQD
-3030,Cared Jarrabis,ARI,WC,WC,S,Left,SS,2B,RF,/u/cjbx215,dunkinicedcoffee,33,1,8,1.0,MMN
-3032,Sid Hugo V,STL,WC,FP,S,Left,SS,CF,RF,/u/theonetwo345,Zicein,33,1,8,1.0,WWC
-3034,Beans Returns,TBR,SM,NH,H,Left,C,3B,SS,/u/Karicq,cirruslime,53,1,4,1.0,SEF
-3035,Andre Pope,SFG,TT,NT,S,Right,P,,,/u/6G0d757,6god757,53,1,2,,
-3038,Stealing Seconds,,S,,,Left,1B,LF,C,/u/Mr-Who,Sherby,53,4,5,,
-3039,Speed Shark,SEA,WC,BF,S,Right,RF,1B,SS,/u/SpeedShark327,speedshark,53,1,11,1.0,PQD
-3040,Cole Slaw,FLA,BP,,,Left,CF,RF,1B,/u/-TheOnlyOutlier-,2by2ark,33,1,10,,
-3042,Archie Henderson,NYY,BC,,,Right,RF,CF,3B,/u/arrowhitter,ansonhwin,53,1,11,1.0,CCS
-3045,Keith Bourgignon,COL,XB,,,Right,2B,SS,,/u/Namzeh011,namz011,53,1,6,,
-3046,Norm Niner,BOS,XB,WC,H,Right,SS,2B,RF,/u/CLT9er,sf4nynah,53,1,8,,
-3051,Jed I. Knight,ATL,S,,,Right,CF,LF,C,/u/totally_not_samantha,not_samantha,53,1,10,1.0,SCR
-3052,Arxy Winkler,PIT,BP,BS,H,Right,SS,2B,,/u/NeonCreeper234,NeonCreeper4238,53,1,8,1.0,PQD
-3056,TheGreatBambi,ATL,BN,TD,B,Right,3B,LF,C,/u/Unable-Kiwi44,FlyingFrog45,53,1,7,1.0,SAL
-3059,Lou Coler,SDP,WC,TT,H,Right,P,,,/u/themadtortois,themadtortois,53,1,2,,
-3060,Dark Brother,SEA,BC,,,Left,3B,2B,CF,/u/xdarkbrother,Xdarkbrother,53,1,7,,
-3063,Albino Albono,,HK,,,Right,1B,3B,,/u/Domesticatedporos,wildporos,53,1,5,,
-3066,Chief Cheeseball,TEX,BC,TT,H,Left,P,,,/u/johnnyyschmdit,johnnyyschmidt,53,1,2,,
-3068,Osha Wott,SEA,BC,BB,B,Right,LF,RF,CF,/u/msjenii,xoukie,53,1,9,1.0,CCS
-3072,Uncle Crush,BOS,TT,WC,S,Right,P,,,/u/jholt_,jared_holt_eng,13,1,2,,
-3075,Jason Damiani,PIT,BC,TT,B,Left,P,,,/u/Patbeanaz,Patbeanaz,53,1,2,,
-3078,Cracker McJack,OAK,,WC,S,Left,P,,,/u/CrackIsCheaper,tofuturtle,53,1,2,,
-3079,LeCheesestick Turtle,,TT,,,Right,RF,1B,,/u/Slight_Author_8386,champ7619,53,1,11,,
-3081,Ray 'Cole Train' Cole,NYM,SF,BS,B,Left,RF,1B,CF,/u/A554551N,a554551n1030,53,1,11,,
-3082,Thick Mints,STL,,BF,S,Left,P,,,/u/IcyDouble4169,tytybee 🍗 (he/him),53,1,2,,
-3085,PickYrSpot n'Swing,NYY,BC,BF,S,Right,CF,RF,C,/u/manthedam,PointandShoot,53,1,10,,
-3088,Brad Hatley,CLE,XB,,,Left,C,3B,2B,/u/m_perron,hatsy_36,53,1,4,1.0,SDV
-3092,Shmitty Von Flabbergasted,STL,XB,,,Right,2B,SS,LF,/u/Uppernined18,Uppernined,53,1,6,,
-3093,Archie 'Clumsy' Sybil,OAK,BC,BS,S,Right,2B,RF,3B,/u/PM_ME_UR_Risk_Mgmt,PM_UR_Risk_mgmt,53,1,6,1.0,KEG
-3094,Lou Zrectum,MIN,WC,,,Right,RF,CF,,/u/Ill-Weather-6383,tyfrance,53,1,11,,
-3096,Dingerz McLongball,CWS,MH,,,Right,RF,1B,,/u/rockiesfan4ever,Rockiesfan4ever,53,1,11,,
-3097,Bubson Dugnutt,TEX,BC,BF,H,Left,2B,RF,C,/u/TobsterOven,TobsterOven,33,1,6,1.0,SDV
-3099,Dirk Nurple,CHC,BC,BF,H,Left,3B,2B,1B,/u/mischiefmaehem,mischiefmaehem,33,1,7,1.0,SDV
-3101,Cash Thrower,COL,BP,TD,H,Right,1B,3B,LF,/u/cjthro123,Cjthrower,53,1,5,,
-3102,Nathaniel Pewterson,COL,WC,WC,B,Left,SS,CF,C,/u/Delictism,kumiyuki,53,1,8,1.0,CCS
-3103,Psykokwak,DET,S,BS,H,Right,LF,RF,,/u/sdlivin888,.Td88,53,1,9,1.0,CCS
-3105,Jacob Thomas,MIL,WC,BS,S,Right,C,1B,LF,/u/JdogMcBuckets,jdogii,53,1,4,1.0,WWC
-3106,Tomothy Toledo,LAD,SM,,,Left,3B,LF,,/u/botfinder69,Killlman4,53,1,7,,
-3107,Elijah Walker,TEX,SM,BS,H,Left,PH,,,/u/firebirdix,cobaltdm,23,1,1,1.0,PQD
-3108,Cormac Karona,CHC,TT,EG,H,Right,CF,RF,LF,/u/Stixvim,Stixvim,33,1,10,1.0,SDV
-3109,Jersey Wooders,BOS,BP,,,Left,1B,LF,,/u/Direct-Caterpillar77,Direct-Caterpillar77,53,1,5,1.0,SDV
-3110,Katelyn 'River' Hoshino,PHI,HK,TD,H,Left,2B,SS,RF,/u/MasterJTZH,masterjtzh,53,1,6,1.0,WWC
-3111,Deacon Bowles,ANA,WC,,,Right,C,3B,2B,/u/Ajathag,Ajathag,53,1,4,,
-3112,Toots 'Fat Belly' Jones,PIT,BP,EG,S,Right,LF,1B,,/u/ians6290,chizel,53,1,9,1.0,SEF
-3115,Tom E. Jahns,FLA,TT,WC,B,Right,P,,,/u/Nofunjoe03,Uganofo,53,1,2,1.0,SCR
-3117,Benny Barslinger,CLE,XB,,,Left,SS,CF,1B,/u/zennyspent,Ben Zen,53,1,8,,
-3118,Domino Calzone,DET,XB,BS,S,Right,2B,RF,1B,/u/dominocalzone,lightninghawks,13,1,6,1.0,SDV
-3119,Daniel Harrison,STL,1B,EG,S,Left,P,,,/u/Narkov24,tealshark24,53,1,2,1.0,SDV
-3121,3PieceMcNuggets,CWS,BC,,,Right,1B,LF,,/u/3PieceMcNuggets,raymondmarc,53,1,5,1.0,CCS
-3124,Bucky Sabre,CIN,WC,WC,H,Right,2B,SS,,/u/onahalladay,eyeveewhy,53,1,6,1.0,SDV
-3126,Sleve McDichael,TBR,BC,NH,S,Left,C,3B,CF,/u/MrSpud8,mrspud8,53,1,4,,
-3127,Tater Tots,KCR,WC,BF,S,Right,RF,CF,SS,/u/Candid-Claim-5591,Webby1121,33,1,11,1.0,WWC
-3128,Ellis Nash,MTL,SM,EG,H,Left,P,,,/u/SabreYT,theonlysabre,53,1,2,1.0,WWC
-3129,TheAverageUnit,PHI,SM,EN,S,Right,PH,,,/u/syonxwf,tankz,23,1,1,,
-3132,Richard Nixon,HOU,1B,,,Right,1B,LF,SS,/u/MarzanoAndMeatballs,drunkennixonstyle,53,1,5,,
-3135,Brody Page,ARI,XB,,,Right,1B,LF,RF,/u/taengumiho,taengumiho,53,1,5,1.0,MMN
-3137,Philip Berkenshire,MIN,EN,BS,H,Right,P,,,/u/Hawk506,MrTorin,53,1,2,1.0,WWC
-3138,Matty Eight,CWS,XB,,,Left,C,1B,,/u/matt872000,petermatt,53,1,4,,
-3139,Juan Manuel Navarrete,MIL,BC,,,Right,2B,1B,3B,/u/hubwub,hubwub,53,1,6,,
-3140,Scooter Buskie,ANA,BP,,,Right,3B,LF,SS,/u/JITB718,JD109,53,1,7,1.0,SCR
-3141,Slammin Sammy Sofa,KCR,BP,,,Right,2B,RF,,/u/Used-Goose5065,Rj11_90,53,1,6,,
-3142,Ken the Kid,NYM,XB,WC,H,Left,1B,LF,,/u/ChaosMonkey1716,ChaosMonkey,53,1,5,,
-3143,Ferdinand Fritzwilliam,CLE,WC,WC,S,Right,CF,RF,LF,/u/SpeedyTechie,speedytechie,53,1,10,1.0,KEG
-3144,Flame-Test Fleming,COL,BN,FP,B,Right,C,3B,2B,/u/Cesium1014,cesium.,53,1,4,1.0,PQD
-3147,Yorgie Von Florgie,,S,,,Left,C,1B,,/u/yorgen-florgen,DerobMi,53,1,4,,
-3148,Jarek Park,HOU,BC,,,Right,CF,LF,RF,/u/CalvinoKimchi12,Calvino,53,1,10,1.0,MMN
-3155,Sam Stayman,STL,WC,WC,H,Left,SS,2B,C,/u/rararezra,canajoharie,53,1,8,1.0,MMN
-3156,Vernon St. Backstop,FLA,WC,,,Right,C,1B,,/u/mathmeistro,mathmeistro,53,1,4,,
-3158,Estrogen+ Gorgonzola,ARI,S,SF,H,Left,PH,,,/u/UhOhIShitted,UhOhIShitted,23,1,1,1.0,SEF
-3159,Lamar Scrotum,MIL,TT,BS,H,Right,P,,,/u/dreezyyyy,botdreezy,53,1,2,,
-3160,Natasha Kanyon,BAL,XB,,,Right,2B,SS,C,/u/wiogi,@natasha23,53,1,6,,
-3161,Boby Chadwick,BAL,MH,NH,S,Right,P,,,/u/One-Tip-5872,bobyjopo,33,1,2,1.0,SAL
-3163,Salami,SDP,TT,TT,H,Left,C,1B,2B,/u/Queercatperson,Theo1323,53,1,4,1.0,SEF
-3164,Desiree Path,FLA,,BS,B,Left,P,,,/u/Calamityzer0,calamityzer0,53,1,2,,
-3166,Martin Van Nostrand,BAL,SM,,,Left,2B,RF,,/u/JaysFan26,AVandelayy,53,1,6,,
-3167,Kordz Sonata,ARI,BC,FP,B,Left,P,,,/u/JKookie69,Jcbeats,53,1,2,1.0,KEG
-3168,Ethan Stooks,CHC,SM,BF,H,Right,P,,,/u/Top_Statistician_186,Nol15736,53,1,2,1.0,SDV
-3172,Ahab,CWS,XB,BS,S,Left,CF,RF,LF,/u/Polnareff0,.charls.,33,1,10,1.0,PQD
-3174,Snape Tooth,CHC,BC,EG,H,Left,P,,,/u/rundbold,knnthl,53,1,2,1.0,SDV
-3175,Gellybelly,ANA,,NH,H,Left,P,,,/u/Gellybelly93,Gellybelly93,53,1,2,,
-3176,Frankie Tommy,SEA,S,,,Right,1B,3B,,/u/Leading_Effect_4693,timmy_turner4423,53,1,5,1.0,KEG
-3180,Sir Walks-A-Littlw,BAL,WC,NT,S,Left,SS,CF,LF,/u/TightStrike1365,thumbsticks#5785,53,1,8,1.0,MMN
-3181,Jingle Bohnson,,SF,BS,H,Left,RF,1B,,/u/20lbShawty,desi9546,53,1,11,1.0,PQD
-3182,Glep Glop Griestalhauser,OAK,WC,BS,B,Right,CF,RF,LF,/u/screwbaii,screwbiedoo,53,1,10,1.0,SAL
-3186,Roger Waters,BAL,BC,,,Left,2B,1B,,/u/Double-Drag-9643,elevatortoheaven,53,1,6,1.0,
-3188,Liquidator,,P,NH,H,Right,P,,,/u/Antique_Ad_6661,davidvanhousen,53,1,2,,
-3189,Alic Alphaball,MTL,P,TT,H,Right,P,,,/u/hitr0x_,scritkop,53,1,2,1.0,DDD
-3190,Loafus Cramwell,MTL,1B,WC,B,Right,C,3B,SS,/u/Top-Combination161,tj#1845,53,1,4,,
-3191,Scott Sterling,STL,BC,EG,H,Right,3B,2B,1B,/u/Chronicdeeps,Chronicdeeps,53,1,7,,
-3192,Oozora Subaru,ATL,P,TT,S,Right,P,,,/u/LordDarthus,darthus.,53,1,2,,
-3193,Secret Wolfe,BOS,1B,,,Right,CF,RF,,/u/UmbreonsSecret,umbreonssecret,53,1,10,1.0,
-3194,Lucius Salem,,XB,,,Right,SS,CF,,/u/Astra__,ImSatanJunior,53,1,8,,
-3202,Alex Blockman,FLA,TT,,,Right,3B,2B,,/u/spiders-n-socks,trafficc0ne,53,1,7,1.0,DDD
-3203,Peter Nautilus,BAL,WC,WC,B,Right,LF,RF,,/u/Markedbooboy,Markedbooboy (Nate),53,1,9,,
-3204,Cat with a Bat,PIT,BC,BS,B,Right,3B,LF,,/u/rebstra,pawnduh,53,1,7,1.0,PQD
-3205,faron hylia,SDP,BP,,,Left,SS,3B,,u/xkosmx,xfaronx,53,1,8,,
-3206,Hiram Birnbaum,TOR,XB,WC,S,Right,LF,RF,,/u/MLR_NoReddit_User,hi_biscus,53,1,9,1.0,PQD
-3207,Norman Sland,,BP,,,Right,C,3B,,/u/Jingleheimerschit,,53,1,4,,
-3208,Kendrick Lamar,PIT,S,BF,B,Right,RF,CF,,/u/AzerBlazerOrDisky,diskyboi2100,53,1,11,1.0,KEG
-3210,James Longoria,,WC,,,Right,C,1B,,/u/mediocre_patient3309,musha1983,53,1,4,,
-3213,Henry McCade,TEX,XB,TD,S,Right,1B,3B,,/u/Sudden-Day-8583,wwhite_wwizard,53,1,5,1.0,MMN
-3214,Napoleon Swingsalot,MTL,XB,,,Right,C,3B,,/u/Repulisive-Photo-798,AESquirrel,53,1,4,1.0,WWC
-3215,Mario Goretti,ARI,MH,,,Left,3B,2B,,/u/MLR_NoReddit_User,vivtec,53,1,7,1.0,PQD
-3216,Pike Trout,DET,SF,,,Right,2B,RF,,/u/mangomateo,mangomateo,53,1,6,,
-3217,jorjor wel,ANA,BP,BS,B,Right,3B,LF,,/u/sparlock_,jorjorwel,53,1,7,,
-3218,Harry Johnson,,XB,,,Left,SS,3B,,/u/Tommy12308,Gallade081,53,1,8,1.0,
-3219,Minto McGuire,,BP,,,Right,2B,SS,,/u/Aidanj927,noooo3065,53,1,6,1.0,
-3220,Tomba,BAL,WC,,,Left,1B,3B,,/u/sir-tomba,Tomba,53,1,5,1.0,
-3221,Jimmy Sticks,,BC,,,Right,SS,2B,,/u/Rodfather23,TMPDyer,53,4,8,,
-3222,Steven Scola,TEX,XB,NT,B,Right,RF,1B,,/u/MesterMes24,mester,53,1,11,1.0,PQD
-3223,Mo Soso,CHC,XB,NT,S,Right,2B,1B,,/u/lcatte,mososo,53,1,6,1.0,DDD
-3224,Johnny,,S,,,Right,CF,LF,,/u/Quick_Subject5305,Faketothirdthrowtofirst,53,1,10,,
-3225,Skip Bellew,CLE,BN,BS,H,Left,2B,RF,,/u/mhaldi,Madball1,53,1,6,1.0,PQD
-3226,Ezra Wind,HOU,BC,TD,S,Left,3B,LF,,/u/Windzer,Father_Wind,53,1,7,1.0,MMN
-3227,Camden Yardsy,OAK,WC,WC,S,Left,CF,LF,,/u/Mandg2,._gwendolyn_.,53,1,10,1.0,SEF
-3228,Jay Kwellon,ANA,BN,BB,H,Right,P,,,/u/MLR_NoReddit_User,YetiTaz,53,1,2,,
-3229,Ant man,MTL,SF,NH,H,Left,P,,,/u/Monthpure8988,Lucad7,53,1,2,1.0,SCR
-3230,Julie Jules,,BC,,,Right,RF,CF,,/u/JulieJulesRules,julesx4,53,1,11,1.0,
-3231,Dude Duderson,OAK,BP,,,Left,2B,SS,,/u/GuitarClef,x_guitarclef_x,53,1,6,1.0,PQD
-3232,Isao Makino,,XB,,,Right,CF,LF,,/u/Tap__2,Lolst2,53,1,10,,
-3233,Booby Cancun,LAD,WC,BS,H,Right,P,,,/u/CapnDanger,capndanger,53,1,2,,
-3234,Joan Andreu Rosà,MIN,S,,,Right,SS,3B,,/u/Alquemar,alquemar,53,1,8,1.0,DDD
-3235,Gary Appalachia,CIN,1B,EN,S,Left,P,,,/u/Connnorrrr,con9302,53,1,2,1.0,SAL
-3236,Jackie Jormp-Jomp,,BC,,,Right,RF,1B,,/u/tanru47,TanRu,53,1,11,,
-3237,Greggy Gabagool,ANA,SF,EN,B,Right,2B,1B,,/u/StrokeZ92,StrokeZ92,53,1,6,1.0,SCR
-3238,Okie,KCR,BP,,,Right,1B,LF,,/u/okiesmile,Okiesmile,53,1,5,1.0,
-3239,Justin Carlson,HOU,WC,,,Right,1B,LF,,/u/MLR_NoReddit_User,josiah6484,53,1,5,,
-3242,Dusk Jackson,ARI,S,WC,B,Right,CF,RF,,/u/shruggingemoji64,silicon1464,53,1,10,1.0,MMN
-3243,Jaime Villafuerte,KCR,P,BF,S,Left,P,,,/u/sonicgmail,mother.fucker,53,1,2,,
-3244,LeeLoo Dallas Multi-Guess,LAD,S,TD,B,Left,CF,RF,,/u/kdr-ncbca,kdr,53,1,10,,
-3246,Arthur Bullpendragon,NYM,SM,EG,S,Left,P,,,/u/rareWilliam,wilge,53,1,2,1.0,KEG
-3247,Jodie Baller,FLA,SM,,,Right,LF,RF,,/u/Jodie_42,jodie42,53,1,9,1.0,
-3248,Paul Crews,,BP,BS,B,Right,1B,3B,,/u/professionalone132,n_t_g_12,53,1,5,,
-3249,Jiggs Kingman,MIN,1B,FP,S,Right,1B,3B,,/u/kturner24,AdmiralBallTr8s,53,1,5,1.0,SAL
-3250,Jack Hoffman,NYY,1B,,,Left,CF,RF,,/u/GingaNinjaJack,Weaboomeister,53,1,10,,
-3251,Erik Hamilton,CWS,XB,,,Left,1B,LF,,/u/newmoneycrewhls,Erikh_40641,53,1,5,,
-3253,Captain Hate,TOR,WC,TD,B,Right,2B,SS,,/u/h8_hate,ceoofh8,53,1,6,,
-3254,Weehaddababy Itzaboi,ATL,BC,TD,S,Left,2B,SS,,/u/The_War_In_Me,Eric_in_a_box,53,1,6,1.0,SAL
-3255,Alph Overdale,BAL,XB,NH,S,Left,1B,LF,,/u/Fast-Use-235,Zeddzor.,53,1,5,1.0,WWC
-3256,Angry Lizard,BOS,EN,BS,S,Left,CF,LF,,/u/MLR_NoReddit_User,McGriddy10,33,1,10,1.0,SCR
-3257,Joseph Randome,TBR,1B,EN,S,Left,2B,RF,,/u/Fr3shman43v3r,nickwise,53,1,6,,
-3258,Soy Okey,MIN,WC,TD,H,Right,C,1B,,/u/YoSoyOkey,soyokey,53,1,4,,
-3259,Danny Hurley III,,S,,,Left,2B,SS,,/u/strayks326,strayks326,53,1,6,1.0,
-3260,Ruby McCade,,EN,TD,B,Right,SS,2B,,/u/MLR_NoReddit_User,Turtlemallow98,53,1,8,,
-3261,Chilidog Clayton,ATL,XB,BB,H,Right,3B,LF,,/u/prwill,Willsappington,53,1,7,1.0,KEG
-3263,Aladdin Sane,MIL,XB,TD,H,Left,1B,LF,,/u/is-it-what-now,cruzich,53,1,5,1.0,SAL
-3265,Robert Sitkowski,CWS,XB,EG,S,Right,SS,CF,,/u/gronkky,gronk6680,53,1,8,1.0,PQD
-3267,Murray,CWS,S,WC,B,Right,P,,,/u/MLR_NoReddit_User,Noglastica,53,1,2,,
-3268,Dave Bartholomew,BAL,BC,FP,S,Right,1B,LF,,/u/nemodryt,Nemodryt,53,1,5,,
-3269,Buck Futter,TBR,P,WC,H,Right,P,,,/u/FoamingChewbacca,UltimateZing,53,1,2,1.0,
-3270,OilCanFloydTheBarber,ARI,XB,,,Right,SS,3B,,/u/j0nfr33m4n,j0nfr33m4n,53,1,8,1.0,SDV
-3271,Reece Vardy,,XB,BS,,Right,LF,1B,,/u/Plat1numPath0s,PlatinumPathos,53,1,9,,
-3272,Ben McBain,,MH,,,Right,CF,LF,,/u/GreenBay89387,greenbay_89387,53,1,10,,
-3273,Cher Noble,MIL,HK,SF,H,Left,1B,LF,,/u/MLR_NoReddit_User,Captainplate,53,1,5,1.0,MMN
-3274,Curly Hanlon,,XB,EG,H,Left,2B,RF,,/u/MLR_NoReddit_User,Tommy! ,53,1,6,,
-3297,Damon Razor,ARI,P,FP,H,Left,P,,,/u/MLR_NoReddit_User,.ikonic,53,1,2,1.0,
-3298,Delly Schmidt,,WC,,,Right,CF,LF,,/u/jaleclaney,jale28711,53,1,10,,
-3299,Dusty Rhodes,TEX,WC,,,Left,RF,CF,,/u/-Who_Knew-,.whoknew,53,1,11,,
-3300,Wick Warrick,PHI,BP,BB,H,Right,1B,3B,,/u/pinstripeswick,wicketwarrick,53,1,5,,
-3301,London Bridges,CWS,XB,,,Right,LF,RF,,/u/ADMsmith43,admsmith,53,1,9,1.0,MMN
-3302,Tomoharu Kanazaki,,P,NH,S,Right,P,,,/u/MLR_NoReddit_User,skrublord69420,53,1,2,1.0,MMN
-3303,Barry Sosa,BOS,BN,BB,H,Right,SS,3B,,/u/Extreme_Panda_3488,deezus_rich,53,1,8,,
+Player ID,Name,Batting Type,Pitching Type,Pitching Bonus,Handedness,Primary Position
+1,Thomas Nova,TT,NH,S,Left,C
+3,Syd Kidd,BN,EG,B,Left,P
+5,Y.E. Wally,XB,WC,H,Right,CF
+10,Holden Summers,BC,BS,H,Left,2B
+14,Baba Ganoosh,TT,,,Right,LF
+20,Q Kimbrel,WC,NH,S,Right,CF
+32,Larry Longshot,EN,EN,B,Right,CF
+34,Dixon Uraz,WC,EG,H,Left,RF
+37,Artanis Jones,SM,BS,H,Left,P
+39,Commie Ohtani,BC,NH,H,Right,P
+48,Willow Briansdóttir,BC,FP,S,Right,2B
+54,Holly Kühnhackl,XB,NT,H,Left,SS
+55,Rick McLightning,BN,,,Right,RF
+59,La+ Darknesss,BC,NT,H,Left,P
+65,Dakota Carolina Montana,BC,BB,H,Right,1B
+66,Daniel Dove,SF,BB,H,Right,2B
+68,Erin Pickles,WC,TD,H,Right,2B
+71,Miroslav,1B,FP,S,Right,CF
+73,Jack Alpha,BN,BB,B,Right,3B
+76,Hank Murphy,BN,BF,S,Left,P
+80,Steel Pipe Simpson,BP,FP,S,Left,1B
+81,Dick McScrotington,BC,,,Left,2B
+82,Juan Diego De Las Rosas,1B,,,Right,2B
+84,Henrik Omega,BP,FP,S,Left,3B
+89,Gottlieb Giannopolous,EN,BF,S,Right,C
+91,John Johnson Jr.,TT,BF,H,Right,3B
+93,Tree Fiddy,WC,,,Right,LF
+99,Tyler Phoenix,SM,,,Right,1B
+100,Merodach Baladan,1B,WC,B,Right,P
+103,Mason Spurs,S,EG,S,Left,P
+104,Morris Deratt,BN,,,Left,LF
+108,Phillip J Fry,BC,BS,S,Left,C
+109,Pauiie Wag,BP,FP,B,Right,C
+112,Willoughby Hoose,SM,TT,H,Left,P
+113,Kevin Arianna,HK,TD,S,Left,C
+114,Rocco Rudnikov,HK,FP,S,Right,P
+117,Harry Peritestes,1B,EG,H,Right,PH
+119,Ola Gjeilo,1B,TT,H,Right,SS
+127,Blaise Bailey Finnegan III,SF,EN,S,Right,RF
+130,Mongy Whumpus,1B,TD,H,Left,C
+134,Dart Ragusa,MH,EG,S,Right,1B
+138,Donnie Draper,S,TT,S,Right,2B
+140,Rob Patterson,EN,,,Left,CF
+151,Indy Sayne,BC,WC,S,Right,C
+161,Girth Brooks,BN,,,Right,LF
+163,Tuck,1B,FP,H,Left,CF
+166,Lefty Louis,SF,FP,S,Left,P
+168,Bo-Horse Jackman,BN,,,Right,C
+170,Aych Imtiyaz,BC,TD,H,Right,2B
+178,Hannah Outlaw,BN,,,Left,CF
+180,Demetrios Ooga,BC,BS,S,Left,C
+183,Erin Theolia,BC,WC,H,Right,P
+189,Jeffrey LaVert,1B,FP,H,Left,3B
+190,Lane Drew,BC,NH,S,Left,LF
+191,Andrew REDACTED Nova,BC,TT,H,Right,LF
+196,Xavier Lopez,XB,WC,B,Left,RF
+198,Skye Comet,S,EN,S,Left,P
+204,Coco Watanabe,1B,BB,S,Right,C
+219,Chris Orosz,SM,EG,B,Left,C
+220,Charles Magnus,S,BS,S,Right,RF
+226,Phil Coulson,SF,,,Left,3B
+230,Howie Feltersnatch,XB,,,Right,3B
+233,Johnny Dickshot,BP,TD,H,Right,SS
+238,Ben Bramly,SF,EN,B,Right,C
+241,Jay Money,HK,WC,H,Right,1B
+255,S. Jay Cutler,EN,WC,B,Left,C
+258,Ty Palmatier,BP,BS,B,Right,P
+259,Mr Peggable,WC,EG,S,Right,2B
+262,Dirtbag Darrell,SM,EG,S,Left,PH
+264,Skye McDowell,WC,WC,S,Right,2B
+265,Grand Slamdalf,SF,EG,H,Right,3B
+268,Jefferson Steelflex,XB,EN,B,Left,CF
+270,Ferda Bois,HK,TT,S,Right,P
+271,Assassin Xekutioner,BC,BF,H,Left,2B
+275,Richard Northstar,WC,FP,S,Left,P
+278,Dominus Nominus,1B,BS,B,Right,LF
+287,Dongmen Ximen,BC,TD,B,Right,SS
+290,Miguel Snow Jr,XB,BF,S,Right,P
+295,Jocko Jones,BN,,,Right,2B
+298,Jeff Dingerhitter,BC,BB,B,Left,SS
+301,Joe Pidgeon,WC,WC,S,Right,P
+305,Dylan Green,BC,FP,H,Left,1B
+308,Moose McCracken,BC,,,Right,C
+309,Emer Bock,BN,,,Left,1B
+310,Jameson Poe,WC,TT,H,Right,P
+327,Makesiondon Kelkboom,WC,,,Right,C
+331,KeyElle,SM,NH,S,Right,P
+337,Andrew Peters,BN,BS,H,Left,P
+339,Isaac Snowbender,HK,1B,S,Left,C
+344,Mongster Mash,1B,NT,H,Left,3B
+349,Kentho Birne,BC,TT,H,Left,RF
+350,Lightning Balls,BC,,,Right,RF
+354,Jack Jackie Jackson,MH,,,Right,C
+355,Alvin and the Chipmunks Chipwrecked,BP,,,Left,C
+357,Stan Mann,TT,,,Right,3B
+361,Matt Himynamis,WC,FP,S,Right,P
+362,Connor Morgan,BC,,,Right,3B
+371,Robin Reynolds,,TT,S,Right,P
+378,Carly Bae,BC,EG,H,Right,P
+391,Jasper de Bever,WC,NT,S,Right,2B
+392,Haydn Werfer,S,WC,S,Left,P
+394,Ryan Gastings,SM,EG,B,Left,P
+395,S.A.R. Dinka,1B,WC,H,Right,P
+396,Mylo Grams,BC,TT,S,Right,C
+400,Graham Grams,BC,WC,S,Left,2B
+402,Amelia,SF,,,Right,2B
+405,Sven Jorgenson,BC,,,Right,3B
+413,Superbone Threefinger,XB,NH,S,Right,2B
+443,Hess Nahstee,1B,,,Right,1B
+471,Kowboy Rivers,TT,NT,B,Right,P
+480,Captain Harry C Legs,BP,,,Left,2B
+481,Don Chalupa,BN,NH,S,Right,PH
+485,Cal Q. Lon,TT,EG,S,Right,P
+488,Juni ''XOXO'' Panda RX-78-69,HK,TT,H,Left,2B
+490,Zelk Antilles,WC,BF,H,Left,P
+492,Wallace Grommet,BC,EG,S,Right,2B
+516,Brick Bruiser,TT,WC,H,Right,C
+517,Ryan Tyburn,1B,NH,H,Right,P
+518,Arthur Vandelay,SF,FP,S,Left,C
+522,Good Doggo,TT,EG,S,Right,2B
+525,Cam'ron Simmons,1B,TD,H,Right,2B
+529,Big Telemachus,BC,BS,H,Right,2B
+530,Ping Pong,MH,,,Left,1B
+549,Paddy O'Connor,1B,TT,H,Left,LF
+557,Monty Johnson,WC,,,Left,C
+559,Big T,TT,,,Left,SS
+563,Fizzbear Doormat,BP,NT,H,Left,2B
+564,Nate Kondylis,XB,,,Right,CF
+567,Tucker Doubt,BP,FP,B,Left,LF
+583,Derek Bon Giovanni,BC,BB,H,Left,CF
+597,Charpasm Chim,XB,SF,H,Left,RF
+606,Homer Nocker,1B,EG,S,Right,C
+607,Eli Sasak,BP,TT,H,Right,P
+610,Francis Swagger,MH,BS,H,Left,P
+620,Edward Duncan,BP,BS,S,Right,RF
+622,Delta Airlines,1B,WC,B,Left,CF
+638,Sablo Panchez,SM,,,Right,SS
+639,Bingo Hammersmith,BC,,,Left,SS
+646,Aaron Burr,EN,TT,H,Right,P
+647,Walter Yeller Weller,SM,NH,S,Left,CF
+649,Nelson Van Halen,HK,TT,B,Right,CF
+651,Rusty Nails,TT,WC,B,Left,CF
+662,Joey Wheeler,TT,BS,B,Right,2B
+675,Speedo Meter,S,TD,S,Right,CF
+679,Scherbie Fully-Loaded,S,BF,H,Right,CF
+683,Kris Kringle,1B,1B,S,Right,SS
+686,Julio Escobar,MH,BS,B,Right,SS
+703,Emerson,BP,BF,H,Right,LF
+713,Pang Winn,HK,EG,H,Left,SS
+714,Randy Pole,SF,TT,S,Right,P
+734,Gryffith Lindley,S,,,Left,3B
+772,Mike Fruitstand,BC,EG,S,Right,3B
+776,Sierra Hightower,HK,TD,S,Right,LF
+778,Tyler Pylon,1B,FP,S,Left,CF
+786,Mason Troy Adams,S,FP,H,Left,P
+788,Jericho Styles,SM,WC,S,Right,P
+814,Saitoo Syde,TT,EN,B,Right,C
+1686,Brodie Knickerbocker,P,WC,S,Left,P
+1692,Tristan,BC,TT,S,Left,P
+1703,Harry McPotterson,HK,BF,H,Left,SS
+1705,Hoshimi Miyabi,S,NH,S,Left,SS
+1709,Sean Carrcrash,WC,BS,S,Right,LF
+1717,Corey Scooter,BC,WC,H,Left,1B
+1719,Moby Dick,1B,WC,H,Left,C
+1724,Hannibal Bligh,BN,EG,H,Right,PH
+1725,Trevor Rosé,SF,TT,H,Right,SS
+1733,Bonesy McSkellington,BP,NT,S,Left,CF
+1734,Streetlamp LeMoose,EN,TD,S,Left,2B
+1737,Slappy McBatty,BN,BF,B,Right,2B
+1745,Robbie,BP,BB,B,Left,1B
+1759,Che Or,BC,WC,S,Right,P
+1763,Dermot Mulveiny,BP,,,Right,2B
+1764,Ross Ewage,BC,TD,H,Right,1B
+1772,Dick Shitfart,MH,NH,S,Right,P
+1776,Nicholas Fouss,SM,BS,H,Left,C
+1777,Alexander West,P,SF,H,Right,P
+1781,BEANS Leschnewski,BP,NT,B,Right,CF
+1786,im sleve,WC,BF,H,Right,P
+1788,Apple Watch,BC,,,Left,CF
+1792,Simba,BC,WC,S,Left,P
+1797,Mike Unt,SF,,,Right,3B
+1799,Alt Site,BN,EG,B,Left,RF
+1801,Doc Dockgoose,BN,TD,H,Right,P
+1813,Freddie Eggman Huff,WC,EG,H,Right,C
+1814,Maximus Os,BC,,,Left,CF
+1824,Ax Finesse,TT,EN,S,Right,C
+1826,Jimmy Haase,EN,,,Right,1B
+1834,Cilantro Onataco,S,NT,H,Right,3B
+1838,Brian Taylor,WC,TD,S,Left,3B
+1839,Big Smoke Anderson,XB,BS,S,Right,CF
+1843,Skipper Studebaker,BC,NT,H,Right,P
+1844,Ioe Torrent,HK,WC,B,Left,LF
+1942,Hero Brine,BP,TT,H,Right,P
+1949,Davoin Shower-Handel,BC,FP,S,Left,CF
+1960,Richard Sucker II,BC,FP,S,Right,C
+1961,Gray Goose McGillicuddy,S,EG,H,Right,P
+1963,Slim Mathers,WC,NT,S,Right,P
+1977,Alex Yaxley,P,NH,S,Right,P
+2135,Baron Samedi,TT,,,Left,1B
+2206,Dirk Digglet,SF,EN,S,Left,P
+2207,Fik Seiko,1B,NH,S,Left,P
+2220,Dogwood Maple,BP,WC,H,Right,P
+2229,King Kruul,TT,EN,B,Left,RF
+2230,Garfield Chubbs,BP,TD,S,Right,3B
+2242,Wonder Francoh,XB,,,Right,1B
+2248,Raja Ayun,SF,SF,S,Left,3B
+2256,Doc Otis,WC,SF,B,Left,PH
+2262,Burg McTurdBerg,SF,,,Right,2B
+2275,Franz Lisztpitcher,BC,EG,S,Left,P
+2282,Troy Pressing,BP,,,Right,1B
+2291,Richard Avery,SF,,,Right,3B
+2329,Tencer Sporkelson,BC,BS,H,Left,P
+2334,Buck Maverick,SF,,,Left,3B
+2342,Egor Kucherov,BC,,,Left,SS
+2350,Bad Mulligan,1B,NH,B,Left,P
+2353,Theo Rodder,BC,,,Right,1B
+2371,Frederick Thunderpants,TT,NT,H,Left,LF
+2377,Mark Spoon,EN,EG,B,Left,P
+2389,Gerald McCoy,WC,EG,S,Left,2B
+2390,Chester Einhorn,S,TD,H,Right,P
+2397,Kuuma Kivi,S,TT,B,Left,SS
+2455,Malcolm Fish,HK,FP,H,Left,C
+2461,Pontius Inebrius,BC,BS,H,Right,P
+2467,Nota Nam III,BP,,,Right,LF
+2474,Six,SM,BS,H,Right,PH
+2482,Dingers McGee,TT,EG,B,Left,CF
+2486,Tex Wolffe,SF,,,Right,2B
+2487,Stu PunDous,BC,TD,S,Right,RF
+2499,Cash Considerations,XB,WC,B,Left,PH
+2501,Hakuna Moncada,HK,EG,S,Left,3B
+2504,Peter Hoomanawanui,BC,BS,B,Right,3B
+2508,Fatts Richard,SM,SF,S,Right,3B
+2509,Big Cheech,WC,TD,B,Right,1B
+2518,Sammy Scully,S,WC,S,Left,2B
+2523,Martin Ducksworth,TT,TT,S,Left,PH
+2524,WoodCutter Jones,TT,TD,H,Left,3B
+2532,Herb Bumbleflower,S,,,Right,CF
+2542,Ovaltine,BC,TD,S,Left,RF
+2543,Numbers Spector,1B,,,Right,3B
+2544,Mark Schihne,HK,EG,H,Right,P
+2545,New Age Ms Frizzle,1B,SF,H,Left,RF
+2568,Munki Oshu,1B,BF,S,Right,2B
+2570,Boom Bam,WC,BF,H,Left,1B
+2573,Giles Sweeney,TT,,,Right,1B
+2584,Robbie Tightpants,BC,FP,B,Left,PH
+2589,Lil Lilith Lillian,XB,TT,H,Left,SS
+2591,Hunter D. Parker,MH,NH,S,Right,C
+2594,Hunter West,TT,WC,S,Right,PH
+2597,Rod Kimball,BC,NH,B,Right,RF
+2598,Mattie Christewson,S,,,Left,2B
+2606,Kim Wexler,SM,TD,B,Right,2B
+2611,CJ Ayer,SM,EG,H,Right,PH
+2616,Peter Hadley,XB,WC,H,Right,C
+2621,Mike Truk,BC,EG,S,Right,P
+2625,Dutch Boggs,BC,EG,H,Left,PH
+2627,Kenny Powers,SM,BS,S,Left,P
+2634,Jimmy Pop,SM,,,Left,CF
+2637,Mo Cheeks,BC,1B,S,Right,P
+2640,Anthony Barkevious IV,EN,TD,H,Right,3B
+2641,Jerome Peterson,MH,NH,H,Left,1B
+2642,Raffy Benitez,WC,BS,S,Right,RF
+2651,Mack MacMack,BN,,,Left,SS
+2657,Vader Page,BC,NT,S,Right,P
+2659,Kevin James,BC,TT,H,Right,CF
+2660,Ronnie Pickering,XB,EN,B,Right,1B
+2664,Robert Glasses,TT,,,Right,3B
+2668,Biff Sexy Hotbod,BC,,,Left,SS
+2671,Rich Driver,BP,BF,H,Left,3B
+2673,Noah Diamond,S,WC,S,Left,CF
+2675,Goose Gordon,BP,WC,B,Right,C
+2678,Alex Lancer,P,BS,S,Right,P
+2679,Kiwi Cleveland,BC,BS,S,Right,2B
+2681,Jim Johnman,TT,,,Right,RF
+2683,Huell Babineaux,BC,,,Left,2B
+2689,Brent Chillwater,SM,EG,H,Left,PH
+2691,Francesco Hardgust,BC,EG,S,Left,SS
+2692,Bryce Parker,1B,WC,S,Right,SS
+2696,Captain Trash,BN,TT,H,Left,RF
+2702,Jose Alduvet,HK,TD,S,Left,PH
+2706,Cameron Trinidad,WC,,,Right,1B
+2708,Saul Pewald,SM,EG,B,Right,PH
+2710,Pistachio Disguisey,HK,EG,B,Right,2B
+2720,Lee Luda,BC,BS,H,Left,P
+2722,Teddy Bigstick,BN,BB,S,Right,3B
+2723,Matias Thagod,S,BS,B,Left,C
+2730,Laars Nootbaar jr,MH,NH,S,Left,PH
+2734,Enrique Rosales,XB,NT,B,Left,2B
+2735,Dill Doe,HK,TD,S,Left,P
+2736,James Jameson CDXX,S,NH,S,Left,3B
+2738,Joel Justice,WC,TT,S,Left,P
+2740,Justin P. L. Griffin,BP,,,Right,RF
+2743,Pete Morris,BN,BS,B,Left,SS
+2744,Troy-Anthony Parker,P,TT,H,Right,P
+2752,Henry Thibodeau,XB,BS,B,Right,C
+2754,Jacques François,1B,,,Right,2B
+2760,Shorty McDougall,WC,EG,H,Left,SS
+2761,Mike LaViva,BC,EG,H,Left,1B
+2768,Spencer Hart,TT,EG,H,Left,1B
+2772,Creatør Slander,BN,,,Right,3B
+2773,Toky Oto,BN,NT,B,Right,LF
+2782,Eijun Sawamura,TT,BS,H,Left,P
+2785,Basil,BP,TD,H,Left,C
+2787,Buster Worthington,BC,,,Right,C
+2789,Roosevelt Sandoval,XB,BF,H,Right,2B
+2792,Jerome S. Monroe,1B,TD,H,Right,P
+2795,Sue Cabliatte,SF,FP,S,Left,P
+2800,Buzz Carlton,BC,,,Left,RF
+2802,Abel Greene,WC,,,Left,SS
+2804,Billy TheKid,WC,EG,S,Right,2B
+2805,Calvin Ball,HK,FP,H,Left,CF
+2810,Sonar McDeuceski II,P,TT,H,Right,P
+2811,Jeb Barnes,TT,NT,H,Right,1B
+2815,Jamal Jackson,S,NH,B,Left,CF
+2816,Ferris Wheeler,BC,WC,S,Right,2B
+2817,Maxwell Slander,TT,BS,B,Left,P
+2820,Michael Last-Name,MH,NH,H,Right,P
+2821,Jack Parkman,XB,,,Left,C
+2825,Casper Greenwell,BC,BS,B,Left,2B
+2826,Friday,XB,TT,B,Left,1B
+2827,Corbin Christmas Carol,BP,BS,B,Right,1B
+2833,Dayman Nightman,BN,EG,S,Right,SS
+2834,Mack Quackerson,BC,BB,B,Right,C
+2835,Salsa Steve,BC,FP,S,Right,CF
+2840,Wheezy Whifflesworth,SM,TT,H,Left,P
+2842,Moon Malarkey,SF,,,Right,SS
+2844,Tony Pizza,1B,BB,B,Right,C
+2846,Dante Dagostino,BP,,,Left,CF
+2847,Jorbel Boykins,BC,EG,S,Left,2B
+2848,Axkoa Griffin,WC,,,Left,RF
+2849,Johnmaine Chupri,SM,BB,S,Right,PH
+2852,Dusty Jabroni,BN,,,Left,3B
+2853,Tubby Wubby,WC,WC,S,Left,C
+2854,Verde Jack,BC,,,Right,LF
+2855,Triscuit McBiskit,P,NT,H,Right,P
+2856,Willie Gardner,WC,BS,B,Left,SS
+2857,River James,SF,,,Right,SS
+2858,16-bit Griffey,BN,,,Right,CF
+2864,Scorkle McCorkle,S,,,Left,SS
+2868,TWs Frozen Head,SM,BF,B,Left,2B
+2869,Charlie Buntman,BP,BS,B,Right,C
+2870,Lincoln Pickett,BC,,,Left,2B
+2873,Jihmih Tyranus,SM,WC,S,Right,P
+2874,Ace Ventura,BP,,,Right,3B
+2875,Velma Dingkerly,SM,WC,S,Right,PH
+2877,C. T. Bailiff,BC,TD,S,Right,P
+2878,Goaticus Von Boaticus,S,TT,H,Left,1B
+2880,Ryan McBryan,SF,TD,H,Right,LF
+2882,Mîke Ock,TT,NH,H,Right,RF
+2886,Justin Time,BC,BB,B,Right,C
+2887,Jimothy Jhompson,S,NT,B,Left,P
+2888,Just A. Girl,P,SF,S,Left,P
+2889,Primero Ultimo,BC,,,Left,3B
+2890,Pablo The Hip Kawasaki,WC,BF,H,Left,P
+2893,Hitgood McChunky,MH,TT,H,Right,1B
+2897,Dr. Chocochoco Choo Choo,BC,EN,H,Left,C
+2900,Bart Bishop,BN,BS,S,Right,3B
+2902,Hippo Jars,SM,NT,S,Right,3B
+2904,Nicaragua del Toro,1B,,,Left,2B
+2908,T-Rav,S,BS,S,Right,SS
+2911,Karl Havoc,BC,WC,H,Right,LF
+2913,Scoot Heller,BC,NT,S,Left,SS
+2914,MILKBOY,BN,1B,S,Left,LF
+2915,Hans Zahn,SM,BF,B,Right,P
+2916,Strawberry Jones,BP,TT,H,Left,C
+2922,Randy Mann,WC,,,Left,2B
+2931,Jeff Newman,S,BS,H,Left,P
+2932,Seth Kablamo,HK,,,Right,CF
+2942,Tleyber Alfredo Cruz Fernandez III,SF,EG,H,Left,SS
+2943,Mo Bonzalez,BN,,,Right,2B
+2944,Bobert Hideyoshi,XB,BS,H,Left,C
+2945,Smokey Zygowski,BP,BS,H,Right,P
+2946,Tueballs Wunbatt,BP,,,Right,3B
+2947,Mama Luigi,XB,BS,H,Right,PH
+2948,Grunt Manly,TT,,,Left,3B
+2949,Twatt Barton,BP,TD,B,Right,1B
+2950,Anthony Esposito III,BC,,,Right,RF
+2951,Brandon Rice III,BN,WC,S,Left,SS
+2959,Kries Von Kriestalhauser,BN,FP,H,Right,CF
+2962,Carlos Narvaez Jr.,S,TT,S,Left,P
+2963,Vartan Ichabod Cassidy,BP,,,Right,C
+2965,Randall Peppers,TT,EN,S,Left,3B
+2969,Crystal Claire,S,,,Right,2B
+2970,John Baseball,WC,WC,B,Right,SS
+2973,Champ Kind,SF,EG,H,Right,3B
+2976,Junior Antonius,BC,TT,H,Right,RF
+2983,Liru Wolf,BN,BS,S,Right,3B
+2988,Rip Dingers,XB,EG,S,Left,RF
+2989,Serengeti Fingers,MH,WC,S,Right,P
+2991,Tanzig Nordic,WC,FP,S,Right,P
+2992,Butch Sterling,EN,,,Right,CF
+2994,Gavrilo Principle,,BS,H,Right,P
+2996,Chico Pappas,XB,WC,B,Left,LF
+2998,Dr. Slime,XB,WC,S,Left,P
+2999,Rex McStrange,BP,BB,S,Left,C
+3000,Cornbread House,MH,,,Left,1B
+3002,Shag McBenny,BC,,,Right,3B
+3004,Otto von Pitchmark,MH,EN,S,Right,P
+3006,Not Gaca,WC,NH,S,Left,3B
+3009,CJ,WC,BS,H,Left,3B
+3011,Marlboro Jesus,WC,,,Right,RF
+3012,Erling De La Cruz,BC,,,Right,SS
+3013,Big Woop,SM,TT,S,Left,RF
+3016,Copernicus Hel,WC,NH,H,Right,SS
+3018,Fin 'Shark' Maddox,WC,,,Right,1B
+3021,Jason Sensation,BC,TD,B,Right,CF
+3023,Duke Houston,BP,,,Right,C
+3025,Matty Jay,BP,BB,H,Right,PH
+3026,John Applebees,XB,WC,S,Left,LF
+3029,DV DOOM,SF,WC,S,Right,P
+3030,Cared Jarrabis,WC,WC,S,Left,SS
+3032,Sid Hugo V,BC,FP,S,Right,SS
+3034,Beans Returns,SM,NH,H,Left,C
+3035,Andre Pope,TT,NT,S,Right,P
+3039,Speed Shark,WC,BF,S,Right,RF
+3040,Cole Slaw,BP,,,Left,CF
+3042,Archie Henderson,BC,,,Right,RF
+3045,Keith Bourgignon,XB,,,Right,2B
+3046,Norm Niner,BC,WC,H,Left,SS
+3051,Jed I. Knight,S,,,Right,CF
+3052,Arxy Winkler,BP,BS,H,Right,SS
+3056,TheGreatBambi,BN,TD,B,Right,3B
+3059,Lou Coler,WC,TT,H,Right,P
+3060,Dark Brother,BC,,,Left,3B
+3066,Chief Cheeseball,BC,TT,H,Left,P
+3068,Osha Wott,BC,BB,B,Right,LF
+3072,Uncle Crush,BC,FP,S,Right,P
+3075,Jason Damiani,BC,TT,B,Left,P
+3078,Cracker McJack,,WC,S,Left,P
+3081,Ray 'Cole Train' Cole,SF,BS,B,Left,RF
+3082,Thick Mints,,WC,S,Left,P
+3085,PickYrSpot n'Swing,BC,BF,S,Right,CF
+3088,Brad Hatley,WC,TT,H,Left,C
+3092,Shmitty Von Flabbergasted,WC,,,Right,2B
+3093,Archie 'Clumsy' Sybil,BC,BS,S,Right,2B
+3094,Lou Zrectum,WC,,,Right,CF
+3096,Dingerz McLongball,MH,,,Right,RF
+3097,Bubson Dugnutt,BC,BF,H,Left,2B
+3099,Dirk Nurple,BC,BF,H,Left,3B
+3101,Cash Thrower,BP,TD,H,Right,1B
+3102,Nathaniel Pewterson,WC,WC,S,Left,P
+3103,Psykokwak,S,BS,H,Right,LF
+3105,Jacob Thomas,WC,BS,S,Right,C
+3106,Tomothy Toledo,BN,WC,H,Left,2B
+3107,Elijah Walker,SM,EG,S,Left,PH
+3108,Cormac Karona,TT,EG,H,Right,CF
+3109,Jersey Wooders,BC,BB,B,Left,1B
+3110,Katelyn 'River' Hoshino,SF,TD,H,Left,2B
+3111,Deacon Bowles,WC,,,Right,C
+3112,Toots 'Fat Belly' Jones,BP,EG,S,Right,LF
+3115,Tom E. Jahns,TT,WC,B,Right,1B
+3117,Benny Barslinger,XB,,,Left,SS
+3118,Domino Calzone,XB,BS,S,Right,2B
+3119,Daniel Harrison,1B,EN,S,Left,P
+3121,3PieceMcNuggets,BC,,,Right,1B
+3124,Bucky Sabre,WC,WC,H,Right,2B
+3126,Sleve McDichael,BC,NH,S,Left,C
+3127,Tater Tots,WC,BF,S,Right,RF
+3128,Ellis Nash,SM,EG,H,Left,P
+3129,TheAverageUnit,SM,EN,S,Right,PH
+3132,Richard Nixon,1B,,,Right,1B
+3135,Brody Page,WC,,,Right,1B
+3137,Philip Berkenshire,EN,BS,H,Right,P
+3138,Matty Eight,XB,,,Left,C
+3139,Juan Manuel Navarrete,BC,,,Right,2B
+3140,Scooter Buskie,BP,,,Right,3B
+3141,Slammin Sammy Sofa,BP,,,Right,2B
+3142,Ken the Kid,XB,WC,H,Left,1B
+3143,Ferdinand Fritzwilliam,WC,WC,S,Right,CF
+3144,Flame-Test Fleming,BN,FP,B,Right,C
+3147,Yorgie Von Florgie,SM,,,Left,C
+3148,Jarek Park,BC,,,Right,CF
+3155,Sam Stayman,WC,WC,H,Left,SS
+3156,Vernon St. Backstop,WC,,,Right,C
+3158,Estrogen+ Gorgonzola,S,SF,H,Left,PH
+3159,Lamar Scrotum,TT,BS,H,Right,P
+3160,Natasha Kanyon,XB,,,Right,2B
+3161,Boby Chadwick,MH,NH,S,Right,P
+3163,Salami,TT,TT,H,Left,C
+3164,Desiree Path,,BS,B,Left,P
+3166,Martin Van Nostrand,SM,,,Left,2B
+3167,Kordz Sonata,BC,FP,B,Left,P
+3168,Ethan Stooks,SM,BF,H,Right,P
+3172,Ahab Ceeley,XB,BS,S,Left,CF
+3174,Snape Tooth,BC,EG,H,Left,P
+3175,Gellybelly,HK,NH,H,Left,P
+3176,Frankie Tommy,S,,,Right,1B
+3180,Sir Walks-A-Littlw,WC,NT,S,Left,SS
+3182,Glep Glop Griestalhauser,1B,BS,B,Right,C
+3186,Roger Waters,BC,,,Left,2B
+3189,Alic Alphaball,XB,TT,H,Right,P
+3190,Loafus Cramwell,1B,WC,B,Right,C
+3191,Scott Sterling,BC,EG,H,Right,3B
+3192,Oozora Subaru,P,TT,S,Right,P
+3193,Secret Wolfe,1B,,,Right,CF
+3202,Alex Blockman,TT,,,Right,3B
+3203,Peter Nautilus,S,WC,B,Right,LF
+3204,Cat with a Bat,BC,BS,B,Right,3B
+3205,faron hylia,HK,,,Left,SS
+3206,Hiram Birnbaum,XB,WC,S,Right,LF
+3208,Kendrick Lamar,S,BF,B,Right,RF
+3213,Henry McCade,BC,TD,S,Right,1B
+3214,Napoleon Swingsalot,BC,,,Right,C
+3215,Mario Goretti,MH,,,Left,3B
+3216,Pike Trout,SF,,,Right,2B
+3217,jorjor wel,BP,BS,B,Right,3B
+3218,Harry Johnson,BC,,,Left,SS
+3220,Tomba,MH,NT,S,Left,1B
+3222,Steven Scola,XB,NT,B,Right,RF
+3223,Gal Soso,BC,BF,H,Right,2B
+3225,Skip Bellew,BN,BS,H,Left,2B
+3226,Ezra Wind,SF,TD,H,Left,SS
+3227,Camden Yardsy,WC,WC,S,Left,CF
+3228,Jay Kwellon,BN,BB,H,Right,P
+3229,Ant man,SF,NH,H,Left,P
+3231,Dude Duderson,BP,,,Left,2B
+3233,Booby Cancun,WC,BS,H,Right,P
+3234,Joan Andreu Rosà,S,WC,H,Right,SS
+3235,Gary Appalachia,1B,EN,S,Left,P
+3237,Greggy Gabagool,SF,EN,B,Right,2B
+3238,Okie,BP,,,Right,1B
+3239,Justin Carlson,WC,,,Right,1B
+3242,Dusk Jackson,S,WC,B,Right,CF
+3243,Jaime Villafuerte,P,BF,S,Left,P
+3244,LeeLoo Dallas Multi-Guess,S,TD,B,Left,CF
+3246,Arthur Bullpendragon,BC,EG,S,Right,P
+3247,Jodie Baller,SM,,,Right,LF
+3249,Jiggs Kingman,1B,FP,S,Right,1B
+3250,Jack Hoffman,1B,,,Left,CF
+3251,Erik Hamilton,XB,,,Left,1B
+3253,Captain Hate,WC,TD,B,Right,2B
+3254,Weehaddababy Itzaboi,BC,TD,S,Left,2B
+3255,Alph Overdale,XB,NH,H,Left,1B
+3256,Angry Lizard,BN,NH,H,Left,CF
+3257,Joseph Randome,1B,EN,S,Left,2B
+3258,Soy Okey,WC,TD,H,Right,C
+3261,Chilidog Clayton,XB,BB,H,Right,3B
+3263,Hard Candy,XB,BS,H,Right,P
+3265,Robert Sitkowski,XB,EG,S,Right,SS
+3267,Murray,S,BF,B,Left,P
+3268,Dave Bartholomew,BC,FP,S,Right,1B
+3269,Buck Futter,P,WC,H,Right,P
+3270,OilCanFloydTheBarber,1B,,,Right,SS
+3273,Cher Noble,HK,SF,H,Left,1B
+3297,Damon Razor,P,FP,H,Left,P
+3299,Dusty Rhodes,WC,,,Left,RF
+3300,Wick Warrick,BP,BB,H,Right,1B
+3301,London Bridges,XB,,,Right,LF
+3302,Tomoharu Kanazaki,P,NH,S,Right,P
+3303,Barry Sosa,BN,BB,H,Right,SS
+3304,Mikey Thomas,MH,NT,H,Left,SS
+3305,Steven Sinclair,SM,,,Right,SS
+3306,T.J. Oatman,BP,,,Right,C
+3307,Joey Tacoma,BC,,,Right,LF
+3308,Vivi Bluesky,SM,,,Left,CF
+3309,Roxy Hurricane,BC,TD,S,Left,CF
+3310,Tasane Keto,S,,,Left,CF
+3311,Ding L. Barry,XB,WC,S,Right,CF
+3312,Fat Lever,BN,BS,S,Left,2B
+3313,Longshank Hank,BN,EN,H,Left,LF
+3314,Big Cook,S,,,Left,SS
+3315,Little Cook,SM,,,Right,SS
+3317,Missile 'Missy' Launcher,BC,FP,S,Right,3B
+3318,Geese On Demand,EN,,,Right,3B
+3321,Foul Ball Felix,TT,,,Right,CF
+3324,Gurt,1B,1B,B,Right,1B
