@@ -14073,7 +14073,9 @@
         "primary_position": "SS",
         "batting_type": "BC",
         "pitching_type": "POS",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "PIT",
+        "last_season": "S13"
     },
     "3397": {
         "primary_position": "CF",
@@ -14509,7 +14511,9 @@
         "primary_position": "3B",
         "batting_type": "BP",
         "pitching_type": "POS",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "TOR",
+        "last_season": "S13"
     },
     "3466": {
         "primary_position": "2B",
