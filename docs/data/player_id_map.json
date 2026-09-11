@@ -127,8 +127,10 @@
         "formerNames": []
     },
     "29": {
-        "currentName": "Eric Leeder",
-        "formerNames": []
+        "currentName": "Jeter Ups",
+        "formerNames": [
+            "Eric Leeder"
+        ]
     },
     "30": {
         "currentName": "Chad Kroeger",
@@ -2190,8 +2192,9 @@
         ]
     },
     "488": {
-        "currentName": "Juni ''XOXO'' Panda RX-78-69",
+        "currentName": "Juni xGOD - 'SELL THE TEAM ARTE' - Panda",
         "formerNames": [
+            "Juni ''XOXO'' Panda RX-78-69",
             "AA --xXx-- Main Event Juni Panda --xXx--",
             "Juni Juni Panda",
             "Juni Panda",
@@ -4801,8 +4804,9 @@
         "formerNames": []
     },
     "2329": {
-        "currentName": "Tencer Sporkelson",
+        "currentName": "Tyburnsays Morecleveland",
         "formerNames": [
+            "Tencer Sporkelson",
             "Fauxtani"
         ]
     },
@@ -6530,8 +6534,9 @@
         "formerNames": []
     },
     "2998": {
-        "currentName": "Dr. Slime",
+        "currentName": "Big Bad Evil Slime",
         "formerNames": [
+            "Dr. Slime",
             "Makoto Date"
         ]
     },
@@ -6873,8 +6878,10 @@
         "formerNames": []
     },
     "3111": {
-        "currentName": "Deacon Bowles",
-        "formerNames": []
+        "currentName": "Anita Takeshita",
+        "formerNames": [
+            "Deacon Bowles"
+        ]
     },
     "3112": {
         "currentName": "Toots 'Fat Belly' Jones",
@@ -7255,8 +7262,10 @@
         "formerNames": []
     },
     "3258": {
-        "currentName": "Soy Okey",
-        "formerNames": []
+        "currentName": "Hyzer Flip",
+        "formerNames": [
+            "Soy Okey"
+        ]
     },
     "3261": {
         "currentName": "Chilidog Clayton",
@@ -7466,6 +7475,10 @@
         "currentName": "Felipe Coyne",
         "formerNames": []
     },
+    "3375": {
+        "currentName": "Mikko LePico",
+        "formerNames": []
+    },
     "3376": {
         "currentName": "Harry Palms",
         "formerNames": []
@@ -7490,8 +7503,20 @@
         "currentName": "Socks Maybe",
         "formerNames": []
     },
+    "3382": {
+        "currentName": "Carter Kendall",
+        "formerNames": []
+    },
     "3383": {
         "currentName": "Alan",
+        "formerNames": []
+    },
+    "3384": {
+        "currentName": "Loki",
+        "formerNames": []
+    },
+    "3385": {
+        "currentName": "John Cally",
         "formerNames": []
     },
     "3387": {
@@ -7514,8 +7539,20 @@
         "currentName": "Naz Reid",
         "formerNames": []
     },
+    "3392": {
+        "currentName": "Lefty Cobb",
+        "formerNames": []
+    },
+    "3393": {
+        "currentName": "Bloop Squibber",
+        "formerNames": []
+    },
     "3396": {
         "currentName": "Googly Moogly",
+        "formerNames": []
+    },
+    "3397": {
+        "currentName": "Vyncent Wyattoss III",
         "formerNames": []
     },
     "3399": {
@@ -7524,6 +7561,14 @@
     },
     "3401": {
         "currentName": "Heliotrope Selenifuge Jr.",
+        "formerNames": []
+    },
+    "3402": {
+        "currentName": "Marcelo Soares",
+        "formerNames": []
+    },
+    "3404": {
+        "currentName": "Scoochie Virtue",
         "formerNames": []
     },
     "3405": {
@@ -7536,6 +7581,14 @@
     },
     "3409": {
         "currentName": "Mordecai Davis",
+        "formerNames": []
+    },
+    "3411": {
+        "currentName": "Yang Min-Ki",
+        "formerNames": []
+    },
+    "3412": {
+        "currentName": "BeefCake Willy",
         "formerNames": []
     },
     "3414": {
@@ -7554,8 +7607,28 @@
         "currentName": "Amelia Hart",
         "formerNames": []
     },
+    "3419": {
+        "currentName": "Lilcranberry",
+        "formerNames": []
+    },
+    "3420": {
+        "currentName": "Matilda No-Balls",
+        "formerNames": []
+    },
     "3423": {
         "currentName": "Scooter Funkypants",
+        "formerNames": []
+    },
+    "3426": {
+        "currentName": "George Hankinson",
+        "formerNames": []
+    },
+    "3428": {
+        "currentName": "Fausto Herrera",
+        "formerNames": []
+    },
+    "3429": {
+        "currentName": "Rodney Turnpike",
         "formerNames": []
     },
     "3430": {
@@ -7572,6 +7645,10 @@
     },
     "3435": {
         "currentName": "Chooch Suzuka",
+        "formerNames": []
+    },
+    "3436": {
+        "currentName": "Curtis Dingleberry",
         "formerNames": []
     },
     "3441": {
@@ -7614,6 +7691,10 @@
         "currentName": "Ada Rutabaga",
         "formerNames": []
     },
+    "3461": {
+        "currentName": "Hawaiian Hammah",
+        "formerNames": []
+    },
     "3464": {
         "currentName": "Willie Ruth",
         "formerNames": []
@@ -7632,6 +7713,10 @@
     },
     "3470": {
         "currentName": "Max Muncy",
+        "formerNames": []
+    },
+    "3471": {
+        "currentName": "Lil Broski",
         "formerNames": []
     }
 }
