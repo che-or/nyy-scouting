@@ -6597,9 +6597,9 @@
         "formerNames": []
     },
     "3013": {
-        "currentName": "Big Woop",
+        "currentName": "Total Dial",
         "formerNames": [
-            "Total Dial"
+            "Big Woop"
         ]
     },
     "3016": {
@@ -7545,6 +7545,10 @@
     },
     "3393": {
         "currentName": "Bloop Squibber",
+        "formerNames": []
+    },
+    "3395": {
+        "currentName": "Tank Sharksy",
         "formerNames": []
     },
     "3396": {
