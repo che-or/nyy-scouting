@@ -177,10 +177,10 @@
         "formerNames": []
     },
     "39": {
-        "currentName": "Commie Ohtani",
+        "currentName": "Whitt Bass",
         "formerNames": [
-            "Franz Joseph Hyman Jr",
-            "Whitt Bass"
+            "Commie Ohtani",
+            "Franz Joseph Hyman Jr"
         ]
     },
     "40": {
@@ -6832,8 +6832,10 @@
         "formerNames": []
     },
     "3099": {
-        "currentName": "Dirk Nurple",
-        "formerNames": []
+        "currentName": "Ivy Nurple",
+        "formerNames": [
+            "Dirk Nurple"
+        ]
     },
     "3101": {
         "currentName": "Cash Thrower",
@@ -7571,6 +7573,10 @@
         "currentName": "Marcelo Soares",
         "formerNames": []
     },
+    "3403": {
+        "currentName": "Chance Mercury",
+        "formerNames": []
+    },
     "3404": {
         "currentName": "Scoochie Virtue",
         "formerNames": []
@@ -7585,6 +7591,10 @@
     },
     "3409": {
         "currentName": "Mordecai Davis",
+        "formerNames": []
+    },
+    "3410": {
+        "currentName": "Ethan Lee",
         "formerNames": []
     },
     "3411": {
