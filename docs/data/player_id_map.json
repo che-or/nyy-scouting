@@ -2267,8 +2267,9 @@
         "formerNames": []
     },
     "516": {
-        "currentName": "Brick Bruiser",
+        "currentName": "Brick Bravely",
         "formerNames": [
+            "Brick Bruiser",
             "Blackbean Burrito"
         ]
     },
@@ -6253,8 +6254,9 @@
         "formerNames": []
     },
     "2897": {
-        "currentName": "Dr. Chocochoco Choo Choo",
+        "currentName": "Nana Choc",
         "formerNames": [
+            "Dr. Chocochoco Choo Choo",
             "Choc Tuah",
             "XxBlaise Bailey Finnegan IIIxX",
             "Choc Banana"
@@ -6878,8 +6880,10 @@
         "formerNames": []
     },
     "3111": {
-        "currentName": "Deacon Bowles",
-        "formerNames": []
+        "currentName": "Anita Takeshita",
+        "formerNames": [
+            "Deacon Bowles"
+        ]
     },
     "3112": {
         "currentName": "Toots 'Fat Belly' Jones",
@@ -7465,6 +7469,10 @@
         "currentName": "Gurt",
         "formerNames": []
     },
+    "3376": {
+        "currentName": "Harry Palms",
+        "formerNames": []
+    },
     "3377": {
         "currentName": "Cucamonga Seattle",
         "formerNames": []
@@ -7485,8 +7493,16 @@
         "currentName": "Loki",
         "formerNames": []
     },
+    "3387": {
+        "currentName": "Jah Muis",
+        "formerNames": []
+    },
     "3390": {
         "currentName": "Arlon Gemini",
+        "formerNames": []
+    },
+    "3392": {
+        "currentName": "Lefty Cobb",
         "formerNames": []
     },
     "3393": {
@@ -7545,6 +7561,18 @@
         "currentName": "Fred Fredericks",
         "formerNames": []
     },
+    "3445": {
+        "currentName": "Bea Friday",
+        "formerNames": []
+    },
+    "3453": {
+        "currentName": "Mariam Bear",
+        "formerNames": []
+    },
+    "3457": {
+        "currentName": "Ada Rutabaga",
+        "formerNames": []
+    },
     "3464": {
         "currentName": "Willie Ruth",
         "formerNames": []
@@ -7555,6 +7583,10 @@
     },
     "3467": {
         "currentName": "Alexa Quick",
+        "formerNames": []
+    },
+    "3503": {
+        "currentName": "Kandii Khayne",
         "formerNames": []
     }
 }
