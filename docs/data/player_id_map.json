@@ -6836,8 +6836,10 @@
         "formerNames": []
     },
     "3099": {
-        "currentName": "Dirk Nurple",
-        "formerNames": []
+        "currentName": "Ivy Nurple",
+        "formerNames": [
+            "Dirk Nurple"
+        ]
     },
     "3101": {
         "currentName": "Cash Thrower",
@@ -7549,6 +7551,10 @@
     },
     "3416": {
         "currentName": "Trevor Paultis",
+        "formerNames": []
+    },
+    "3420": {
+        "currentName": "Matilda No-Balls",
         "formerNames": []
     },
     "3426": {
