@@ -6816,9 +6816,9 @@
         "last_season": "S12"
     },
     "647": {
-        "primary_position": "CF",
+        "primary_position": "PH",
         "batting_type": "SM",
-        "pitching_type": "POS",
+        "pitching_type": "NH-S",
         "handedness": "Left",
         "last_team": "PIT",
         "last_season": "S13"
