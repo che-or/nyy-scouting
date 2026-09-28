@@ -177,10 +177,10 @@
         "formerNames": []
     },
     "39": {
-        "currentName": "Commie Ohtani",
+        "currentName": "Whitt Bass",
         "formerNames": [
-            "Franz Joseph Hyman Jr",
-            "Whitt Bass"
+            "Commie Ohtani",
+            "Franz Joseph Hyman Jr"
         ]
     },
     "40": {
@@ -6566,8 +6566,9 @@
         "formerNames": []
     },
     "3004": {
-        "currentName": "Otto von Pitchmark",
+        "currentName": "Otto Von Eirsmark",
         "formerNames": [
+            "Otto von Pitchmark",
             "Baberaham Lincoln"
         ]
     },
@@ -6927,8 +6928,10 @@
         "formerNames": []
     },
     "3128": {
-        "currentName": "Ellis Nash",
-        "formerNames": []
+        "currentName": "Jean-Paul Georges-et-Ringeaux",
+        "formerNames": [
+            "Ellis Nash"
+        ]
     },
     "3129": {
         "currentName": "TheAverageUnit",
@@ -7065,8 +7068,10 @@
         "formerNames": []
     },
     "3180": {
-        "currentName": "Sir Walks-A-Littlw",
-        "formerNames": []
+        "currentName": "Walks",
+        "formerNames": [
+            "Sir Walks-A-Littlw"
+        ]
     },
     "3181": {
         "currentName": "Jingle Bohnson",
@@ -7267,8 +7272,10 @@
         "formerNames": []
     },
     "3258": {
-        "currentName": "Soy Okey",
-        "formerNames": []
+        "currentName": "Hyzer Flip",
+        "formerNames": [
+            "Soy Okey"
+        ]
     },
     "3261": {
         "currentName": "Chilidog Clayton",
@@ -7510,6 +7517,10 @@
         "currentName": "Arlon Gemini",
         "formerNames": []
     },
+    "3391": {
+        "currentName": "Naz Reid",
+        "formerNames": []
+    },
     "3392": {
         "currentName": "Lefty Cobb",
         "formerNames": []
@@ -7550,8 +7561,16 @@
         "currentName": "Tanya Degurechaff",
         "formerNames": []
     },
+    "3406": {
+        "currentName": "Steak Dynasty",
+        "formerNames": []
+    },
     "3409": {
         "currentName": "Mordecai Davis",
+        "formerNames": []
+    },
+    "3410": {
+        "currentName": "Ethan Lee",
         "formerNames": []
     },
     "3412": {
@@ -7564,6 +7583,10 @@
     },
     "3416": {
         "currentName": "Trevor Paultis",
+        "formerNames": []
+    },
+    "3417": {
+        "currentName": "Amelia Hart",
         "formerNames": []
     },
     "3420": {
@@ -7586,6 +7609,10 @@
         "currentName": "Krbmeister",
         "formerNames": []
     },
+    "3432": {
+        "currentName": "Nathan Explosion",
+        "formerNames": []
+    },
     "3435": {
         "currentName": "Chooch Suzuka",
         "formerNames": []
@@ -7596,6 +7623,10 @@
     },
     "3441": {
         "currentName": "Fred Fredericks",
+        "formerNames": []
+    },
+    "3442": {
+        "currentName": "Beatrice D. Goldn'witch",
         "formerNames": []
     },
     "3444": {
@@ -7636,6 +7667,10 @@
     },
     "3503": {
         "currentName": "Kandii Khayne",
+        "formerNames": []
+    },
+    "3504": {
+        "currentName": "Divorced Dad",
         "formerNames": []
     }
 }
