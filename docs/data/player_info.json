@@ -6229,7 +6229,7 @@
         "pitching_type": "POS",
         "handedness": "Left",
         "last_team": "MIN",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "531": {
         "primary_position": "SS",
@@ -8461,7 +8461,7 @@
         "pitching_type": "NT-H",
         "handedness": "Right",
         "last_team": "PIT",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "1844": {
         "primary_position": "LF",
@@ -11763,7 +11763,7 @@
         "pitching_type": "POS",
         "handedness": "Left",
         "last_team": "MTL",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "2914": {
         "primary_position": "3B",
@@ -14527,7 +14527,9 @@
         "primary_position": "CF",
         "batting_type": "S",
         "pitching_type": "POS",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "CWS",
+        "last_season": "S13"
     },
     "3457": {
         "primary_position": "3B",
