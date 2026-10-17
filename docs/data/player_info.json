@@ -14678,5 +14678,11 @@
         "batting_type": "P",
         "pitching_type": "BB-H",
         "handedness": "Left"
+    },
+    "3509": {
+        "primary_position": "P",
+        "batting_type": "P",
+        "pitching_type": "NT-H",
+        "handedness": "Left"
     }
 }
