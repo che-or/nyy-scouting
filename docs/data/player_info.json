@@ -4557,7 +4557,7 @@
         "pitching_type": "EG-H",
         "handedness": "Right",
         "last_team": "HOU",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "118": {
         "primary_position": "3B",
@@ -5977,7 +5977,7 @@
         "pitching_type": "EG-S",
         "handedness": "Right",
         "last_team": "MIN",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "486": {
         "primary_position": "SS",
@@ -10141,7 +10141,7 @@
         "pitching_type": "EG-H",
         "handedness": "Right",
         "last_team": "MIL",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "2612": {
         "primary_position": "LF",
@@ -12857,7 +12857,7 @@
         "pitching_type": "EG-S",
         "handedness": "Left",
         "last_team": "TEX",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "3108": {
         "primary_position": "CF",
