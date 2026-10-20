@@ -8448,10 +8448,10 @@
         "last_season": "S6"
     },
     "1842": {
-        "primary_position": "CF",
-        "batting_type": "S",
-        "pitching_type": "POS",
-        "handedness": "Left",
+        "primary_position": "P",
+        "batting_type": "P",
+        "pitching_type": "FP-H",
+        "handedness": "Right",
         "last_team": "ATL",
         "last_season": "S7"
     },
