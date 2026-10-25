@@ -1925,7 +1925,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "LAD",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "174": {
         "primary_position": "SS",
@@ -14681,7 +14681,9 @@
         "primary_position": "P",
         "batting_type": "P",
         "pitching_type": "BB-H",
-        "handedness": "Left"
+        "handedness": "Left",
+        "last_team": "FLA",
+        "last_season": "S13"
     },
     "3509": {
         "primary_position": "P",
