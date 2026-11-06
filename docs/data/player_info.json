@@ -14698,5 +14698,11 @@
         "batting_type": "XB",
         "pitching_type": "POS",
         "handedness": "Right"
+    },
+    "3511": {
+        "primary_position": "SS",
+        "batting_type": "BP",
+        "pitching_type": "POS",
+        "handedness": "Right"
     }
 }
