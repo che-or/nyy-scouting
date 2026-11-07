@@ -2693,7 +2693,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "TOR",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "406": {
         "primary_position": "SS",
@@ -4280,9 +4280,9 @@
         "last_season": "S3"
     },
     "28": {
-        "primary_position": "P",
-        "batting_type": "P",
-        "pitching_type": "TD-H",
+        "primary_position": "SS",
+        "batting_type": "HK",
+        "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "SFG",
         "last_season": "S7"
@@ -4621,7 +4621,7 @@
         "pitching_type": "EG-S",
         "handedness": "Right",
         "last_team": "NYM",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "135": {
         "primary_position": "1B",
@@ -5360,9 +5360,9 @@
         "last_season": "S8"
     },
     "331": {
-        "primary_position": "P",
-        "batting_type": "P",
-        "pitching_type": "NH-S",
+        "primary_position": "CF",
+        "batting_type": "BC",
+        "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "SDP",
         "last_season": "S12"
