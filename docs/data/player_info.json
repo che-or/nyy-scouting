@@ -2184,7 +2184,7 @@
         "last_season": "S6"
     },
     "271": {
-        "primary_position": "C",
+        "primary_position": "2B",
         "batting_type": "BC",
         "pitching_type": "POS",
         "handedness": "Left",
@@ -4384,8 +4384,8 @@
         "last_season": "S13"
     },
     "59": {
-        "primary_position": "P",
-        "batting_type": "P",
+        "primary_position": "PH",
+        "batting_type": "BC",
         "pitching_type": "TT-S",
         "handedness": "Left",
         "last_team": "SDP",
@@ -11566,8 +11566,8 @@
         "last_season": "S13"
     },
     "2875": {
-        "primary_position": "PH",
-        "batting_type": "SF",
+        "primary_position": "P",
+        "batting_type": "P",
         "pitching_type": "EG-S",
         "handedness": "Right",
         "last_team": "SDP",
@@ -14697,7 +14697,9 @@
         "primary_position": "LF",
         "batting_type": "XB",
         "pitching_type": "POS",
-        "handedness": "Right"
+        "handedness": "Right",
+        "last_team": "BOS",
+        "last_season": "S13"
     },
     "3511": {
         "primary_position": "SS",
