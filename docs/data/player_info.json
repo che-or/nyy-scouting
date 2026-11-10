@@ -10312,9 +10312,9 @@
         "last_season": "S7"
     },
     "2646": {
-        "primary_position": "P",
-        "batting_type": "P",
-        "pitching_type": "WC-H",
+        "primary_position": "LF",
+        "batting_type": "WC",
+        "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "PHI",
         "last_season": "S11"
