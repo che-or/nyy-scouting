@@ -1524,7 +1524,7 @@
         "batting_type": "EN",
         "pitching_type": "POS",
         "handedness": "Right",
-        "last_team": "KCR",
+        "last_team": "ANA",
         "last_season": "S13"
     },
     "33": {
@@ -5365,7 +5365,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "SDP",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "332": {
         "primary_position": "LF",
@@ -8197,7 +8197,7 @@
         "pitching_type": "POS",
         "handedness": "Right",
         "last_team": "DET",
-        "last_season": "S12"
+        "last_season": "S13"
     },
     "1798": {
         "primary_position": "2B",
